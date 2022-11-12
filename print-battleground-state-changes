@@ -15,15 +15,12 @@ from textwrap import dedent, indent
 from tabulate import tabulate
 from typing import Dict, Tuple
 
-AK_INDEX = 0
-AZ_INDEX = 3
-GA_INDEX = 10
-NC_INDEX = 27
-NV_INDEX = 33
-PA_INDEX = 38
+AZ_GOV_INDEX = 0
+AZ_SENATE_INDEX = 2
+NV_SENATE_INDEX = 19
 
 BATTLEGROUND_STATES = ["Arizona", "Nevada"]
-STATE_INDEXES = [2, 19] 
+SENATE_STATE_INDEXES = [AZ_SENATE_INDEX, NV_STATE_INDEX] 
 
 CACHE_DIR = '_cache'
 # Bump this with any changes to `fetch_all_records`
@@ -38,14 +35,16 @@ def git_show(ref, name, repo_client):
     return commit_tree[name].data_stream.read()
 
 def fetch_all_records():
-    commits = git_commits_for("results-senate.json")
+    senate_commits = git_commits_for("results-senate.json")
+    gov_commits = git_commits_for('results-governor.json')
+    #house_commits = git_commits_for('results-house.json')
 
     repo = git.Repo('.', odbt=git.db.GitCmdObjectDB)
 
     out = []
 
     parser = simdjson.Parser()
-    for ref in commits:
+    for ref in senate_commits:
         cache_path = os.path.join(CACHE_DIR, ref[:2], ref[2:] + ".json")
         if os.path.exists(cache_path):
             with open(cache_path) as fh:
@@ -61,7 +60,7 @@ def fetch_all_records():
         json = parser.parse(blob)
         timestamp = json['resultsMeta']['resultsUpdatedAt']
         rows = []
-        for index in STATE_INDEXES:
+        for index in SENATE_STATE_INDEXES:
             race = json['races'][index]
 
             candidate_id_to_name = {
@@ -96,6 +95,48 @@ def fetch_all_records():
             pass
         with open(cache_path, 'w') as fh:
             simdjson.dump({"version": CACHE_VERSION, "rows": rows}, fh)
+    for ref in gov_commits:
+        cache_path = os.path.join(CACHE_DIR, ref[:2], ref[2:] + ".json")
+        if os.path.exists(cache_path):
+            with open(cache_path) as fh:
+                try:
+                    record = simdjson.load(fh)
+                except ValueError:
+                    continue
+                if record['version'] == CACHE_VERSION:
+                    for row in record['rows']:
+                        out.append(InputRecord(*row))
+                    continue
+        blob = git_show(ref, 'results-governor.json', repo)
+        json = parser.parse(blob)
+        timestamp = json['resultsMeta']['resultsUpdatedAt']
+        rows = []
+        for index in SENATE_STATE_INDEXES:
+            race = json['races'][index]
+
+            tot_exp_vote = race['top_reporting_unit']['total_expected_vote']
+            record = InputRecord(
+                timestamp,
+                race['top_reporting_unit']['name'],
+                race['top_reporting_unit']['state_postal'],
+                1,
+                race['top_reporting_unit']['candidates'].as_list(),
+                race['top_reporting_unit']['total_votes'],
+                tot_exp_vote,
+                race['top_reporting_unit']['precincts_total'],
+                race['top_reporting_unit']['precincts_reporting'],
+                #{n['name']: n['votes'] for n in race['counties']},
+                {},
+            )
+            rows.append(record)
+            out.append(record)
+        try:
+            os.makedirs(os.path.dirname(cache_path))
+        except FileExistsError:
+            pass
+        with open(cache_path, 'w') as fh:
+            simdjson.dump({"version": CACHE_VERSION, "rows": rows}, fh)
+ 
 
     out.sort(key=lambda row: row.timestamp)
     grouped = collections.defaultdict(list)
