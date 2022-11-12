@@ -22,8 +22,8 @@ NC_INDEX = 27
 NV_INDEX = 33
 PA_INDEX = 38
 
-BATTLEGROUND_STATES = ["Arizona", "Nevada"]
-STATE_INDEXES = [2, 19] 
+BATTLEGROUND_STATES = ["Nevada"]
+STATE_INDEXES = [19] 
 
 CACHE_DIR = '_cache'
 # Bump this with any changes to `fetch_all_records`
