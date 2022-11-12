@@ -20,7 +20,8 @@ AZ_SENATE_INDEX = 2
 NV_SENATE_INDEX = 19
 
 BATTLEGROUND_STATES = ["Arizona", "Nevada"]
-SENATE_STATE_INDEXES = [AZ_SENATE_INDEX, NV_STATE_INDEX] 
+SENATE_STATE_INDEXES = [AZ_SENATE_INDEX, NV_SENATE_INDEX]
+GOVERNOTR_STATE_INDEXES = [AZ_GOV_INDEX] 
 
 CACHE_DIR = '_cache'
 # Bump this with any changes to `fetch_all_records`
@@ -35,16 +36,20 @@ def git_show(ref, name, repo_client):
     return commit_tree[name].data_stream.read()
 
 def fetch_all_records():
+    print("starting fetch_all_records")
     senate_commits = git_commits_for("results-senate.json")
+    print("done with senate commits")
     gov_commits = git_commits_for('results-governor.json')
+    print("done with gov commits")
     #house_commits = git_commits_for('results-house.json')
 
     repo = git.Repo('.', odbt=git.db.GitCmdObjectDB)
 
     out = []
-
+    rows = []
     parser = simdjson.Parser()
     for ref in senate_commits:
+        print("ref is" + ref)
         cache_path = os.path.join(CACHE_DIR, ref[:2], ref[2:] + ".json")
         if os.path.exists(cache_path):
             with open(cache_path) as fh:
@@ -54,14 +59,17 @@ def fetch_all_records():
                     continue
                 if record['version'] == CACHE_VERSION:
                     for row in record['rows']:
+                        print("Found cache row")
                         out.append(InputRecord(*row))
                     continue
         blob = git_show(ref, 'results-senate.json', repo)
         json = parser.parse(blob)
+        print("SEM JSON")
+        print(json)
         timestamp = json['resultsMeta']['resultsUpdatedAt']
-        rows = []
         for index in SENATE_STATE_INDEXES:
             race = json['races'][index]
+<<<<<<< HEAD
 
             candidate_id_to_name = {
                 candidate_id: " ".join(name for name in [
@@ -70,6 +78,10 @@ def fetch_all_records():
                 for candidate_id, metadata in race['candidate_metadata'].items()
             }
 
+=======
+            print("SEM RACE")
+            print(race)
+>>>>>>> cbd449d2 (in progress gov stuff)
             tot_exp_vote = race['top_reporting_unit']['total_expected_vote']
             record = InputRecord(
                 timestamp,
@@ -96,6 +108,7 @@ def fetch_all_records():
         with open(cache_path, 'w') as fh:
             simdjson.dump({"version": CACHE_VERSION, "rows": rows}, fh)
     for ref in gov_commits:
+        print("gov ref is" + ref)
         cache_path = os.path.join(CACHE_DIR, ref[:2], ref[2:] + ".json")
         if os.path.exists(cache_path):
             with open(cache_path) as fh:
@@ -105,15 +118,16 @@ def fetch_all_records():
                     continue
                 if record['version'] == CACHE_VERSION:
                     for row in record['rows']:
+                        print("Found gov cache row")
                         out.append(InputRecord(*row))
                     continue
         blob = git_show(ref, 'results-governor.json', repo)
         json = parser.parse(blob)
         timestamp = json['resultsMeta']['resultsUpdatedAt']
-        rows = []
-        for index in SENATE_STATE_INDEXES:
+        for index in GOVERNOTR_STATE_INDEXES:
             race = json['races'][index]
-
+            print("GOV RACE")
+            print(race)
             tot_exp_vote = race['top_reporting_unit']['total_expected_vote']
             record = InputRecord(
                 timestamp,
@@ -142,7 +156,7 @@ def fetch_all_records():
     grouped = collections.defaultdict(list)
     for row in out:
         grouped[row.state_name].append(row)
-
+    #print(grouped)
     return grouped
 
 InputRecord = collections.namedtuple(
@@ -361,6 +375,7 @@ def json_to_summary(
 ) -> Tuple[IterationInfo, IterationSummary]:
     timestamp = datetime.datetime.strptime(row.timestamp, '%Y-%m-%dT%H:%M:%S.%fZ')
 
+    print(row)
     # Retrieve relevant data from the state’s JSON blob
     candidate1 = row.candidates[0] # Leading candidate
     candidate2 = row.candidates[1] # Trailing candidate
@@ -391,6 +406,8 @@ def json_to_summary(
     # If we're trying to estimate the proportion of third-party votes across
     # the entire vote population, we want to use the largest sample size we
     # have - i.e. the newest data we've received
+    print("LATEST_CANDIDATE_VOTES")
+    print(latest_candidate_votes)
     latest_relevant_proportion = (latest_candidate_votes[candidate1_key] + latest_candidate_votes[candidate2_key]) / sum(latest_candidate_votes.values())
     votes_remaining_relevant = votes_remaining * latest_relevant_proportion
     hurdle = (vote_diff + votes_remaining_relevant) / (2 * votes_remaining_relevant) if votes_remaining_relevant > 0 else 0
@@ -453,6 +470,8 @@ def json_to_summary(
 states_updated = []
 
 for rows in records.values():
+    print("LOOKING AT ROW")
+    print(rows)
     latest_batch_time = datetime.datetime.strptime(rows[-1].timestamp, '%Y-%m-%dT%H:%M:%S.%fZ')
 
     state_name = rows[0].state_name
@@ -472,6 +491,7 @@ for rows in records.values():
     )
 
     latest_candidate_votes = {c['nyt_id']: c['votes']['total'] for c in rows[-1].candidates}
+    print(latest_candidate_votes)
     latest_expected_votes = rows[-1].expected_votes
 
     for row in rows:
