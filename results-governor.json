@@ -45663,7 +45663,7 @@
       "coverage": "state",
       "certified": false,
       "office_id": "G",
-      "updated_at": "2022-11-12T20:26:30.289Z",
+      "updated_at": "2022-11-12T20:51:35.299Z",
       "max_winners": 1,
       "race_titles": {
         "location": null,
@@ -50817,7 +50817,7 @@
         "precincts_total": 9173,
         "nyt_vote_estimate": null,
         "precincts_reporting": 9003,
-        "provider_updated_at": "2022-11-12T20:26:30.289+00:00",
+        "provider_updated_at": "2022-11-12T20:51:35.299+00:00",
         "total_expected_vote": 5405477
       }
     },
@@ -50847,7 +50847,7 @@
       "coverage": "state",
       "certified": false,
       "office_id": "G",
-      "updated_at": "2022-11-12T20:44:11.477Z",
+      "updated_at": "2022-11-12T20:51:39.893Z",
       "max_winners": 1,
       "race_titles": {
         "location": null,
@@ -62963,7 +62963,7 @@
         "precincts_total": 9144,
         "nyt_vote_estimate": null,
         "precincts_reporting": 9053,
-        "provider_updated_at": "2022-11-12T20:44:11.477+00:00",
+        "provider_updated_at": "2022-11-12T20:51:39.893+00:00",
         "total_expected_vote": 8157541
       }
     },
@@ -68929,7 +68929,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-12T20:28:36.201Z",
+        "updated_at": "2022-11-12T20:51:06.575Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -68994,7 +68994,8 @@
               },
               {
                 "votes": {
-                  "total": 26196
+                  "total": 26196,
+                  "advance": 81
                 },
                 "leader": false,
                 "nyt_id": "wassmer-d",
@@ -69006,8 +69007,8 @@
             "fips_suffix": null,
             "total_votes": 5303958,
             "state_postal": "PA",
-            "source_run_id": 1796070,
-            "vote_report_id": 1042525545,
+            "source_run_id": 1796314,
+            "vote_report_id": 1042530729,
             "precincts_total": 9173,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -69017,7 +69018,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 9003,
-            "provider_updated_at": "2022-11-12T20:28:36.201+00:00",
+            "provider_updated_at": "2022-11-12T20:51:06.575+00:00",
             "total_expected_vote": 5403992,
             "precincts_reporting_actual": 9142,
             "precincts_reporting_proportional": 9003
@@ -69158,7 +69159,8 @@
             },
             {
               "votes": {
-                "total": 26196
+                "total": 26196,
+                "advance": 81
               },
               "leader": false,
               "nyt_id": "wassmer-d",
@@ -69170,8 +69172,8 @@
           "fips_suffix": null,
           "total_votes": 5303958,
           "state_postal": "PA",
-          "source_run_id": 1796070,
-          "vote_report_id": 1042525545,
+          "source_run_id": 1796314,
+          "vote_report_id": 1042530729,
           "precincts_total": 9173,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -69181,7 +69183,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 9003,
-          "provider_updated_at": "2022-11-12T20:28:36.201+00:00",
+          "provider_updated_at": "2022-11-12T20:51:06.575+00:00",
           "total_expected_vote": 5403992,
           "precincts_reporting_actual": 9142,
           "precincts_reporting_proportional": 9003
@@ -70256,7 +70258,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-12T20:28:36.201Z",
+        "updated_at": "2022-11-12T20:51:06.575Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -70321,7 +70323,8 @@
               },
               {
                 "votes": {
-                  "total": 26196
+                  "total": 26196,
+                  "advance": 81
                 },
                 "leader": false,
                 "nyt_id": "wassmer-d",
@@ -70333,8 +70336,8 @@
             "fips_suffix": null,
             "total_votes": 5303958,
             "state_postal": "PA",
-            "source_run_id": 1796070,
-            "vote_report_id": 1042525545,
+            "source_run_id": 1796314,
+            "vote_report_id": 1042530729,
             "precincts_total": 9173,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -70344,7 +70347,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 9003,
-            "provider_updated_at": "2022-11-12T20:28:36.201+00:00",
+            "provider_updated_at": "2022-11-12T20:51:06.575+00:00",
             "total_expected_vote": 5403992,
             "precincts_reporting_actual": 9142,
             "precincts_reporting_proportional": 9003
@@ -70485,7 +70488,8 @@
             },
             {
               "votes": {
-                "total": 26196
+                "total": 26196,
+                "advance": 81
               },
               "leader": false,
               "nyt_id": "wassmer-d",
@@ -70497,8 +70501,8 @@
           "fips_suffix": null,
           "total_votes": 5303958,
           "state_postal": "PA",
-          "source_run_id": 1796070,
-          "vote_report_id": 1042525545,
+          "source_run_id": 1796314,
+          "vote_report_id": 1042530729,
           "precincts_total": 9173,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -70508,7 +70512,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 9003,
-          "provider_updated_at": "2022-11-12T20:28:36.201+00:00",
+          "provider_updated_at": "2022-11-12T20:51:06.575+00:00",
           "total_expected_vote": 5403992,
           "precincts_reporting_actual": 9142,
           "precincts_reporting_proportional": 9003
@@ -70756,7 +70760,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-12T20:28:36.201Z",
+        "updated_at": "2022-11-12T20:51:06.575Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -70821,7 +70825,8 @@
               },
               {
                 "votes": {
-                  "total": 26196
+                  "total": 26196,
+                  "advance": 81
                 },
                 "leader": false,
                 "nyt_id": "wassmer-d",
@@ -70833,8 +70838,8 @@
             "fips_suffix": null,
             "total_votes": 5303958,
             "state_postal": "PA",
-            "source_run_id": 1796070,
-            "vote_report_id": 1042525545,
+            "source_run_id": 1796314,
+            "vote_report_id": 1042530729,
             "precincts_total": 9173,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -70844,7 +70849,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 9003,
-            "provider_updated_at": "2022-11-12T20:28:36.201+00:00",
+            "provider_updated_at": "2022-11-12T20:51:06.575+00:00",
             "total_expected_vote": 5403992,
             "precincts_reporting_actual": 9142,
             "precincts_reporting_proportional": 9003
@@ -70985,7 +70990,8 @@
             },
             {
               "votes": {
-                "total": 26196
+                "total": 26196,
+                "advance": 81
               },
               "leader": false,
               "nyt_id": "wassmer-d",
@@ -70997,8 +71003,8 @@
           "fips_suffix": null,
           "total_votes": 5303958,
           "state_postal": "PA",
-          "source_run_id": 1796070,
-          "vote_report_id": 1042525545,
+          "source_run_id": 1796314,
+          "vote_report_id": 1042530729,
           "precincts_total": 9173,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -71008,7 +71014,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 9003,
-          "provider_updated_at": "2022-11-12T20:28:36.201+00:00",
+          "provider_updated_at": "2022-11-12T20:51:06.575+00:00",
           "total_expected_vote": 5403992,
           "precincts_reporting_actual": 9142,
           "precincts_reporting_proportional": 9003
@@ -74746,7 +74752,7 @@
   },
   "resultsMeta": {
     "docsUpdatedAt": "2022-11-09T09:03:24.208Z",
-    "resultsUpdatedAt": "2022-11-12T20:44:11.477Z"
+    "resultsUpdatedAt": "2022-11-12T20:51:39.893Z"
   },
   "raceCollections": {
     "scoreboard_races": [
@@ -77213,7 +77219,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-12T20:28:36.201Z",
+        "updated_at": "2022-11-12T20:52:10.753Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -77272,7 +77278,8 @@
               },
               {
                 "votes": {
-                  "total": 26196
+                  "total": 26196,
+                  "advance": 81
                 },
                 "leader": false,
                 "nyt_id": "wassmer-d"
@@ -77420,7 +77427,8 @@
             },
             {
               "votes": {
-                "total": 26196
+                "total": 26196,
+                "advance": 81
               },
               "leader": false,
               "nyt_id": "wassmer-d"
@@ -77439,7 +77447,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 9003,
-          "provider_updated_at": "2022-11-12T20:28:36.201+00:00",
+          "provider_updated_at": "2022-11-12T20:52:10.753+00:00",
           "total_expected_vote": 5403992
         }
       },
