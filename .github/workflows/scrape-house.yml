@@ -1,0 +1,47 @@
+name: Scrape latest house data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '3,33 * * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Fetch latest data
+      run: |-
+        curl "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-house.json" | jq . > results-house.json
+    - name: Commit and push if governor data changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git pull
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.8"
+    - name: Install Python requirements
+      run: |-
+        python -m pip install -U pip
+        pip install -r requirements.txt
+    - name: Generate battleground-state-changes.txt/html
+      run: |-
+        ./print-battleground-state-changes
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git pull
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Regenerate battleground-state-changes.txt/html" || exit 0
+        git push
