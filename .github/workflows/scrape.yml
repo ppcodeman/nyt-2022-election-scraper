@@ -10,7 +10,7 @@ on:
 
 jobs:
   scheduled:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
