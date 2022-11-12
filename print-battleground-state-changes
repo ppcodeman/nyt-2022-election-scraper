@@ -64,13 +64,23 @@ def fetch_all_records():
         for index in STATE_INDEXES:
             race = json['races'][index]
 
+            candidate_id_to_name = {
+                candidate_id: " ".join(name for name in [
+                    metadata['first_name'], metadata['last_name'],
+                ] if name)
+                for candidate_id, metadata in race['candidate_metadata'].items()
+            }
+
             tot_exp_vote = race['top_reporting_unit']['total_expected_vote']
             record = InputRecord(
                 timestamp,
                 race['top_reporting_unit']['name'],
                 race['top_reporting_unit']['state_postal'],
                 1,
-                race['top_reporting_unit']['candidates'].as_list(),
+                [
+                    {'candidate_name': candidate_id_to_name[candidate['nyt_id']], **candidate}
+                    for candidate in race['top_reporting_unit']['candidates'].as_list()
+                ],
                 race['top_reporting_unit']['total_votes'],
                 tot_exp_vote,
                 race['top_reporting_unit']['precincts_total'],
@@ -250,7 +260,7 @@ def html_summary(state_slug: str, summary: IterationSummary, always_visible: boo
     html = f'''
         <tr id="{state_slug}-{summary.timestamp.isoformat()}"{always_visible_attribute}>
             <td class="timestamp">{summary.timestamp.strftime('%Y-%m-%d %H:%M:%S')} UTC</td>
-            <td class="{summary.leading_candidate_name}">{summary.leading_candidate_name}</td>
+            <td class="{summary.leading_candidate_name.replace(" ", "")}">{summary.leading_candidate_name}</td>
             <td class="numeric">{summary.vote_differential:,}</td>
             <td class="numeric">{shown_votes_remaining}</td>
             <td {counties_tooltip_attributes}>{summary.new_votes_formatted}</td>
@@ -313,8 +323,8 @@ def json_to_summary(
     # Retrieve relevant data from the state’s JSON blob
     candidate1 = row.candidates[0] # Leading candidate
     candidate2 = row.candidates[1] # Trailing candidate
-    candidate1_name = candidate1['nyt_id']
-    candidate2_name = candidate2['nyt_id']
+    candidate1_name = candidate1['candidate_name']
+    candidate2_name = candidate2['candidate_name']
     candidate1_votes = candidate1['votes']['total']
     candidate2_votes = candidate2['votes']['total']
     candidate1_key = candidate1['nyt_id']
