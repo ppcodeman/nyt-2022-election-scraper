@@ -19,7 +19,7 @@ AZ_GOV_INDEX = 0
 AZ_SENATE_INDEX = 2
 NV_SENATE_INDEX = 19
 
-CHOSEN_RACES = ["Sen-Arizona", "Gov-Arizona", "Sen-Nevada"]
+CHOSEN_RACES = ["Gov-Arizona", "Sen-Nevada", "House-AK-1", "House-CA-47", "House-CO-3"]
 
 SENATE_STATE_INDEXES = [AZ_SENATE_INDEX, NV_SENATE_INDEX]
 GOVERNOR_STATE_INDEXES = [AZ_GOV_INDEX] 
@@ -27,6 +27,7 @@ GOVERNOR_STATE_INDEXES = [AZ_GOV_INDEX]
 CACHE_DIR = '_cache'
 # Bump this with any changes to `fetch_all_records`
 CACHE_VERSION = 3
+USE_CACHE = False
 
 def git_commits_for(path):
     return subprocess.check_output(['git', 'log', "--format=%H", path]).strip().decode().splitlines()
@@ -44,9 +45,8 @@ def fetch_all_senate_records():
     rows = []
     parser = simdjson.Parser()
     for ref in senate_commits:
-        print("ref is" + ref)
         cache_path = os.path.join(CACHE_DIR, ref[:2], ref[2:] + ".json")
-        if os.path.exists(cache_path):
+        if os.path.exists(cache_path) and USE_CACHE:
             with open(cache_path) as fh:
                 try:
                     record = simdjson.load(fh)
@@ -117,7 +117,7 @@ def fetch_all_gov_records():
     parser = simdjson.Parser()
     for ref in gov_commits:
         cache_path = os.path.join(CACHE_DIR, ref[:2], ref[2:] + ".json")
-        if os.path.exists(cache_path):
+        if os.path.exists(cache_path) and USE_CACHE:
             with open(cache_path) as fh:
                 try:
                     record = simdjson.load(fh)
@@ -178,6 +178,81 @@ def fetch_all_gov_records():
         grouped[row.state_name].append(row)
     return grouped
 
+def fetch_all_house_records():
+    house_commits = git_commits_for("results-house.json")
+    repo = git.Repo('.', odbt=git.db.GitCmdObjectDB)
+
+    out = []
+    rows = []
+    parser = simdjson.Parser()
+    for ref in house_commits:
+        cache_path = os.path.join(CACHE_DIR, ref[:2], ref[2:] + ".json")
+        if os.path.exists(cache_path) and USE_CACHE:
+            with open(cache_path) as fh:
+                try:
+                    record = simdjson.load(fh)
+                except ValueError:
+                    continue
+                if record['version'] == CACHE_VERSION:
+                    for row in record['rows']:
+                        out.append(InputRecord(*row))
+                    continue
+        blob = git_show(ref, 'results-house.json', repo)
+        json = parser.parse(blob)
+        timestamp = json['resultsMeta']['resultsUpdatedAt']
+        for race in json['races']:
+            #race = json['races'][index]
+            if len(race['outcome']['won']):
+                #print("Race " + race['nyt_id'] + " is called.")
+                continue
+            #else:
+                #print("Race " + race['nyt_id'] + " is NOT called.")
+
+
+            candidate_id_to_name = {
+                candidate_id: " ".join(name for name in [
+                    metadata['first_name'], metadata['last_name'],
+                ] if name)
+                for candidate_id, metadata in race['candidate_metadata'].items()
+            }
+            candidate_id_to_party = {
+                candidate_id: metadata['party']['nyt_id']
+                for candidate_id, metadata in race['candidate_metadata'].items()
+            }
+
+            tot_exp_vote = race['top_reporting_unit']['total_expected_vote']
+            record = InputRecord(
+                timestamp,
+                "House-"+race['top_reporting_unit']['state_postal']+"-"+race['seat_number'],
+                race['top_reporting_unit']['state_postal'],
+                1,
+                [
+                    {'candidate_name': candidate_id_to_name[candidate['nyt_id']],
+                     'candidate_party': candidate_id_to_party[candidate['nyt_id']],
+                     **candidate}
+                    for candidate in race['top_reporting_unit']['candidates'].as_list()
+                ],
+                race['top_reporting_unit']['total_votes'],
+                tot_exp_vote,
+                race['top_reporting_unit']['precincts_total'],
+                race['top_reporting_unit']['precincts_reporting'],
+                #{n['name']: n['votes'] for n in race['counties']},
+                {},
+            )
+            rows.append(record)
+            out.append(record)
+        try:
+            os.makedirs(os.path.dirname(cache_path))
+        except FileExistsError:
+            pass
+        with open(cache_path, 'w') as fh:
+            simdjson.dump({"version": CACHE_VERSION, "rows": rows}, fh)
+
+    out.sort(key=lambda row: row.timestamp)
+    grouped = collections.defaultdict(list)
+    for row in out:
+        grouped[row.state_name].append(row)
+    return grouped
 
 InputRecord = collections.namedtuple(
     'InputRecord',
@@ -534,6 +609,7 @@ scrape_time = datetime.datetime.utcnow()
 # Dict[str, List[InputRecords]]
 senate_records = fetch_all_senate_records()
 gov_records = fetch_all_gov_records()
+house_records = fetch_all_house_records()
 
 # Where we’ll aggregate the data from the JSON files
 summarized = {}
@@ -546,6 +622,8 @@ latest_candidate_votes = {}
 for rows in senate_records.values():
     process_rows(rows)
 for rows in gov_records.values():
+    process_rows(rows)
+for rows in house_records.values():
     process_rows(rows)
 
 
@@ -632,13 +710,13 @@ html_output(
     "battleground-state-changes.html",
     html_table(battlegrounds_summarized),
     battleground_states_updated,
-    'Data for all 50 states and DC is <a href="all-state-changes.html">also available</a>.'
+    'Data for all uncalled races is <a href="all-state-changes.html">also available</a>.'
 )
 html_output(
     "all-state-changes.html",
     html_table(summarized),
     states_updated,
-    'View <a href="battleground-state-changes.html">battleground states only</a>.'
+    'View <a href="battleground-state-changes.html">battleground races only</a>.'
 )
 
 def csv_output(path, summarized):

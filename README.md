@@ -3,6 +3,7 @@ Scrapes the NYT Votes Remaining Page JSON and commits it back to this repo. The 
 
 ## Outputted files
 
+- <https://ppcodeman.github.io/nyt-2022-election-scraper/all-state-changes.html>
 - <https://ppcodeman.github.io/nyt-2022-election-scraper/battleground-state-changes.html>
 - <https://github.com/ppcodeman/nyt-2022-election-scraper/blob/master/battleground-state-changes.txt>
 - <https://ppcodeman.github.io/nyt-2022-election-scraper/battleground-state-changes.csv>
