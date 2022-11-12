@@ -1,9 +1,6 @@
 name: Scrape latest senate data
 
 on:
-  push:
-    branches:
-      - master
   workflow_dispatch:
   schedule:
     - cron:  '*/15 * * * *'
