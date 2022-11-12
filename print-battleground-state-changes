@@ -22,8 +22,8 @@ NC_INDEX = 27
 NV_INDEX = 33
 PA_INDEX = 38
 
-BATTLEGROUND_STATES = ["Alaska", "Arizona", "Georgia", "North Carolina", "Nevada", "Pennsylvania"]
-STATE_INDEXES = range(51) # 50 States + DC
+BATTLEGROUND_STATES = ["Arizona", "Georgia", "Nevada"]
+STATE_INDEXES = [2, 8, 19] 
 
 CACHE_DIR = '_cache'
 # Bump this with any changes to `fetch_all_records`
@@ -38,7 +38,7 @@ def git_show(ref, name, repo_client):
     return commit_tree[name].data_stream.read()
 
 def fetch_all_records():
-    commits = git_commits_for("results.json")
+    commits = git_commits_for("results-senate.json")
 
     repo = git.Repo('.', odbt=git.db.GitCmdObjectDB)
 
@@ -57,34 +57,27 @@ def fetch_all_records():
                     for row in record['rows']:
                         out.append(InputRecord(*row))
                     continue
-        blob = git_show(ref, 'results.json', repo)
+        blob = git_show(ref, 'results-senate.json', repo)
         json = parser.parse(blob)
-        timestamp = json['meta']['timestamp']
+        print(json['races'])
+        timestamp = json['resultsMeta']['resultsUpdatedAt']
         rows = []
         for index in STATE_INDEXES:
-            race = json['data']['races'][index]
+            race = json['races'][index]
 
-            county_tot_exp_vote = [county['tot_exp_vote'] for county in race['counties']]
-            if all(county_tot_exp_vote):
-                tot_exp_vote = sum(county_tot_exp_vote)
-            else:
-                # NYT's data doesn't seem to have a county-by-county vote
-                # estimate for the following states: Connecticut, Massachusetts,
-                # Maine, New Hampshire, Rhode Island, and Vermont. So we have to
-                # fall back to the state wide one.
-                tot_exp_vote = race['tot_exp_vote']
-
+            tot_exp_vote = race['top_reporting_unit']['total_expected_vote']
             record = InputRecord(
                 timestamp,
-                race['state_name'],
-                race['state_id'],
-                race['electoral_votes'],
-                race['candidates'].as_list(),
-                race['votes'],
+                race['top_reporting_unit']['name'],
+                race['top_reporting_unit']['state_postal'],
+                1,
+                race['top_reporting_unit']['candidates'].as_list(),
+                race['top_reporting_unit']['total_votes'],
                 tot_exp_vote,
-                race['precincts_total'],
-                race['precincts_reporting'],
-                {n['name']: n['votes'] for n in race['counties']},
+                race['top_reporting_unit']['precincts_total'],
+                race['top_reporting_unit']['precincts_reporting'],
+                #{n['name']: n['votes'] for n in race['counties']},
+                {},
             )
             rows.append(record)
             out.append(record)
@@ -195,6 +188,9 @@ def string_summary(summary):
 
     lead_part = summary.leading_candidate_partition - 50
 
+    #visible_hurdle = 'Unknown'
+    #if summary.hurdle > 0:
+    #  visible_hurdle = summary.trailing_candidate_name + " needs " + summary.hurdle
     visible_hurdle = f'{summary.trailing_candidate_name} needs {summary.hurdle:.2%}' if summary.hurdle > 0 else 'Unknown'
 
     return [
@@ -318,13 +314,13 @@ def json_to_summary(
     # Retrieve relevant data from the state’s JSON blob
     candidate1 = row.candidates[0] # Leading candidate
     candidate2 = row.candidates[1] # Trailing candidate
-    candidate1_name = candidate1['last_name']
-    candidate2_name = candidate2['last_name']
-    candidate1_votes = candidate1['votes']
-    candidate2_votes = candidate2['votes']
-    candidate1_key = candidate1['candidate_key']
-    candidate2_key = candidate2['candidate_key']
-    total_votes = sum([candidate['votes'] for candidate in row.candidates])
+    candidate1_name = candidate1['nyt_id']
+    candidate2_name = candidate2['nyt_id']
+    candidate1_votes = candidate1['votes']['total']
+    candidate2_votes = candidate2['votes']['total']
+    candidate1_key = candidate1['nyt_id']
+    candidate2_key = candidate2['nyt_id']
+    total_votes = sum([candidate['votes']['total'] for candidate in row.candidates])
     vote_diff = candidate1_votes - candidate2_votes
     votes = row.votes
     votes_remaining = expected_votes - votes
@@ -349,7 +345,7 @@ def json_to_summary(
     votes_remaining_relevant = votes_remaining * latest_relevant_proportion
     hurdle = (vote_diff + votes_remaining_relevant) / (2 * votes_remaining_relevant) if votes_remaining_relevant > 0 else 0
 
-    candidate_votes = {c['candidate_key']: c['votes'] for c in row.candidates}
+    candidate_votes = {c['nyt_id']: c['votes']['total'] for c in row.candidates}
 
     # We need to use the votes delta for our two leading candidates, not for
     # all the candidates, when calculating the breakdown - especially since our
@@ -407,6 +403,8 @@ def json_to_summary(
 states_updated = []
 
 for rows in records.values():
+    print("ROW:")
+    print(rows)
     latest_batch_time = datetime.datetime.strptime(rows[-1].timestamp, '%Y-%m-%dT%H:%M:%S.%fZ')
 
     state_name = rows[0].state_name
@@ -425,7 +423,7 @@ for rows in records.values():
         candidate_votes=None,
     )
 
-    latest_candidate_votes = {c['candidate_key']: c['votes'] for c in rows[-1].candidates}
+    latest_candidate_votes = {c['nyt_id']: c['votes']['total'] for c in rows[-1].candidates}
     latest_expected_votes = rows[-1].expected_votes
 
     for row in rows:
@@ -463,7 +461,7 @@ battleground_states_updated = [
 
 # print the summaries
 batch_time = max(itertools.chain.from_iterable(battlegrounds_summarized.values()), key=lambda s: s.timestamp).timestamp
-with open("results.json", "r", encoding='utf8') as f:
+with open("results-senate.json", "r", encoding='utf8') as f:
     RESULTS_HASH = hashlib.sha256(f.read().encode('utf8')).hexdigest()
 
 def txt_output(path, summarized, states_updated):
