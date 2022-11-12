@@ -59,7 +59,6 @@ def fetch_all_records():
                     continue
         blob = git_show(ref, 'results-senate.json', repo)
         json = parser.parse(blob)
-        print(json['races'])
         timestamp = json['resultsMeta']['resultsUpdatedAt']
         rows = []
         for index in STATE_INDEXES:
@@ -403,8 +402,6 @@ def json_to_summary(
 states_updated = []
 
 for rows in records.values():
-    print("ROW:")
-    print(rows)
     latest_batch_time = datetime.datetime.strptime(rows[-1].timestamp, '%Y-%m-%dT%H:%M:%S.%fZ')
 
     state_name = rows[0].state_name
