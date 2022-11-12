@@ -27,7 +27,7 @@ STATE_INDEXES = [2, 19]
 
 CACHE_DIR = '_cache'
 # Bump this with any changes to `fetch_all_records`
-CACHE_VERSION = 2
+CACHE_VERSION = 3
 
 def git_commits_for(path):
     return subprocess.check_output(['git', 'log', "--format=%H", path]).strip().decode().splitlines()
@@ -131,7 +131,7 @@ IterationSummary = collections.namedtuple(
     [
         'timestamp',
         'leading_candidate_name',
-        'trailing_candidate_name',
+        'trailing_  candidate_name',
         'leading_candidate_votes',
         'trailing_candidate_votes',
         'vote_differential',
