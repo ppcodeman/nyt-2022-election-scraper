@@ -1,4 +1,4 @@
-name: Scrape latest data
+name: Scrape latest senate data
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   scheduled:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
