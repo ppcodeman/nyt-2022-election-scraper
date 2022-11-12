@@ -19,7 +19,7 @@ jobs:
     - name: Fetch latest data
       run: |-
         curl "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-governor.json" | jq . > results-governor.json
-    - name: Commit and push if it changed
+    - name: Commit and push if governor data changed
       run: |-
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
@@ -43,6 +43,7 @@ jobs:
       run: |-
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
+        git pull
         git add -A
         timestamp=$(date -u)
         git commit -m "Regenerate battleground-state-changes.txt/html" || exit 0
