@@ -19,9 +19,10 @@ AZ_GOV_INDEX = 0
 AZ_SENATE_INDEX = 2
 NV_SENATE_INDEX = 19
 
-BATTLEGROUND_STATES = ["Arizona", "Nevada"]
+CHOSEN_RACES = ["Sen-Arizona", "Gov-Arizona", "Sen-Nevada"]
+
 SENATE_STATE_INDEXES = [AZ_SENATE_INDEX, NV_SENATE_INDEX]
-GOVERNOTR_STATE_INDEXES = [AZ_GOV_INDEX] 
+GOVERNOR_STATE_INDEXES = [AZ_GOV_INDEX] 
 
 CACHE_DIR = '_cache'
 # Bump this with any changes to `fetch_all_records`
@@ -35,14 +36,8 @@ def git_show(ref, name, repo_client):
 
     return commit_tree[name].data_stream.read()
 
-def fetch_all_records():
-    print("starting fetch_all_records")
+def fetch_all_senate_records():
     senate_commits = git_commits_for("results-senate.json")
-    print("done with senate commits")
-    gov_commits = git_commits_for('results-governor.json')
-    print("done with gov commits")
-    #house_commits = git_commits_for('results-house.json')
-
     repo = git.Repo('.', odbt=git.db.GitCmdObjectDB)
 
     out = []
@@ -59,17 +54,13 @@ def fetch_all_records():
                     continue
                 if record['version'] == CACHE_VERSION:
                     for row in record['rows']:
-                        print("Found cache row")
                         out.append(InputRecord(*row))
                     continue
         blob = git_show(ref, 'results-senate.json', repo)
         json = parser.parse(blob)
-        print("SEM JSON")
-        print(json)
         timestamp = json['resultsMeta']['resultsUpdatedAt']
         for index in SENATE_STATE_INDEXES:
             race = json['races'][index]
-<<<<<<< HEAD
 
             candidate_id_to_name = {
                 candidate_id: " ".join(name for name in [
@@ -77,19 +68,21 @@ def fetch_all_records():
                 ] if name)
                 for candidate_id, metadata in race['candidate_metadata'].items()
             }
+            candidate_id_to_party = {
+                candidate_id: metadata['party']['nyt_id']
+                for candidate_id, metadata in race['candidate_metadata'].items()
+            }
 
-=======
-            print("SEM RACE")
-            print(race)
->>>>>>> cbd449d2 (in progress gov stuff)
             tot_exp_vote = race['top_reporting_unit']['total_expected_vote']
             record = InputRecord(
                 timestamp,
-                race['top_reporting_unit']['name'],
+                "Sen-"+race['top_reporting_unit']['name'],
                 race['top_reporting_unit']['state_postal'],
                 1,
                 [
-                    {'candidate_name': candidate_id_to_name[candidate['nyt_id']], **candidate}
+                    {'candidate_name': candidate_id_to_name[candidate['nyt_id']],
+                     'candidate_party': candidate_id_to_party[candidate['nyt_id']],
+                     **candidate}
                     for candidate in race['top_reporting_unit']['candidates'].as_list()
                 ],
                 race['top_reporting_unit']['total_votes'],
@@ -107,8 +100,22 @@ def fetch_all_records():
             pass
         with open(cache_path, 'w') as fh:
             simdjson.dump({"version": CACHE_VERSION, "rows": rows}, fh)
+
+    out.sort(key=lambda row: row.timestamp)
+    grouped = collections.defaultdict(list)
+    for row in out:
+        grouped[row.state_name].append(row)
+    return grouped
+
+def fetch_all_gov_records():
+    gov_commits = git_commits_for('results-governor.json')
+
+    repo = git.Repo('.', odbt=git.db.GitCmdObjectDB)
+
+    out = []
+    rows = []
+    parser = simdjson.Parser()
     for ref in gov_commits:
-        print("gov ref is" + ref)
         cache_path = os.path.join(CACHE_DIR, ref[:2], ref[2:] + ".json")
         if os.path.exists(cache_path):
             with open(cache_path) as fh:
@@ -118,23 +125,36 @@ def fetch_all_records():
                     continue
                 if record['version'] == CACHE_VERSION:
                     for row in record['rows']:
-                        print("Found gov cache row")
                         out.append(InputRecord(*row))
                     continue
         blob = git_show(ref, 'results-governor.json', repo)
         json = parser.parse(blob)
         timestamp = json['resultsMeta']['resultsUpdatedAt']
-        for index in GOVERNOTR_STATE_INDEXES:
+        for index in GOVERNOR_STATE_INDEXES:
             race = json['races'][index]
-            print("GOV RACE")
-            print(race)
+            candidate_id_to_name = {
+                candidate_id: " ".join(name for name in [
+                    metadata['first_name'], metadata['last_name'],
+                ] if name)
+                for candidate_id, metadata in race['candidate_metadata'].items()
+            }
+            candidate_id_to_party = {
+                candidate_id: metadata['party']['nyt_id']
+                for candidate_id, metadata in race['candidate_metadata'].items()
+            }
+
             tot_exp_vote = race['top_reporting_unit']['total_expected_vote']
             record = InputRecord(
                 timestamp,
-                race['top_reporting_unit']['name'],
+                "Gov-"+race['top_reporting_unit']['name'],
                 race['top_reporting_unit']['state_postal'],
                 1,
-                race['top_reporting_unit']['candidates'].as_list(),
+                [
+                    {'candidate_name': candidate_id_to_name[candidate['nyt_id']],
+                     'candidate_party': candidate_id_to_party[candidate['nyt_id']],
+                     **candidate}
+                    for candidate in race['top_reporting_unit']['candidates'].as_list()
+                ],
                 race['top_reporting_unit']['total_votes'],
                 tot_exp_vote,
                 race['top_reporting_unit']['precincts_total'],
@@ -156,8 +176,8 @@ def fetch_all_records():
     grouped = collections.defaultdict(list)
     for row in out:
         grouped[row.state_name].append(row)
-    #print(grouped)
     return grouped
+
 
 InputRecord = collections.namedtuple(
     'InputRecord',
@@ -189,6 +209,8 @@ IterationSummary = collections.namedtuple(
         'trailing_candidate_name',
         'leading_candidate_votes',
         'trailing_candidate_votes',
+        'leading_candidate_party',
+        'trailing_candidate_party',
         'vote_differential',
         'votes_remaining',
         'new_votes',
@@ -252,9 +274,6 @@ def string_summary(summary):
 
     lead_part = summary.leading_candidate_partition - 50
 
-    #visible_hurdle = 'Unknown'
-    #if summary.hurdle > 0:
-    #  visible_hurdle = summary.trailing_candidate_name + " needs " + summary.hurdle
     visible_hurdle = f'{summary.trailing_candidate_name} needs {summary.hurdle:.2%}' if summary.hurdle > 0 else 'Unknown'
 
     return [
@@ -315,7 +334,7 @@ def html_summary(state_slug: str, summary: IterationSummary, always_visible: boo
     html = f'''
         <tr id="{state_slug}-{summary.timestamp.isoformat()}"{always_visible_attribute}>
             <td class="timestamp">{summary.timestamp.strftime('%Y-%m-%d %H:%M:%S')} UTC</td>
-            <td class="{summary.leading_candidate_name.replace(" ", "")}">{summary.leading_candidate_name}</td>
+            <td class="{summary.leading_candidate_party}">{summary.leading_candidate_name}</td>
             <td class="numeric">{summary.vote_differential:,}</td>
             <td class="numeric">{shown_votes_remaining}</td>
             <td {counties_tooltip_attributes}>{summary.new_votes_formatted}</td>
@@ -351,19 +370,7 @@ def html_summary(state_slug: str, summary: IterationSummary, always_visible: boo
             <td class="hurdle">{visible_hurdle}</td>
         </tr>
     '''
-
     return html
-
-# Capture the time at the top of the main script logic so it's closer to when the pull of data happened
-scrape_time = datetime.datetime.utcnow()
-
-# Dict[str, List[InputRecords]]
-records = fetch_all_records()
-
-# Where we’ll aggregate the data from the JSON files
-summarized = {}
-state_formatted_name = {}
-state_abbrev = {}
 
 def json_to_summary(
     state_name: str,
@@ -375,7 +382,6 @@ def json_to_summary(
 ) -> Tuple[IterationInfo, IterationSummary]:
     timestamp = datetime.datetime.strptime(row.timestamp, '%Y-%m-%dT%H:%M:%S.%fZ')
 
-    print(row)
     # Retrieve relevant data from the state’s JSON blob
     candidate1 = row.candidates[0] # Leading candidate
     candidate2 = row.candidates[1] # Trailing candidate
@@ -385,6 +391,8 @@ def json_to_summary(
     candidate2_votes = candidate2['votes']['total']
     candidate1_key = candidate1['nyt_id']
     candidate2_key = candidate2['nyt_id']
+    candidate1_party = candidate1['candidate_party']
+    candidate2_party = candidate2['candidate_party']
     total_votes = sum([candidate['votes']['total'] for candidate in row.candidates])
     vote_diff = candidate1_votes - candidate2_votes
     votes = row.votes
@@ -406,8 +414,6 @@ def json_to_summary(
     # If we're trying to estimate the proportion of third-party votes across
     # the entire vote population, we want to use the largest sample size we
     # have - i.e. the newest data we've received
-    print("LATEST_CANDIDATE_VOTES")
-    print(latest_candidate_votes)
     latest_relevant_proportion = (latest_candidate_votes[candidate1_key] + latest_candidate_votes[candidate2_key]) / sum(latest_candidate_votes.values())
     votes_remaining_relevant = votes_remaining * latest_relevant_proportion
     hurdle = (vote_diff + votes_remaining_relevant) / (2 * votes_remaining_relevant) if votes_remaining_relevant > 0 else 0
@@ -449,6 +455,8 @@ def json_to_summary(
         candidate2_name,
         candidate1_votes,
         candidate2_votes,
+        candidate1_party,
+        candidate2_party,
         vote_diff,
         votes_remaining,
         new_votes,
@@ -467,17 +475,18 @@ def json_to_summary(
 
     return iteration_info, summary
 
-states_updated = []
 
-for rows in records.values():
-    print("LOOKING AT ROW")
-    print(rows)
+def process_rows(rows):
+    #print("LOOKING AT ROW")
+    #print(rows)
     latest_batch_time = datetime.datetime.strptime(rows[-1].timestamp, '%Y-%m-%dT%H:%M:%S.%fZ')
 
     state_name = rows[0].state_name
 
     summarized[state_name] = []
-    state_formatted_name[state_name] = f"{state_name} (EV: {rows[0].electoral_votes})"
+    state_formatted_name[state_name] = state_name
+    if rows[0].electoral_votes > 1:
+      state_formatted_name[state_name] = f"{state_name} (EV: {rows[0].electoral_votes})"
     state_abbrev[state_name] = rows[0].state_abbrev
 
     last_iteration_info = IterationInfo(
@@ -490,8 +499,8 @@ for rows in records.values():
         candidate_votes=None,
     )
 
-    latest_candidate_votes = {c['nyt_id']: c['votes']['total'] for c in rows[-1].candidates}
-    print(latest_candidate_votes)
+    for c in rows[-1].candidates:
+        latest_candidate_votes[c['nyt_id']] = c['votes']['total']
     latest_expected_votes = rows[-1].expected_votes
 
     for row in rows:
@@ -517,14 +526,37 @@ for rows in records.values():
     if summarized[state_name] and summarized[state_name][0].timestamp == latest_batch_time:
         states_updated.append(state_name)
 
+
+##### BEGIN MAIN #####
+# Capture the time at the top of the main script logic so it's closer to when the pull of data happened
+scrape_time = datetime.datetime.utcnow()
+
+# Dict[str, List[InputRecords]]
+senate_records = fetch_all_senate_records()
+gov_records = fetch_all_gov_records()
+
+# Where we’ll aggregate the data from the JSON files
+summarized = {}
+state_formatted_name = {}
+state_abbrev = {}
+
+states_updated = []
+latest_candidate_votes = {}
+
+for rows in senate_records.values():
+    process_rows(rows)
+for rows in gov_records.values():
+    process_rows(rows)
+
+
 # Pull out the battleground state summaries
 battlegrounds_summarized = {
     state: summarized[state]
-    for state in BATTLEGROUND_STATES
+    for state in CHOSEN_RACES
 }
 battleground_states_updated = [
     state for state in states_updated
-    if state in BATTLEGROUND_STATES
+    if state in CHOSEN_RACES
 ]
 
 # print the summaries
@@ -537,7 +569,7 @@ def txt_output(path, summarized, states_updated):
         print(tabulate([
             ["Last updated:", scrape_time.strftime("%Y-%m-%d %H:%M UTC")],
             ["Latest batch received: {}".format(f"({', '.join(states_updated)})" if states_updated else ""), batch_time.strftime("%Y-%m-%d %H:%M UTC")],
-            ["Prettier web version:", "https://alex.github.io/nyt-2020-election-scraper/battleground-state-changes.html"],
+            ["Prettier web version:", "https://ppcodeman.github.io/nyt-2022-election-scraper/battleground-state-changes.html"],
         ]), file=f)
 
         for (state, timestamped_results) in sorted(summarized.items()):

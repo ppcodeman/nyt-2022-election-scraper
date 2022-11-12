@@ -98,16 +98,10 @@
         background-position: 100%;
     }
 
-    .kelly-m{
+    .DEM{
         background-color: #84C4EE
     }
-    .masters-b{
-        background-color: #ED98A9;
-    }
-    .cortez_masto-c{
-        background-color: #84C4EE
-    }
-    .laxalt-a{
+    .REP{
         background-color: #ED98A9;
     }
 
@@ -131,16 +125,10 @@
         .table .thead-light th, .table td {
             border-color: #211d19;
         }
-        .CatherineCortezMasto {
+        .DEM {
             background-color: #05456F;
         }
-        .AdamLaxalt {
-            background-color: #6E192A;
-        }
-        .MarkKelly {
-            background-color: #05456F;
-        }
-        .MastersBlake {
+        .REP {
             background-color: #6E192A;
         }
     }
@@ -226,9 +214,9 @@
     </div>
     <div class="row">
         <div class="col-sm">
-            <p class="float-left" id="timestamps">Last scrape: <span class="timestamp">2022-11-12 15:43:40 UTC</span> | Last batch: <span class="timestamp">2022-11-12 05:15:11 UTC</span> </p>
-            <div id="template-hash" style="display: none;">c4771961e2b76d124ce9db057900fde0ffda6a61c177af3e389169b8e939dc56</div>
-            <div id="page-metadata" style="display: none;">{"template_hash": "c4771961e2b76d124ce9db057900fde0ffda6a61c177af3e389169b8e939dc56", "results_hash": "b6f1f586f34aebe202b819cb88b7a4f875407e8abb56bc848803bfe5a7e7b81e", "states_updated": []}</div>
+            <p class="float-left" id="timestamps">Last scrape: <span class="timestamp">2022-11-12 15:38:44 UTC</span> | Last batch: <span class="timestamp">2022-11-12 05:15:11 UTC</span> (Gov-Arizona)</p>
+            <div id="template-hash" style="display: none;">28577ac3c366cfc47cd5453c5cc10255607e935447b4929449c3c9d81c48d63c</div>
+            <div id="page-metadata" style="display: none;">{"template_hash": "28577ac3c366cfc47cd5453c5cc10255607e935447b4929449c3c9d81c48d63c", "results_hash": "5205d025d9e06ac0d29f985a973b365416892d754c56082e05388bce3a04feb4", "states_updated": ["AZ"]}</div>
         </div>
         <div class="col-sm">
             <p class="float-right">
@@ -239,13 +227,49 @@
     </div>
     <div class="row">
         <div class="col-sm">
-            <div class='table-responsive'><table id='arizona' class='table table-bordered'>
+            <div class='table-responsive'><table id='gov-arizona' class='table table-bordered'>
 
         <thead class="thead-light">
         <tr>
-            <td class="text-left flag-bg" style="background-image: url('flags/arizona.svg')" colspan="9">
+            <td class="text-left flag-bg" style="background-image: url('flags/gov-arizona.svg')" colspan="9">
                 <span class="has-tip" data-toggle="tooltip" title="Number of electoral votes contributed by this state and total votes by each candidate.">
-                    <span class="statename">Arizona (EV: 1)</span>
+                    <span class="statename">Gov-Arizona</span>
+                </span>
+                <br>
+                Katie Hobbs leads with 1,100,005 votes (50.7%), Kari Lake trails with 1,068,908 votes (49.3%).
+            </td>
+        </tr>
+        <tr>
+            <th class="has-tip" data-toggle="tooltip" title="When did this batch of votes get reported?">Timestamp</th>
+            <th class="has-tip" data-toggle="tooltip" title="Which candidate currently leads this state?">In The Lead</th>
+            <th class="has-tip numeric" data-toggle="tooltip" title="How many votes separate the two candidates?">Vote Margin</th>
+            <th class="has-tip numeric" data-toggle="tooltip" title="Approximately how many votes are remaining to be counted? These values might be off! Consult state websites and officials for the most accurate and up-to-date figures.">Votes Remaining (est.)</th>
+            <th class="has-tip numeric" data-toggle="tooltip" title="How many votes were reported in this batch, excluding third-party votes. If available, an estimated county-level breakdown is shown, but it might be inaccurate!">Change</th>
+            <th class="has-tip" data-toggle="tooltip" title="How were the votes in this batch, excluding third-party votes, split between the two candidates?">Batch Breakdown</th>
+            <th class="has-tip" data-toggle="tooltip" title="How has the trailing candidate's share of recent batches trended? Computed using a moving average of previous 30k votes.">Batch Trend</th>
+            <th class="has-tip" data-toggle="tooltip" title="What percentage of estimated remaining votes (excluding third-party votes) does the trailing candidate need to take the lead? Since this assumes the proportion of third-party votes remains the same, this might deviate from the breakdown in batches where this is not the case.">Hurdle</th>
+        </tr>
+        </thead>
+    
+
+        <tr id="gov-arizona-2022-11-12T04:03:39.333000" class="always-visible">
+            <td class="timestamp">2022-11-12 04:03:39 UTC</td>
+            <td class="DEM">Katie Hobbs</td>
+            <td class="numeric">31,097</td>
+            <td class="numeric">442,181</td>
+            <td class="numeric">      0</td>
+    <td>N/A</td><td>N/A</td>
+            <td class="hurdle">Kari Lake needs 58.6%</td>
+        </tr>
+    
+</table></div><hr>
+<div class='table-responsive'><table id='sen-arizona' class='table table-bordered'>
+
+        <thead class="thead-light">
+        <tr>
+            <td class="text-left flag-bg" style="background-image: url('flags/sen-arizona.svg')" colspan="9">
+                <span class="has-tip" data-toggle="tooltip" title="Number of electoral votes contributed by this state and total votes by each candidate.">
+                    <span class="statename">Sen-Arizona</span>
                 </span>
                 <br>
                 Mark Kelly leads with 1,128,917 votes (51.8%), Blake Masters trails with 1,005,001 votes (46.1%).
@@ -264,9 +288,9 @@
         </thead>
     
 
-        <tr id="arizona-2022-11-12T03:08:27.355000" class="always-visible">
+        <tr id="sen-arizona-2022-11-12T03:08:27.355000" class="always-visible">
             <td class="timestamp">2022-11-12 03:08:27 UTC</td>
-            <td class="MarkKelly">Mark Kelly</td>
+            <td class="DEM">Mark Kelly</td>
             <td class="numeric">123,916</td>
             <td class="numeric">444,610</td>
             <td class="numeric"> 73,037</td>
@@ -284,9 +308,9 @@
         </tr>
     
 
-        <tr id="arizona-2022-11-12T02:16:08.634000" class="always-visible">
+        <tr id="sen-arizona-2022-11-12T02:16:08.634000" class="always-visible">
             <td class="timestamp">2022-11-12 02:16:08 UTC</td>
-            <td class="MarkKelly">Mark Kelly</td>
+            <td class="DEM">Mark Kelly</td>
             <td class="numeric">115,515</td>
             <td class="numeric">519,000</td>
             <td class="numeric">  9,754</td>
@@ -304,9 +328,9 @@
         </tr>
     
 
-        <tr id="arizona-2022-11-12T02:03:28.552000" class="always-visible">
+        <tr id="sen-arizona-2022-11-12T02:03:28.552000" class="always-visible">
             <td class="timestamp">2022-11-12 02:03:28 UTC</td>
-            <td class="MarkKelly">Mark Kelly</td>
+            <td class="DEM">Mark Kelly</td>
             <td class="numeric">119,801</td>
             <td class="numeric">528,985</td>
             <td class="numeric"> 23,971</td>
@@ -324,9 +348,9 @@
         </tr>
     
 
-        <tr id="arizona-2022-11-12T01:16:56.810000">
+        <tr id="sen-arizona-2022-11-12T01:16:56.810000">
             <td class="timestamp">2022-11-12 01:16:56 UTC</td>
-            <td class="MarkKelly">Mark Kelly</td>
+            <td class="DEM">Mark Kelly</td>
             <td class="numeric">110,994</td>
             <td class="numeric">553,438</td>
             <td class="numeric"> 22,167</td>
@@ -344,9 +368,9 @@
         </tr>
     
 
-        <tr id="arizona-2022-11-11T23:40:02.266000">
+        <tr id="sen-arizona-2022-11-11T23:40:02.266000">
             <td class="timestamp">2022-11-11 23:40:02 UTC</td>
-            <td class="MarkKelly">Mark Kelly</td>
+            <td class="DEM">Mark Kelly</td>
             <td class="numeric">115,073</td>
             <td class="numeric">576,155</td>
             <td class="numeric">      0</td>
@@ -355,13 +379,13 @@
         </tr>
     
 </table></div><hr>
-<div class='table-responsive'><table id='nevada' class='table table-bordered'>
+<div class='table-responsive'><table id='sen-nevada' class='table table-bordered'>
 
         <thead class="thead-light">
         <tr>
-            <td class="text-left flag-bg" style="background-image: url('flags/nevada.svg')" colspan="9">
+            <td class="text-left flag-bg" style="background-image: url('flags/sen-nevada.svg')" colspan="9">
                 <span class="has-tip" data-toggle="tooltip" title="Number of electoral votes contributed by this state and total votes by each candidate.">
-                    <span class="statename">Nevada (EV: 1)</span>
+                    <span class="statename">Sen-Nevada</span>
                 </span>
                 <br>
                 Adam Laxalt leads with 468,437 votes (48.5%), Catherine Cortez Masto trails with 467,575 votes (48.4%).
@@ -380,9 +404,9 @@
         </thead>
     
 
-        <tr id="nevada-2022-11-12T05:15:11.319000" class="always-visible">
+        <tr id="sen-nevada-2022-11-12T05:15:11.319000" class="always-visible">
             <td class="timestamp">2022-11-12 05:15:11 UTC</td>
-            <td class="AdamLaxalt">Adam Laxalt</td>
+            <td class="GOP">Adam Laxalt</td>
             <td class="numeric">862</td>
             <td class="numeric">54,128</td>
             <td class="numeric">  2,417</td>
@@ -396,13 +420,13 @@
                 Catherine Cortez Masto is averaging 56.3%
             </td>
         
-            <td class="hurdle">Catherine Cortez Masto needs 50.8%</td>
+            <td class="hurdle">Catherine Cortez Masto needs 52.7%</td>
         </tr>
     
 
-        <tr id="nevada-2022-11-12T03:34:44.974000" class="always-visible">
+        <tr id="sen-nevada-2022-11-12T03:34:44.974000" class="always-visible">
             <td class="timestamp">2022-11-12 03:34:44 UTC</td>
-            <td class="AdamLaxalt">Adam Laxalt</td>
+            <td class="GOP">Adam Laxalt</td>
             <td class="numeric">821</td>
             <td class="numeric">56,707</td>
             <td class="numeric"> 10,512</td>
@@ -416,13 +440,13 @@
                 Catherine Cortez Masto is averaging 57.6%
             </td>
         
-            <td class="hurdle">Catherine Cortez Masto needs 50.7%</td>
+            <td class="hurdle">Catherine Cortez Masto needs 52.4%</td>
         </tr>
     
 
-        <tr id="nevada-2022-11-12T02:22:26.691000" class="always-visible">
+        <tr id="sen-nevada-2022-11-12T02:22:26.691000" class="always-visible">
             <td class="timestamp">2022-11-12 02:22:26 UTC</td>
-            <td class="AdamLaxalt">Adam Laxalt</td>
+            <td class="GOP">Adam Laxalt</td>
             <td class="numeric">1,951</td>
             <td class="numeric">67,650</td>
             <td class="numeric">  4,893</td>
@@ -436,13 +460,13 @@
                 Catherine Cortez Masto is averaging 61.2%
             </td>
         
-            <td class="hurdle">Catherine Cortez Masto needs 51.5%</td>
+            <td class="hurdle">Catherine Cortez Masto needs 54.8%</td>
         </tr>
     
 
-        <tr id="nevada-2022-11-12T01:16:56.810000">
+        <tr id="sen-nevada-2022-11-12T01:16:56.810000">
             <td class="timestamp">2022-11-12 01:16:56 UTC</td>
-            <td class="AdamLaxalt">Adam Laxalt</td>
+            <td class="GOP">Adam Laxalt</td>
             <td class="numeric">798</td>
             <td class="numeric">72,718</td>
             <td class="numeric"> 26,110</td>
@@ -456,18 +480,18 @@
                 Catherine Cortez Masto is averaging 65.7%
             </td>
         
-            <td class="hurdle">Catherine Cortez Masto needs 50.6%</td>
+            <td class="hurdle">Catherine Cortez Masto needs 51.8%</td>
         </tr>
     
 
-        <tr id="nevada-2022-11-11T23:40:02.266000">
+        <tr id="sen-nevada-2022-11-11T23:40:02.266000">
             <td class="timestamp">2022-11-11 23:40:02 UTC</td>
-            <td class="AdamLaxalt">Adam Laxalt</td>
+            <td class="GOP">Adam Laxalt</td>
             <td class="numeric">8,988</td>
             <td class="numeric">99,947</td>
             <td class="numeric">      0</td>
     <td>N/A</td><td>N/A</td>
-            <td class="hurdle">Catherine Cortez Masto needs 54.6%</td>
+            <td class="hurdle">Catherine Cortez Masto needs 65.1%</td>
         </tr>
     
 </table></div><hr>
