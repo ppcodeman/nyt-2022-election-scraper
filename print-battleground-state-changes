@@ -131,7 +131,7 @@ IterationSummary = collections.namedtuple(
     [
         'timestamp',
         'leading_candidate_name',
-        'trailing_  candidate_name',
+        'trailing_candidate_name',
         'leading_candidate_votes',
         'trailing_candidate_votes',
         'vote_differential',
