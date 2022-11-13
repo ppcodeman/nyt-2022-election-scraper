@@ -198,7 +198,11 @@ def fetch_all_house_records():
                         out.append(InputRecord(*row))
                     continue
         blob = git_show(ref, 'results-house.json', repo)
-        json = parser.parse(blob)
+        try:
+            json = parser.parse(blob)
+        except Exception:
+            print("Failed to parse ref " + ref)
+            continue
         timestamp = json['resultsMeta']['resultsUpdatedAt']
         for race in json['races']:
             #race = json['races'][index]
