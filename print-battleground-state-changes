@@ -57,7 +57,11 @@ def fetch_all_senate_records():
                         out.append(InputRecord(*row))
                     continue
         blob = git_show(ref, 'results-senate.json', repo)
-        json = parser.parse(blob)
+        try:
+            json = parser.parse(blob)
+        except Exception:
+            print("Failed to parse ref " + ref)
+            continue
         timestamp = json['resultsMeta']['resultsUpdatedAt']
         for index in SENATE_STATE_INDEXES:
             race = json['races'][index]
@@ -128,7 +132,11 @@ def fetch_all_gov_records():
                         out.append(InputRecord(*row))
                     continue
         blob = git_show(ref, 'results-governor.json', repo)
-        json = parser.parse(blob)
+        try:
+            json = parser.parse(blob)
+        except Exception:
+            print("Failed to parse ref " + ref)
+            continue
         timestamp = json['resultsMeta']['resultsUpdatedAt']
         for index in GOVERNOR_STATE_INDEXES:
             race = json['races'][index]
