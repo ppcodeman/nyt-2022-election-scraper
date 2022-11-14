@@ -493,10 +493,11 @@ def json_to_summary(
     # If we're trying to estimate the proportion of third-party votes across
     # the entire vote population, we want to use the largest sample size we
     # have - i.e. the newest data we've received
-    latest_relevant_proportion = (latest_candidate_votes[candidate1_key] + latest_candidate_votes[candidate2_key]) / sum(latest_candidate_votes.values())
-    votes_remaining_relevant = votes_remaining * latest_relevant_proportion
-    hurdle = (vote_diff + votes_remaining_relevant) / (2 * votes_remaining_relevant) if votes_remaining_relevant > 0 else 0
-
+    #latest_relevant_proportion = (latest_candidate_votes[candidate1_key] + latest_candidate_votes[candidate2_key]) / sum(latest_candidate_votes.values())
+    #votes_remaining_relevant = votes_remaining * latest_relevant_proportion
+    # The above doesn't work in many situations so just go with the simple ratio.
+    hurdle = (vote_diff + votes_remaining) / (2 * votes_remaining) if votes_remaining > 0 else 0
+    
     candidate_votes = {c['nyt_id']: c['votes']['total'] for c in row.candidates}
 
     # We need to use the votes delta for our two leading candidates, not for
@@ -551,6 +552,10 @@ def json_to_summary(
         counties_partition,
         total_votes,
     )
+    print("ROW")
+    print(row)
+    print("Summary")
+    print(summary)
 
     return iteration_info, summary
 
