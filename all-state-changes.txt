@@ -1,12 +1,12 @@
-----------------------------------------------------------------------------------------  -------------------------------------------------------------------------------------
-Last updated:                                                                             2022-11-14 23:56 UTC
-Latest batch received: (Sen-Arizona, Gov-Arizona, House-CA-27, House-CA-35, House-CA-45)  2022-11-14 23:45 UTC
-Prettier web version:                                                                     https://ppcodeman.github.io/nyt-2022-election-scraper/battleground-state-changes.html
-----------------------------------------------------------------------------------------  -------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------  -------------------------------------------------------------------------------------
+Last updated:                                                                                         2022-11-15 01:57 UTC
+Latest batch received: (Sen-Arizona, Sen-Nevada, Gov-Arizona, House-CA-27, House-CA-35, House-CA-45)  2022-11-15 01:56 UTC
+Prettier web version:                                                                                 https://ppcodeman.github.io/nyt-2022-election-scraper/battleground-state-changes.html
+----------------------------------------------------------------------------------------------------  -------------------------------------------------------------------------------------
 
 Gov-Arizona Total Votes: (Katie Hobbs: 1,213,456, Kari Lake: 1,188,737)
 ----------------  ---  ---------------------  --------------------  -------------------------------  ----------------  ----------------------  ----------------
-2022-11-14 23:45  ***  Katie Hobbs up 24,719  Left (est.): 208,886  Δ:       0 (n/a)                 91.97% precincts  Kari Lake needs 55.92%  & trends  56.37%
+2022-11-14 23:45  ---  Katie Hobbs up 24,719  Left (est.): 208,886  Δ:       0 (n/a)                 91.97% precincts  Kari Lake needs 55.92%  & trends  56.37%
 2022-11-14 23:20  ---  Katie Hobbs up 24,719  Left (est.): 208,886  Δ:   1,635 (Kari Lake + 1.6%)    93.19% precincts  Kari Lake needs 55.92%  & trends  56.37%
 2022-11-14 18:28  ---  Katie Hobbs up 24,772  Left (est.): 210,521  Δ:   3,379 (Kari Lake +18.3%)    93.13% precincts  Kari Lake needs 55.88%  & trends  56.56%
 2022-11-14 02:08  ---  Katie Hobbs up 26,011  Left (est.): 213,900  Δ: 100,377 (Kari Lake + 5.1%)    93.01% precincts  Kari Lake needs 56.08%  & trends  55.07%
@@ -73,7 +73,7 @@ House-CA-26 Total Votes: (Julia Brownley: 82,904, Matt Jacobs: 69,673)
 
 House-CA-27 Total Votes: (Mike Garcia: 81,720, Christy Smith: 68,553)
 ----------------  ---  ---------------------  -------------------  ---------------------------------  ----------------  --------------------------  ----------------
-2022-11-14 23:43  ***  Mike Garcia up 13,167  Left (est.): 53,797  Δ:  12,728 (Christy Smith + 6.7%)  73.72% precincts  Christy Smith needs 62.24%  & trends  56.27%
+2022-11-14 23:43  ---  Mike Garcia up 13,167  Left (est.): 53,797  Δ:  12,728 (Christy Smith + 6.7%)  73.72% precincts  Christy Smith needs 62.24%  & trends  56.27%
 2022-11-13 02:08  ---  Mike Garcia up 14,861  Left (est.): 66,525  Δ:   6,940 (Christy Smith + 5.6%)  67.31% precincts  Christy Smith needs 61.17%  & trends  55.56%
 2022-11-12 16:40  ---  Mike Garcia up 15,633  Left (est.): 73,465  Δ:       0 (n/a)                   64.10% precincts  Christy Smith needs 60.64%  & trends  n/a
 ----------------  ---  ---------------------  -------------------  ---------------------------------  ----------------  --------------------------  ----------------
@@ -105,7 +105,7 @@ House-CA-41 Total Votes: (Ken Calvert: 82,984, Will Rollins: 78,918)
 
 House-CA-45 Total Votes: (Michelle Steel: 90,389, Jay Chen: 78,622)
 ----------------  ---  ------------------------  -------------------  ----------------------------  ----------------  ---------------------  ----------------
-2022-11-14 23:43  ***  Michelle Steel up 11,767  Left (est.): 68,538  Δ:   1,741 (Jay Chen +13.9%)  71.11% precincts  Jay Chen needs 58.58%  & trends  54.44%
+2022-11-14 23:43  ---  Michelle Steel up 11,767  Left (est.): 68,538  Δ:   1,741 (Jay Chen +13.9%)  71.11% precincts  Jay Chen needs 58.58%  & trends  54.44%
 2022-11-13 03:44  ---  Michelle Steel up 12,252  Left (est.): 70,279  Δ:   2,273 (Jay Chen + 5.3%)  70.44% precincts  Jay Chen needs 58.72%  & trends  52.55%
 2022-11-13 02:08  ---  Michelle Steel up 12,493  Left (est.): 72,552  Δ:   6,514 (Jay Chen + 1.6%)  69.56% precincts  Jay Chen needs 58.61%  & trends  51.60%
 2022-11-12 16:40  ---  Michelle Steel up 12,701  Left (est.): 79,066  Δ:       0 (n/a)              66.67% precincts  Jay Chen needs 58.03%  & trends  n/a
@@ -189,27 +189,29 @@ House-WA-3 Total Votes: (Marie Gluesenkamp Pérez: 146,372, Joe Kent: 141,413)
 2022-11-12 16:40  ---  Marie Gluesenkamp Pérez up 4,959  Left (est.): 31,885  Δ:       0 (n/a)  70.06% precincts  Joe Kent needs 57.78%  & trends  n/a
 ----------------  ---  --------------------------------  -------------------  ----------------  ----------------  ---------------------  -------------
 
-Sen-Arizona Total Votes: (Mark Kelly: 1,245,311, Blake Masters: 1,118,654)
-----------------  ---  ---------------------  --------------------  ---------------------------------  ----------------  --------------------------  ----------------
-2022-11-14 23:52  ***  Mark Kelly up 126,657  Left (est.): 209,951  Δ:       0 (n/a)                   91.97% precincts  Blake Masters needs 80.16%  & trends  54.47%
-2022-11-14 23:20  ---  Mark Kelly up 126,657  Left (est.): 209,951  Δ:   1,587 (Mark Kelly + 0.2%)     93.19% precincts  Blake Masters needs 80.16%  & trends  54.47%
-2022-11-14 18:24  ---  Mark Kelly up 126,650  Left (est.): 211,584  Δ:   3,324 (Blake Masters +16.5%)  93.13% precincts  Blake Masters needs 79.93%  & trends  54.65%
-2022-11-14 02:05  ---  Mark Kelly up 127,746  Left (est.): 214,978  Δ:  99,108 (Blake Masters + 3.2%)  93.01% precincts  Blake Masters needs 79.71%  & trends  53.17%
-2022-11-13 22:20  ---  Mark Kelly up 134,030  Left (est.): 315,918  Δ:  11,654 (Mark Kelly +12.5%)     89.03% precincts  Blake Masters needs 71.21%  & trends  44.89%
-2022-11-13 21:15  ---  Mark Kelly up 131,116  Left (est.): 327,809  Δ:   3,900 (Blake Masters + 2.4%)  88.57% precincts  Blake Masters needs 70.00%  & trends  48.54%
-2022-11-13 17:26  ---  Mark Kelly up 131,300  Left (est.): 331,821  Δ:   2,180 (Mark Kelly + 5.0%)     88.39% precincts  Blake Masters needs 69.78%  & trends  47.82%
-2022-11-13 01:58  ---  Mark Kelly up 131,080  Left (est.): 334,037  Δ:   1,178 (Blake Masters +24.5%)  88.34% precincts  Blake Masters needs 69.62%  & trends  47.96%
-2022-11-13 01:26  ---  Mark Kelly up 131,658  Left (est.): 335,228  Δ: 102,814 (Mark Kelly + 3.1%)     88.28% precincts  Blake Masters needs 69.64%  & trends  46.88%
-2022-11-12 23:20  ---  Mark Kelly up 125,240  Left (est.): 439,858  Δ:   4,302 (Mark Kelly +15.4%)     83.26% precincts  Blake Masters needs 64.24%  & trends  42.87%
-2022-11-12 03:08  ---  Mark Kelly up 123,916  Left (est.): 444,284  Δ:  73,037 (Mark Kelly + 5.8%)     83.08% precincts  Blake Masters needs 63.95%  & trends  44.25%
-2022-11-12 02:16  ---  Mark Kelly up 115,515  Left (est.): 518,674  Δ:   9,754 (Blake Masters +22.0%)  80.25% precincts  Blake Masters needs 61.14%  & trends  44.75%
-2022-11-12 02:03  ---  Mark Kelly up 119,801  Left (est.): 528,659  Δ:  23,971 (Mark Kelly +18.4%)     79.85% precincts  Blake Masters needs 61.33%  & trends  37.17%
-2022-11-12 01:16  ---  Mark Kelly up 110,994  Left (est.): 553,112  Δ:  22,167 (Blake Masters + 9.2%)  78.93% precincts  Blake Masters needs 60.03%  & trends  59.20%
-2022-11-11 23:40  ---  Mark Kelly up 115,073  Left (est.): 575,829  Δ:       0 (n/a)                   78.06% precincts  Blake Masters needs 59.99%  & trends  n/a
-----------------  ---  ---------------------  --------------------  ---------------------------------  ----------------  --------------------------  ----------------
+Sen-Arizona Total Votes: (Mark Kelly: 1,298,562, Blake Masters: 1,171,838)
+----------------  ---  ---------------------  --------------------  ---------------------------------  ----------------  ---------------------------  ----------------
+2022-11-15 01:56  ***  Mark Kelly up 126,724  Left (est.): 55,002   Δ: 106,435 (Mark Kelly + 0.0%)     97.86% precincts  Blake Masters needs 165.20%  & trends  49.97%
+2022-11-14 23:52  ---  Mark Kelly up 126,657  Left (est.): 163,573  Δ:       0 (n/a)                   91.97% precincts  Blake Masters needs 88.72%   & trends  54.47%
+2022-11-14 23:20  ---  Mark Kelly up 126,657  Left (est.): 163,573  Δ:   1,587 (Mark Kelly + 0.2%)     93.19% precincts  Blake Masters needs 88.72%   & trends  54.47%
+2022-11-14 18:24  ---  Mark Kelly up 126,650  Left (est.): 165,206  Δ:   3,324 (Blake Masters +16.5%)  93.13% precincts  Blake Masters needs 88.33%   & trends  54.65%
+2022-11-14 02:05  ---  Mark Kelly up 127,746  Left (est.): 168,600  Δ:  99,108 (Blake Masters + 3.2%)  93.01% precincts  Blake Masters needs 87.88%   & trends  53.17%
+2022-11-13 22:20  ---  Mark Kelly up 134,030  Left (est.): 269,540  Δ:  11,654 (Mark Kelly +12.5%)     89.03% precincts  Blake Masters needs 74.86%   & trends  44.89%
+2022-11-13 21:15  ---  Mark Kelly up 131,116  Left (est.): 281,431  Δ:   3,900 (Blake Masters + 2.4%)  88.57% precincts  Blake Masters needs 73.29%   & trends  48.54%
+2022-11-13 17:26  ---  Mark Kelly up 131,300  Left (est.): 285,443  Δ:   2,180 (Mark Kelly + 5.0%)     88.39% precincts  Blake Masters needs 73.00%   & trends  47.82%
+2022-11-13 01:58  ---  Mark Kelly up 131,080  Left (est.): 287,659  Δ:   1,178 (Blake Masters +24.5%)  88.34% precincts  Blake Masters needs 72.78%   & trends  47.96%
+2022-11-13 01:26  ---  Mark Kelly up 131,658  Left (est.): 288,850  Δ: 102,814 (Mark Kelly + 3.1%)     88.28% precincts  Blake Masters needs 72.79%   & trends  46.88%
+2022-11-12 23:20  ---  Mark Kelly up 125,240  Left (est.): 393,480  Δ:   4,302 (Mark Kelly +15.4%)     83.26% precincts  Blake Masters needs 65.91%   & trends  42.87%
+2022-11-12 03:08  ---  Mark Kelly up 123,916  Left (est.): 397,906  Δ:  73,037 (Mark Kelly + 5.8%)     83.08% precincts  Blake Masters needs 65.57%   & trends  44.25%
+2022-11-12 02:16  ---  Mark Kelly up 115,515  Left (est.): 472,296  Δ:   9,754 (Blake Masters +22.0%)  80.25% precincts  Blake Masters needs 62.23%   & trends  44.75%
+2022-11-12 02:03  ---  Mark Kelly up 119,801  Left (est.): 482,281  Δ:  23,971 (Mark Kelly +18.4%)     79.85% precincts  Blake Masters needs 62.42%   & trends  37.17%
+2022-11-12 01:16  ---  Mark Kelly up 110,994  Left (est.): 506,734  Δ:  22,167 (Blake Masters + 9.2%)  78.93% precincts  Blake Masters needs 60.95%   & trends  59.20%
+2022-11-11 23:40  ---  Mark Kelly up 115,073  Left (est.): 529,451  Δ:       0 (n/a)                   78.06% precincts  Blake Masters needs 60.87%   & trends  n/a
+----------------  ---  ---------------------  --------------------  ---------------------------------  ----------------  ---------------------------  ----------------
 
-Sen-Nevada Total Votes: (Catherine Cortez Masto: 488,373, Adam Laxalt: 481,805)
+Sen-Nevada Total Votes: (Catherine Cortez Masto: 490,601, Adam Laxalt: 482,688)
 ----------------  ---  -------------------------------  -------------------  ------------------------------------------  ----------------  -----------------------------------  ----------------
+2022-11-15 01:56  ***  Catherine Cortez Masto up 7,913  Left (est.): 15,243  Δ:   3,111 (Catherine Cortez Masto +21.6%)  98.52% precincts  Adam Laxalt needs 75.96%             & trends  38.55%
 2022-11-14 20:23  ---  Catherine Cortez Masto up 6,568  Left (est.): 18,472  Δ:     120 (Adam Laxalt + 5.8%)             98.17% precincts  Adam Laxalt needs 67.78%             & trends  39.43%
 2022-11-14 16:32  ---  Catherine Cortez Masto up 6,582  Left (est.): 18,602  Δ:     956 (Catherine Cortez Masto + 1.4%)  98.17% precincts  Adam Laxalt needs 67.69%             & trends  39.36%
 2022-11-13 04:15  ---  Catherine Cortez Masto up 6,556  Left (est.): 19,580  Δ:  10,249 (Catherine Cortez Masto + 8.5%)  98.11% precincts  Adam Laxalt needs 66.74%             & trends  38.99%
