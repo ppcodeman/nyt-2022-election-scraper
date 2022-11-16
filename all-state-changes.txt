@@ -1,12 +1,12 @@
----------------------------------------------------------------------------------------------------------------------------  -------------------------------------------------------------------------------------
-Last updated:                                                                                                                2022-11-16 02:08 UTC
-Latest batch received: (Sen-Arizona, Sen-Nevada, Gov-Arizona, House-AZ-1, House-AZ-6, House-CA-3, House-CA-35, House-CA-45)  2022-11-16 01:59 UTC
-Prettier web version:                                                                                                        https://ppcodeman.github.io/nyt-2022-election-scraper/battleground-state-changes.html
----------------------------------------------------------------------------------------------------------------------------  -------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  -------------------------------------------------------------------------------------
+Last updated:                                                                                                                                                                                                           2022-11-16 03:23 UTC
+Latest batch received: (Sen-Arizona, Gov-Arizona, House-AK-1, House-AZ-1, House-AZ-6, House-CA-3, House-CA-13, House-CA-21, House-CA-22, House-CA-27, House-CA-34, House-CA-35, House-CA-45, House-CA-47, House-CA-49)  2022-11-16 02:07 UTC
+Prettier web version:                                                                                                                                                                                                   https://ppcodeman.github.io/nyt-2022-election-scraper/battleground-state-changes.html
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  -------------------------------------------------------------------------------------
 
 Gov-Arizona Total Votes: (Katie Hobbs: 1,276,937, Kari Lake: 1,259,688)
 ----------------  ---  ---------------------  --------------------  -------------------------------  ----------------  ----------------------  ----------------
-2022-11-16 01:59  ***  Katie Hobbs up 17,249  Left (est.): 28,294   Δ:  12,256 (Kari Lake + 8.3%)    98.90% precincts  Kari Lake needs 80.48%  & trends  55.62%
+2022-11-16 01:59  ---  Katie Hobbs up 17,249  Left (est.): 28,294   Δ:  12,256 (Kari Lake + 8.3%)    98.90% precincts  Kari Lake needs 80.48%  & trends  55.62%
 2022-11-15 23:22  ---  Katie Hobbs up 19,273  Left (est.): 40,550   Δ:   1,912 (Katie Hobbs +18.9%)  98.44% precincts  Kari Lake needs 73.76%  & trends  53.05%
 2022-11-15 22:18  ---  Katie Hobbs up 18,551  Left (est.): 42,462   Δ:   1,166 (Katie Hobbs +29.4%)  98.33% precincts  Kari Lake needs 71.84%  & trends  54.38%
 2022-11-15 21:19  ---  Katie Hobbs up 17,865  Left (est.): 43,628   Δ:   1,579 (Kari Lake + 9.4%)    98.33% precincts  Kari Lake needs 70.47%  & trends  55.60%
@@ -31,10 +31,11 @@ Gov-Arizona Total Votes: (Katie Hobbs: 1,276,937, Kari Lake: 1,259,688)
 2022-11-12 04:03  ---  Katie Hobbs up 31,097  Left (est.): 396,006  Δ:       0 (n/a)                 83.08% precincts  Kari Lake needs 53.93%  & trends  n/a
 ----------------  ---  ---------------------  --------------------  -------------------------------  ----------------  ----------------------  ----------------
 
-House-AK-1 Total Votes: (Mary Peltola: 101,441, Sarah Palin: 57,035)
-----------------  ---  ----------------------  -------------------  ----------------  -----------------  ------------------------  -------------
-2022-11-12 16:40  ---  Mary Peltola up 44,406  Left (est.): 53,332  Δ:       0 (n/a)  100.00% precincts  Sarah Palin needs 91.63%  & trends  n/a
-----------------  ---  ----------------------  -------------------  ----------------  -----------------  ------------------------  -------------
+House-AK-1 Total Votes: (Mary Peltola: 108,781, Sarah Palin: 61,092)
+----------------  ---  ----------------------  -------------------  --------------------------------  -----------------  -------------------------  ----------------
+2022-11-16 02:07  ---  Mary Peltola up 47,689  Left (est.): 38,395  Δ:  11,397 (Mary Peltola +14.4%)  85.57% precincts   Sarah Palin needs 112.10%  & trends  35.60%
+2022-11-12 16:40  ---  Mary Peltola up 44,406  Left (est.): 53,332  Δ:       0 (n/a)                  100.00% precincts  Sarah Palin needs 91.63%   & trends  n/a
+----------------  ---  ----------------------  -------------------  --------------------------------  -----------------  -------------------------  ----------------
 
 House-AZ-1 Total Votes: (David Schweikert: 180,875, Jevin Hodge: 177,867)
 ----------------  ---  -------------------------  -------------------  ------------------------------------  ----------------  -----------------------------  ----------------
@@ -58,25 +59,28 @@ House-AZ-6 Total Votes: (Juan Ciscomani: 172,287, Kirsten Engel: 168,785)
 2022-11-12 16:40  ---  Juan Ciscomani up 2,906  Left (est.): 55,214  Δ:       0 (n/a)                    82.87% precincts  Kirsten Engel needs 52.63%  & trends  n/a
 ----------------  ---  -----------------------  -------------------  ----------------------------------  ----------------  --------------------------  ----------------
 
-House-CA-13 Total Votes: (Adam Gray: 51,203, John Duarte: 50,442)
-----------------  ---  -----------------  -------------------  -----------------------------  ----------------  ------------------------  ----------------
-2022-11-15 03:32  ---  Adam Gray up 761   Left (est.): 28,121  Δ:  22,335 (Adam Gray + 1.9%)  78.43% precincts  John Duarte needs 51.35%  & trends  48.11%
-2022-11-12 16:40  ---  John Duarte up 84  Left (est.): 50,456  Δ:       0 (n/a)               61.09% precincts  Adam Gray needs 50.08%    & trends  n/a
-----------------  ---  -----------------  -------------------  -----------------------------  ----------------  ------------------------  ----------------
+House-CA-13 Total Votes: (Adam Gray: 54,881, John Duarte: 54,533)
+----------------  ---  -----------------  -------------------  -------------------------------  ----------------  ------------------------  ----------------
+2022-11-16 02:07  ---  Adam Gray up 348   Left (est.): 21,669  Δ:   7,769 (John Duarte + 2.7%)  83.47% precincts  John Duarte needs 50.80%  & trends  49.29%
+2022-11-15 03:32  ---  Adam Gray up 761   Left (est.): 29,438  Δ:  22,335 (Adam Gray + 1.9%)    78.43% precincts  John Duarte needs 51.29%  & trends  48.11%
+2022-11-12 16:40  ---  John Duarte up 84  Left (est.): 51,773  Δ:       0 (n/a)                 61.09% precincts  Adam Gray needs 50.08%    & trends  n/a
+----------------  ---  -----------------  -------------------  -------------------------------  ----------------  ------------------------  ----------------
 
 House-CA-15 Total Votes: (Kevin Mullin: 65,447, David Canepa: 50,650)
 ----------------  ---  ----------------------  -------------------  ----------------  ----------------  -------------------------  -------------
 2022-11-12 16:40  ---  Kevin Mullin up 14,797  Left (est.): 90,141  Δ:       0 (n/a)  56.19% precincts  David Canepa needs 58.21%  & trends  n/a
 ----------------  ---  ----------------------  -------------------  ----------------  ----------------  -------------------------  -------------
 
-House-CA-21 Total Votes: (Jim Costa: 45,202, Michael Maher: 38,110)
-----------------  ---  ------------------  -------------------  ---------------------------------  ----------------  --------------------------  ----------------
-2022-11-15 03:32  ---  Jim Costa up 7,092  Left (est.): 25,633  Δ:   1,355 (Michael Maher +13.7%)  76.45% precincts  Michael Maher needs 63.83%  & trends  63.69%
-2022-11-12 16:40  ---  Jim Costa up 7,463  Left (est.): 26,988  Δ:       0 (n/a)                   75.25% precincts  Michael Maher needs 63.83%  & trends  n/a
-----------------  ---  ------------------  -------------------  ---------------------------------  ----------------  --------------------------  ----------------
+House-CA-21 Total Votes: (Jim Costa: 55,017, Michael Maher: 44,671)
+----------------  ---  -------------------  -------------------  ---------------------------------  ----------------  --------------------------  ----------------
+2022-11-16 02:07  ---  Jim Costa up 10,346  Left (est.): 22,763  Δ:  16,376 (Jim Costa + 9.9%)      81.44% precincts  Michael Maher needs 72.73%  & trends  41.87%
+2022-11-15 03:32  ---  Jim Costa up 7,092   Left (est.): 39,139  Δ:   1,355 (Michael Maher +13.7%)  76.45% precincts  Michael Maher needs 59.06%  & trends  63.69%
+2022-11-12 16:40  ---  Jim Costa up 7,463   Left (est.): 40,494  Δ:       0 (n/a)                   75.25% precincts  Michael Maher needs 59.21%  & trends  n/a
+----------------  ---  -------------------  -------------------  ---------------------------------  ----------------  --------------------------  ----------------
 
-House-CA-22 Total Votes: (David Valadao: 30,292, Rudy Salas: 27,236)
+House-CA-22 Total Votes: (David Valadao: 34,295, Rudy Salas: 31,452)
 ----------------  ---  ----------------------  -------------------  ---------------------------------  ----------------  -----------------------  ----------------
+2022-11-16 02:07  ---  David Valadao up 2,843  Left (est.): 40,119  Δ:   8,219 (Rudy Salas + 1.3%)     62.18% precincts  Rudy Salas needs 53.54%  & trends  50.19%
 2022-11-15 22:24  ---  David Valadao up 3,056  Left (est.): 48,338  Δ:     171 (Rudy Salas + 2.0%)     54.36% precincts  Rudy Salas needs 53.16%  & trends  41.54%
 2022-11-15 03:32  ---  David Valadao up 3,063  Left (est.): 48,509  Δ:     881 (David Valadao +10.5%)  54.18% precincts  Rudy Salas needs 53.16%  & trends  39.50%
 2022-11-12 16:40  ---  David Valadao up 2,878  Left (est.): 49,390  Δ:       0 (n/a)                   53.27% precincts  Rudy Salas needs 52.91%  & trends  n/a
@@ -88,30 +92,33 @@ House-CA-26 Total Votes: (Julia Brownley: 82,904, Matt Jacobs: 69,673)
 2022-11-12 16:40  ---  Julia Brownley up 13,079  Left (est.): 103,614  Δ:       0 (n/a)                    59.46% precincts  Matt Jacobs needs 56.31%  & trends  n/a
 ----------------  ---  ------------------------  --------------------  ----------------------------------  ----------------  ------------------------  ----------------
 
-House-CA-27 Total Votes: (Mike Garcia: 81,720, Christy Smith: 68,553)
-----------------  ---  ---------------------  --------------------  ---------------------------------  ----------------  --------------------------  ----------------
-2022-11-15 03:32  ---  Mike Garcia up 13,167  Left (est.): 80,916   Δ:       0 (n/a)                   64.96% precincts  Christy Smith needs 58.14%  & trends  56.27%
-2022-11-15 02:08  ---  Mike Garcia up 13,167  Left (est.): 80,916   Δ:       0 (n/a)                   70.09% precincts  Christy Smith needs 58.14%  & trends  56.27%
-2022-11-14 23:43  ---  Mike Garcia up 13,167  Left (est.): 80,916   Δ:  12,728 (Christy Smith + 6.7%)  73.72% precincts  Christy Smith needs 58.14%  & trends  56.27%
-2022-11-13 02:08  ---  Mike Garcia up 14,861  Left (est.): 93,644   Δ:   6,940 (Christy Smith + 5.6%)  67.31% precincts  Christy Smith needs 57.93%  & trends  55.56%
-2022-11-12 16:40  ---  Mike Garcia up 15,633  Left (est.): 100,584  Δ:       0 (n/a)                   64.10% precincts  Christy Smith needs 57.77%  & trends  n/a
-----------------  ---  ---------------------  --------------------  ---------------------------------  ----------------  --------------------------  ----------------
+House-CA-27 Total Votes: (Mike Garcia: 85,435, Christy Smith: 72,301)
+----------------  ---  ---------------------  -------------------  ---------------------------------  ----------------  --------------------------  ----------------
+2022-11-16 02:07  ---  Mike Garcia up 13,134  Left (est.): 67,601  Δ:   7,463 (Christy Smith + 0.2%)  70.09% precincts  Christy Smith needs 59.71%  & trends  54.61%
+2022-11-15 03:32  ---  Mike Garcia up 13,167  Left (est.): 75,064  Δ:       0 (n/a)                   64.96% precincts  Christy Smith needs 58.77%  & trends  56.27%
+2022-11-15 02:08  ---  Mike Garcia up 13,167  Left (est.): 75,064  Δ:       0 (n/a)                   70.09% precincts  Christy Smith needs 58.77%  & trends  56.27%
+2022-11-14 23:43  ---  Mike Garcia up 13,167  Left (est.): 75,064  Δ:  12,728 (Christy Smith + 6.7%)  73.72% precincts  Christy Smith needs 58.77%  & trends  56.27%
+2022-11-13 02:08  ---  Mike Garcia up 14,861  Left (est.): 87,792  Δ:   6,940 (Christy Smith + 5.6%)  67.31% precincts  Christy Smith needs 58.46%  & trends  55.56%
+2022-11-12 16:40  ---  Mike Garcia up 15,633  Left (est.): 94,732  Δ:       0 (n/a)                   64.10% precincts  Christy Smith needs 58.25%  & trends  n/a
+----------------  ---  ---------------------  -------------------  ---------------------------------  ----------------  --------------------------  ----------------
 
-House-CA-3 Total Votes: (Kevin Kiley: 94,388, Kermit Jones: 84,335)
+House-CA-3 Total Votes: (Kevin Kiley: 97,102, Kermit Jones: 86,841)
 ----------------  ---  ---------------------  --------------------  --------------------------------  ----------------  -------------------------  ----------------
-2022-11-15 23:43  ---  Kevin Kiley up 10,053  Left (est.): 143,324  Δ:     531 (Kermit Jones + 2.0%)  55.53% precincts  Kermit Jones needs 53.51%  & trends  49.56%
-2022-11-15 23:22  ---  Kevin Kiley up 10,074  Left (est.): 143,855  Δ:   7,025 (Kevin Kiley + 2.2%)   55.27% precincts  Kermit Jones needs 53.50%  & trends  49.43%
-2022-11-15 22:24  ---  Kevin Kiley up 9,763   Left (est.): 150,880  Δ:      66 (Kevin Kiley +36.4%)   53.11% precincts  Kermit Jones needs 53.24%  & trends  53.52%
-2022-11-15 02:08  ---  Kevin Kiley up 9,715   Left (est.): 150,946  Δ:   2,763 (Kermit Jones + 4.5%)  53.11% precincts  Kermit Jones needs 53.22%  & trends  54.47%
-2022-11-12 16:40  ---  Kevin Kiley up 9,962   Left (est.): 153,709  Δ:       0 (n/a)                  52.48% precincts  Kermit Jones needs 53.24%  & trends  n/a
+2022-11-16 02:07  ---  Kevin Kiley up 10,261  Left (est.): 138,121  Δ:   5,220 (Kevin Kiley + 2.0%)   57.05% precincts  Kermit Jones needs 53.71%  & trends  49.04%
+2022-11-15 23:43  ---  Kevin Kiley up 10,053  Left (est.): 143,341  Δ:     531 (Kermit Jones + 2.0%)  55.53% precincts  Kermit Jones needs 53.51%  & trends  49.56%
+2022-11-15 23:22  ---  Kevin Kiley up 10,074  Left (est.): 143,872  Δ:   7,025 (Kevin Kiley + 2.2%)   55.27% precincts  Kermit Jones needs 53.50%  & trends  49.43%
+2022-11-15 22:24  ---  Kevin Kiley up 9,763   Left (est.): 150,897  Δ:      66 (Kevin Kiley +36.4%)   53.11% precincts  Kermit Jones needs 53.23%  & trends  53.52%
+2022-11-15 02:08  ---  Kevin Kiley up 9,715   Left (est.): 150,963  Δ:   2,763 (Kermit Jones + 4.5%)  53.11% precincts  Kermit Jones needs 53.22%  & trends  54.47%
+2022-11-12 16:40  ---  Kevin Kiley up 9,962   Left (est.): 153,726  Δ:       0 (n/a)                  52.48% precincts  Kermit Jones needs 53.24%  & trends  n/a
 ----------------  ---  ---------------------  --------------------  --------------------------------  ----------------  -------------------------  ----------------
 
-House-CA-34 Total Votes: (Jimmy Gomez: 44,569, David Kim: 40,440)
+House-CA-34 Total Votes: (Jimmy Gomez: 46,311, David Kim: 42,270)
 ----------------  ---  --------------------  -------------------  -------------------------------  ----------------  ----------------------  ----------------
-2022-11-15 03:32  ---  Jimmy Gomez up 4,129  Left (est.): 45,774  Δ:       0 (n/a)                 64.94% precincts  David Kim needs 54.51%  & trends  50.48%
-2022-11-15 02:08  ---  Jimmy Gomez up 4,129  Left (est.): 45,774  Δ:   9,444 (David Kim + 2.2%)    70.11% precincts  David Kim needs 54.51%  & trends  50.48%
-2022-11-13 02:08  ---  Jimmy Gomez up 4,541  Left (est.): 55,218  Δ:   3,998 (Jimmy Gomez + 3.5%)  67.82% precincts  David Kim needs 54.11%  & trends  46.47%
-2022-11-12 16:40  ---  Jimmy Gomez up 4,259  Left (est.): 59,216  Δ:       0 (n/a)                 63.79% precincts  David Kim needs 53.60%  & trends  n/a
+2022-11-16 02:07  ---  Jimmy Gomez up 4,041  Left (est.): 37,963  Δ:   3,572 (David Kim + 1.2%)    70.11% precincts  David Kim needs 55.32%  & trends  50.64%
+2022-11-15 03:32  ---  Jimmy Gomez up 4,129  Left (est.): 41,535  Δ:       0 (n/a)                 64.94% precincts  David Kim needs 54.97%  & trends  50.48%
+2022-11-15 02:08  ---  Jimmy Gomez up 4,129  Left (est.): 41,535  Δ:   9,444 (David Kim + 2.2%)    70.11% precincts  David Kim needs 54.97%  & trends  50.48%
+2022-11-13 02:08  ---  Jimmy Gomez up 4,541  Left (est.): 50,979  Δ:   3,998 (Jimmy Gomez + 3.5%)  67.82% precincts  David Kim needs 54.45%  & trends  46.47%
+2022-11-12 16:40  ---  Jimmy Gomez up 4,259  Left (est.): 54,977  Δ:       0 (n/a)                 63.79% precincts  David Kim needs 53.87%  & trends  n/a
 ----------------  ---  --------------------  -------------------  -------------------------------  ----------------  ----------------------  ----------------
 
 House-CA-35 Total Votes: (Norma Torres: 41,881, Mike Cargile: 32,558)
@@ -139,8 +146,9 @@ House-CA-45 Total Votes: (Michelle Steel: 96,114, Jay Chen: 82,477)
 2022-11-12 16:40  ---  Michelle Steel up 12,701  Left (est.): 69,689  Δ:       0 (n/a)                    66.67% precincts  Jay Chen needs 59.11%  & trends  n/a
 ----------------  ---  ------------------------  -------------------  ----------------------------------  ----------------  ---------------------  ----------------
 
-House-CA-47 Total Votes: (Katie Porter: 114,392, Scott Baugh: 111,501)
+House-CA-47 Total Votes: (Katie Porter: 120,876, Scott Baugh: 117,104)
 ----------------  ---  ---------------------  -------------------  --------------------------------  ----------------  ------------------------  ----------------
+2022-11-16 02:07  ---  Katie Porter up 3,772  Left (est.): 44,386  Δ:  12,087 (Katie Porter + 3.6%)  84.27% precincts  Scott Baugh needs 54.25%  & trends  52.47%
 2022-11-15 03:32  ---  Katie Porter up 2,891  Left (est.): 56,473  Δ:       0 (n/a)                  79.96% precincts  Scott Baugh needs 52.56%  & trends  52.77%
 2022-11-15 02:08  ---  Katie Porter up 2,891  Left (est.): 56,473  Δ:  15,856 (Scott Baugh + 7.7%)   77.34% precincts  Scott Baugh needs 52.56%  & trends  52.77%
 2022-11-13 03:44  ---  Katie Porter up 5,337  Left (est.): 72,329  Δ:   5,085 (Katie Porter + 2.0%)  71.91% precincts  Scott Baugh needs 53.69%  & trends  47.23%
@@ -148,16 +156,17 @@ House-CA-47 Total Votes: (Katie Porter: 114,392, Scott Baugh: 111,501)
 2022-11-12 16:40  ---  Katie Porter up 4,555  Left (est.): 86,465  Δ:       0 (n/a)                  67.04% precincts  Scott Baugh needs 52.63%  & trends  n/a
 ----------------  ---  ---------------------  -------------------  --------------------------------  ----------------  ------------------------  ----------------
 
-House-CA-49 Total Votes: (Mike Levin: 135,046, Brian Maryott: 122,250)
-----------------  ---  --------------------  -------------------  ------------------------------  ----------------  --------------------------  ----------------
-2022-11-15 04:01  ---  Mike Levin up 12,796  Left (est.): 40,871  Δ:       0 (n/a)                86.35% precincts  Brian Maryott needs 65.65%  & trends  46.37%
-2022-11-15 03:32  ---  Mike Levin up 12,796  Left (est.): 40,871  Δ:       0 (n/a)                85.32% precincts  Brian Maryott needs 65.65%  & trends  46.37%
-2022-11-15 02:08  ---  Mike Levin up 12,796  Left (est.): 40,871  Δ:  13,791 (Mike Levin + 0.6%)  83.62% precincts  Brian Maryott needs 65.65%  & trends  46.37%
-2022-11-14 02:07  ---  Mike Levin up 12,637  Left (est.): 54,662  Δ:  13,923 (Mike Levin + 6.6%)  79.18% precincts  Brian Maryott needs 61.56%  & trends  44.45%
-2022-11-13 03:44  ---  Mike Levin up 10,812  Left (est.): 68,585  Δ:   1,601 (Mike Levin + 4.0%)  71.33% precincts  Brian Maryott needs 57.88%  & trends  45.32%
-2022-11-13 02:08  ---  Mike Levin up 10,683  Left (est.): 70,186  Δ:  16,960 (Mike Levin + 4.7%)  70.82% precincts  Brian Maryott needs 57.61%  & trends  45.25%
-2022-11-12 16:40  ---  Mike Levin up 9,073   Left (est.): 87,146  Δ:       0 (n/a)                65.53% precincts  Brian Maryott needs 55.21%  & trends  n/a
-----------------  ---  --------------------  -------------------  ------------------------------  ----------------  --------------------------  ----------------
+House-CA-49 Total Votes: (Mike Levin: 137,969, Brian Maryott: 125,950)
+----------------  ---  --------------------  -------------------  ---------------------------------  ----------------  --------------------------  ----------------
+2022-11-16 02:07  ---  Mike Levin up 12,019  Left (est.): 34,248  Δ:   6,623 (Brian Maryott + 5.9%)  88.57% precincts  Brian Maryott needs 67.55%  & trends  48.94%
+2022-11-15 04:01  ---  Mike Levin up 12,796  Left (est.): 40,871  Δ:       0 (n/a)                   86.35% precincts  Brian Maryott needs 65.65%  & trends  46.37%
+2022-11-15 03:32  ---  Mike Levin up 12,796  Left (est.): 40,871  Δ:       0 (n/a)                   85.32% precincts  Brian Maryott needs 65.65%  & trends  46.37%
+2022-11-15 02:08  ---  Mike Levin up 12,796  Left (est.): 40,871  Δ:  13,791 (Mike Levin + 0.6%)     83.62% precincts  Brian Maryott needs 65.65%  & trends  46.37%
+2022-11-14 02:07  ---  Mike Levin up 12,637  Left (est.): 54,662  Δ:  13,923 (Mike Levin + 6.6%)     79.18% precincts  Brian Maryott needs 61.56%  & trends  44.45%
+2022-11-13 03:44  ---  Mike Levin up 10,812  Left (est.): 68,585  Δ:   1,601 (Mike Levin + 4.0%)     71.33% precincts  Brian Maryott needs 57.88%  & trends  45.32%
+2022-11-13 02:08  ---  Mike Levin up 10,683  Left (est.): 70,186  Δ:  16,960 (Mike Levin + 4.7%)     70.82% precincts  Brian Maryott needs 57.61%  & trends  45.25%
+2022-11-12 16:40  ---  Mike Levin up 9,073   Left (est.): 87,146  Δ:       0 (n/a)                   65.53% precincts  Brian Maryott needs 55.21%  & trends  n/a
+----------------  ---  --------------------  -------------------  ---------------------------------  ----------------  --------------------------  ----------------
 
 House-CA-6 Total Votes: (Ami Bera: 68,907, Tamika Hamilton: 52,943)
 ----------------  ---  ------------------  -------------------  ----------------------------  ----------------  ----------------------------  ----------------
@@ -229,9 +238,10 @@ House-WA-3 Total Votes: (Marie Gluesenkamp Pérez: 146,372, Joe Kent: 141,413)
 2022-11-12 16:40  ---  Marie Gluesenkamp Pérez up 4,959  Left (est.): 31,885  Δ:       0 (n/a)  70.06% precincts  Joe Kent needs 57.78%  & trends  n/a
 ----------------  ---  --------------------------------  -------------------  ----------------  ----------------  ---------------------  -------------
 
-Sen-Arizona Total Votes: (Mark Kelly: 1,308,668, Blake Masters: 1,183,627)
+Sen-Arizona Total Votes: (Mark Kelly: 1,310,454, Blake Masters: 1,185,841)
 ----------------  ---  ---------------------  --------------------  ---------------------------------  ----------------  ---------------------------  ----------------
-2022-11-16 01:55  ***  Mark Kelly up 125,041  Left (est.): 32,547   Δ:   7,944 (Blake Masters + 6.2%)  98.73% precincts  Blake Masters needs 242.09%  & trends  52.80%
+2022-11-16 03:06  ***  Mark Kelly up 124,613  Left (est.): 28,452   Δ:   4,000 (Blake Masters + 5.3%)  98.90% precincts  Blake Masters needs 268.99%  & trends  53.51%
+2022-11-16 01:55  ---  Mark Kelly up 125,041  Left (est.): 32,547   Δ:   7,944 (Blake Masters + 6.2%)  98.73% precincts  Blake Masters needs 242.09%  & trends  52.80%
 2022-11-15 23:20  ---  Mark Kelly up 126,033  Left (est.): 40,727   Δ:   1,908 (Mark Kelly +21.0%)     98.44% precincts  Blake Masters needs 204.73%  & trends  51.13%
 2022-11-15 22:19  ---  Mark Kelly up 125,233  Left (est.): 42,675   Δ:   1,157 (Mark Kelly +31.8%)     98.33% precincts  Blake Masters needs 196.73%  & trends  52.47%
 2022-11-15 21:15  ---  Mark Kelly up 124,496  Left (est.): 43,844   Δ:   1,536 (Blake Masters + 7.0%)  98.33% precincts  Blake Masters needs 191.98%  & trends  53.69%
@@ -261,7 +271,7 @@ Sen-Arizona Total Votes: (Mark Kelly: 1,308,668, Blake Masters: 1,183,627)
 
 Sen-Nevada Total Votes: (Catherine Cortez Masto: 493,443, Adam Laxalt: 484,436)
 ----------------  ---  -------------------------------  -------------------  ------------------------------------------  ----------------  -----------------------------------  ----------------
-2022-11-16 01:55  ***  Catherine Cortez Masto up 9,007  Left (est.): 10,434  Δ:   2,951 (Catherine Cortez Masto +18.7%)  98.99% precincts  Adam Laxalt needs 93.16%             & trends  38.73%
+2022-11-16 01:55  ---  Catherine Cortez Masto up 9,007  Left (est.): 10,434  Δ:   2,951 (Catherine Cortez Masto +18.7%)  98.99% precincts  Adam Laxalt needs 93.16%             & trends  38.73%
 2022-11-15 20:39  ---  Catherine Cortez Masto up 7,902  Left (est.): 13,520  Δ:      42 (Adam Laxalt +23.8%)             98.70% precincts  Adam Laxalt needs 79.22%             & trends  39.28%
 2022-11-15 18:24  ---  Catherine Cortez Masto up 7,922  Left (est.): 13,568  Δ:      10 (Adam Laxalt +30.0%)             98.70% precincts  Adam Laxalt needs 79.19%             & trends  39.23%
 2022-11-15 16:32  ---  Catherine Cortez Masto up 7,928  Left (est.): 13,578  Δ:     686 (Adam Laxalt +20.4%)             98.70% precincts  Adam Laxalt needs 79.19%             & trends  39.22%
