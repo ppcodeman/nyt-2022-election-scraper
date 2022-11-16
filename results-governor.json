@@ -41293,7 +41293,7 @@
       "coverage": "state",
       "certified": false,
       "office_id": "G",
-      "updated_at": "2022-11-16T16:46:20.878Z",
+      "updated_at": "2022-11-16T17:21:28.641Z",
       "max_winners": 1,
       "race_titles": {
         "location": null,
@@ -41311,7 +41311,7 @@
       "has_incumbent": true,
       "reporting_units": [
         {
-          "eevp": 95.72,
+          "eevp": 95.74,
           "name": "New York",
           "level": "state",
           "nyt_id": "NY-state",
@@ -41320,14 +41320,14 @@
           "candidates": [
             {
               "votes": {
-                "total": 3027404
+                "total": 3028332
               },
               "leader": true,
               "nyt_id": "hochul-k"
             },
             {
               "votes": {
-                "total": 2700761
+                "total": 2701215
               },
               "leader": false,
               "nyt_id": "zeldin-l"
@@ -41336,11 +41336,11 @@
           "fips_state": "36",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 5728165,
+          "total_votes": 5729547,
           "state_postal": "NY",
           "precincts_total": 14244,
           "nyt_vote_estimate": null,
-          "precincts_reporting": 13634,
+          "precincts_reporting": 13637,
           "total_expected_vote": 5984459
         },
         {
@@ -41773,7 +41773,7 @@
           "total_expected_vote": 121329
         },
         {
-          "eevp": 95,
+          "eevp": 96.17,
           "name": "Dutchess",
           "level": "county",
           "nyt_id": "NY-county-36-027",
@@ -41782,14 +41782,14 @@
           "candidates": [
             {
               "votes": {
-                "total": 58424
+                "total": 58878
               },
               "leader": true,
               "nyt_id": "zeldin-l"
             },
             {
               "votes": {
-                "total": 53856
+                "total": 54784
               },
               "leader": false,
               "nyt_id": "hochul-k"
@@ -41798,11 +41798,11 @@
           "fips_state": "36",
           "fips_county": "027",
           "fips_suffix": null,
-          "total_votes": 112280,
+          "total_votes": 113662,
           "state_postal": "NY",
           "precincts_total": 223,
           "nyt_vote_estimate": null,
-          "precincts_reporting": 223,
+          "precincts_reporting": 214,
           "total_expected_vote": 118189
         },
         {
@@ -43426,7 +43426,7 @@
       },
       "show_precinct_data": null,
       "top_reporting_unit": {
-        "eevp": 95.72,
+        "eevp": 95.74,
         "name": "New York",
         "level": "state",
         "nyt_id": "NY-state",
@@ -43436,14 +43436,14 @@
         "candidates": [
           {
             "votes": {
-              "total": 3027404
+              "total": 3028332
             },
             "leader": true,
             "nyt_id": "hochul-k"
           },
           {
             "votes": {
-              "total": 2700761
+              "total": 2701215
             },
             "leader": false,
             "nyt_id": "zeldin-l"
@@ -43452,12 +43452,12 @@
         "fips_state": "36",
         "fips_county": null,
         "fips_suffix": null,
-        "total_votes": 5728165,
+        "total_votes": 5729547,
         "state_postal": "NY",
         "precincts_total": 14244,
         "nyt_vote_estimate": null,
-        "precincts_reporting": 13634,
-        "provider_updated_at": "2022-11-16T16:46:20.878+00:00",
+        "precincts_reporting": 13637,
+        "provider_updated_at": "2022-11-16T17:21:28.641+00:00",
         "total_expected_vote": 5984459
       }
     },
@@ -67670,7 +67670,7 @@
         "coverage": "multi-county",
         "certified": false,
         "office_id": "H",
-        "updated_at": "2022-11-14T16:08:51.980Z",
+        "updated_at": "2022-11-16T17:23:23.638Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -67689,7 +67689,7 @@
         "has_incumbent": true,
         "reporting_units": [
           {
-            "eevp": 95.65,
+            "eevp": 95.71,
             "name": "New York",
             "level": "state",
             "nyt_id": "NY-state",
@@ -67699,7 +67699,7 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 141788
+                  "total": 141866
                 },
                 "leader": true,
                 "nyt_id": "lawler-m",
@@ -67707,7 +67707,7 @@
               },
               {
                 "votes": {
-                  "total": 139310
+                  "total": 139435
                 },
                 "leader": false,
                 "nyt_id": "maloney-s",
@@ -67717,10 +67717,10 @@
             "fips_state": "36",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 281098,
+            "total_votes": 281301,
             "state_postal": "NY",
-            "source_run_id": 1824288,
-            "vote_report_id": 1043083236,
+            "source_run_id": 1856816,
+            "vote_report_id": 1043772778,
             "precincts_total": 688,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -67729,11 +67729,11 @@
               "quantiles": null,
               "total_expected_vote": null
             },
-            "precincts_reporting": 658,
-            "provider_updated_at": "2022-11-14T16:08:51.98+00:00",
+            "precincts_reporting": 659,
+            "provider_updated_at": "2022-11-16T17:23:23.638+00:00",
             "total_expected_vote": 293896,
             "precincts_reporting_actual": 688,
-            "precincts_reporting_proportional": 658
+            "precincts_reporting_proportional": 659
           }
         ],
         "candidate_metadata": {
@@ -67774,7 +67774,7 @@
         },
         "show_precinct_data": null,
         "top_reporting_unit": {
-          "eevp": 95.65,
+          "eevp": 95.71,
           "name": "New York",
           "level": "state",
           "nyt_id": "NY-state",
@@ -67784,7 +67784,7 @@
           "candidates": [
             {
               "votes": {
-                "total": 141788
+                "total": 141866
               },
               "leader": true,
               "nyt_id": "lawler-m",
@@ -67792,7 +67792,7 @@
             },
             {
               "votes": {
-                "total": 139310
+                "total": 139435
               },
               "leader": false,
               "nyt_id": "maloney-s",
@@ -67802,10 +67802,10 @@
           "fips_state": "36",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 281098,
+          "total_votes": 281301,
           "state_postal": "NY",
-          "source_run_id": 1824288,
-          "vote_report_id": 1043083236,
+          "source_run_id": 1856816,
+          "vote_report_id": 1043772778,
           "precincts_total": 688,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -67814,11 +67814,11 @@
             "quantiles": null,
             "total_expected_vote": null
           },
-          "precincts_reporting": 658,
-          "provider_updated_at": "2022-11-14T16:08:51.98+00:00",
+          "precincts_reporting": 659,
+          "provider_updated_at": "2022-11-16T17:23:23.638+00:00",
           "total_expected_vote": 293896,
           "precincts_reporting_actual": 688,
-          "precincts_reporting_proportional": 658
+          "precincts_reporting_proportional": 659
         }
       },
       "text": "Representative Sean Patrick Maloney has conceded defeat to Mike Lawler, a first-term Republican state assemblyman. The Associated Press has not yet called the race.\n",
@@ -69382,7 +69382,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "G",
-        "updated_at": "2022-11-16T16:46:20.878Z",
+        "updated_at": "2022-11-16T17:21:28.641Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -69401,7 +69401,7 @@
         "has_incumbent": true,
         "reporting_units": [
           {
-            "eevp": 95.72,
+            "eevp": 95.74,
             "name": "New York",
             "level": "state",
             "nyt_id": "NY-state",
@@ -69411,7 +69411,7 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 3027404
+                  "total": 3028332
                 },
                 "leader": true,
                 "nyt_id": "hochul-k",
@@ -69419,7 +69419,7 @@
               },
               {
                 "votes": {
-                  "total": 2700761
+                  "total": 2701215
                 },
                 "leader": false,
                 "nyt_id": "zeldin-l",
@@ -69429,18 +69429,18 @@
             "fips_state": "36",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 5728165,
+            "total_votes": 5729547,
             "state_postal": "NY",
-            "source_run_id": 1856412,
-            "vote_report_id": 1043768873,
+            "source_run_id": 1856803,
+            "vote_report_id": 1043772629,
             "precincts_total": 14244,
             "election_track_id": 24,
             "nyt_vote_estimate": null,
-            "precincts_reporting": 13634,
-            "provider_updated_at": "2022-11-16T16:46:20.878+00:00",
+            "precincts_reporting": 13637,
+            "provider_updated_at": "2022-11-16T17:21:28.641+00:00",
             "total_expected_vote": 5984459,
             "precincts_reporting_actual": 13576,
-            "precincts_reporting_proportional": 13634
+            "precincts_reporting_proportional": 13637
           }
         ],
         "candidate_metadata": {
@@ -69481,7 +69481,7 @@
         },
         "show_precinct_data": null,
         "top_reporting_unit": {
-          "eevp": 95.72,
+          "eevp": 95.74,
           "name": "New York",
           "level": "state",
           "nyt_id": "NY-state",
@@ -69491,7 +69491,7 @@
           "candidates": [
             {
               "votes": {
-                "total": 3027404
+                "total": 3028332
               },
               "leader": true,
               "nyt_id": "hochul-k",
@@ -69499,7 +69499,7 @@
             },
             {
               "votes": {
-                "total": 2700761
+                "total": 2701215
               },
               "leader": false,
               "nyt_id": "zeldin-l",
@@ -69509,18 +69509,18 @@
           "fips_state": "36",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 5728165,
+          "total_votes": 5729547,
           "state_postal": "NY",
-          "source_run_id": 1856412,
-          "vote_report_id": 1043768873,
+          "source_run_id": 1856803,
+          "vote_report_id": 1043772629,
           "precincts_total": 14244,
           "election_track_id": 24,
           "nyt_vote_estimate": null,
-          "precincts_reporting": 13634,
-          "provider_updated_at": "2022-11-16T16:46:20.878+00:00",
+          "precincts_reporting": 13637,
+          "provider_updated_at": "2022-11-16T17:21:28.641+00:00",
           "total_expected_vote": 5984459,
           "precincts_reporting_actual": 13576,
-          "precincts_reporting_proportional": 13634
+          "precincts_reporting_proportional": 13637
         }
       },
       "text": "The Associated Press has not called New York’s race for governor but Gov. Kathy Hochul claimed victory late Tuesday against Representative Lee Zeldin, a conservative Republican. ",
@@ -70059,7 +70059,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-16T17:15:18.240Z",
+        "updated_at": "2022-11-16T17:39:18.548Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -70088,8 +70088,8 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 1892869,
-                  "advance": 971868
+                  "total": 1892886,
+                  "advance": 971879
                 },
                 "leader": true,
                 "nyt_id": "budd-t",
@@ -70097,8 +70097,8 @@
               },
               {
                 "votes": {
-                  "total": 1760992,
-                  "advance": 1154981
+                  "total": 1761027,
+                  "advance": 1155011
                 },
                 "leader": false,
                 "nyt_id": "beasley-c",
@@ -70106,7 +70106,7 @@
               },
               {
                 "votes": {
-                  "total": 50928,
+                  "total": 50929,
                   "advance": 22220
                 },
                 "leader": false,
@@ -70126,10 +70126,10 @@
             "fips_state": "37",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 3734090,
+            "total_votes": 3734143,
             "state_postal": "NC",
-            "source_run_id": 1856731,
-            "vote_report_id": 1043771979,
+            "source_run_id": 1857000,
+            "vote_report_id": 1043774340,
             "precincts_total": 2655,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -70139,7 +70139,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 2655,
-            "provider_updated_at": "2022-11-16T17:15:18.24+00:00",
+            "provider_updated_at": "2022-11-16T17:39:18.548+00:00",
             "total_expected_vote": 3764680,
             "precincts_reporting_actual": 2655,
             "precincts_reporting_proportional": 2628
@@ -70227,8 +70227,8 @@
           "candidates": [
             {
               "votes": {
-                "total": 1892869,
-                "advance": 971868
+                "total": 1892886,
+                "advance": 971879
               },
               "leader": true,
               "nyt_id": "budd-t",
@@ -70236,8 +70236,8 @@
             },
             {
               "votes": {
-                "total": 1760992,
-                "advance": 1154981
+                "total": 1761027,
+                "advance": 1155011
               },
               "leader": false,
               "nyt_id": "beasley-c",
@@ -70245,7 +70245,7 @@
             },
             {
               "votes": {
-                "total": 50928,
+                "total": 50929,
                 "advance": 22220
               },
               "leader": false,
@@ -70265,10 +70265,10 @@
           "fips_state": "37",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 3734090,
+          "total_votes": 3734143,
           "state_postal": "NC",
-          "source_run_id": 1856731,
-          "vote_report_id": 1043771979,
+          "source_run_id": 1857000,
+          "vote_report_id": 1043774340,
           "precincts_total": 2655,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -70278,7 +70278,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-16T17:15:18.24+00:00",
+          "provider_updated_at": "2022-11-16T17:39:18.548+00:00",
           "total_expected_vote": 3764680,
           "precincts_reporting_actual": 2655,
           "precincts_reporting_proportional": 2628
@@ -71569,7 +71569,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-16T17:15:18.240Z",
+        "updated_at": "2022-11-16T17:39:18.548Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -71598,8 +71598,8 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 1892869,
-                  "advance": 971868
+                  "total": 1892886,
+                  "advance": 971879
                 },
                 "leader": true,
                 "nyt_id": "budd-t",
@@ -71607,8 +71607,8 @@
               },
               {
                 "votes": {
-                  "total": 1760992,
-                  "advance": 1154981
+                  "total": 1761027,
+                  "advance": 1155011
                 },
                 "leader": false,
                 "nyt_id": "beasley-c",
@@ -71616,7 +71616,7 @@
               },
               {
                 "votes": {
-                  "total": 50928,
+                  "total": 50929,
                   "advance": 22220
                 },
                 "leader": false,
@@ -71636,10 +71636,10 @@
             "fips_state": "37",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 3734090,
+            "total_votes": 3734143,
             "state_postal": "NC",
-            "source_run_id": 1856731,
-            "vote_report_id": 1043771979,
+            "source_run_id": 1857000,
+            "vote_report_id": 1043774340,
             "precincts_total": 2655,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -71649,7 +71649,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 2655,
-            "provider_updated_at": "2022-11-16T17:15:18.24+00:00",
+            "provider_updated_at": "2022-11-16T17:39:18.548+00:00",
             "total_expected_vote": 3764680,
             "precincts_reporting_actual": 2655,
             "precincts_reporting_proportional": 2628
@@ -71737,8 +71737,8 @@
           "candidates": [
             {
               "votes": {
-                "total": 1892869,
-                "advance": 971868
+                "total": 1892886,
+                "advance": 971879
               },
               "leader": true,
               "nyt_id": "budd-t",
@@ -71746,8 +71746,8 @@
             },
             {
               "votes": {
-                "total": 1760992,
-                "advance": 1154981
+                "total": 1761027,
+                "advance": 1155011
               },
               "leader": false,
               "nyt_id": "beasley-c",
@@ -71755,7 +71755,7 @@
             },
             {
               "votes": {
-                "total": 50928,
+                "total": 50929,
                 "advance": 22220
               },
               "leader": false,
@@ -71775,10 +71775,10 @@
           "fips_state": "37",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 3734090,
+          "total_votes": 3734143,
           "state_postal": "NC",
-          "source_run_id": 1856731,
-          "vote_report_id": 1043771979,
+          "source_run_id": 1857000,
+          "vote_report_id": 1043774340,
           "precincts_total": 2655,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -71788,7 +71788,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-16T17:15:18.24+00:00",
+          "provider_updated_at": "2022-11-16T17:39:18.548+00:00",
           "total_expected_vote": 3764680,
           "precincts_reporting_actual": 2655,
           "precincts_reporting_proportional": 2628
@@ -71839,7 +71839,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "G",
-        "updated_at": "2022-11-16T16:52:29.019Z",
+        "updated_at": "2022-11-16T17:40:31.792Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -71896,13 +71896,13 @@
             "fips_suffix": null,
             "total_votes": 2432418,
             "state_postal": "MA",
-            "source_run_id": 1856479,
-            "vote_report_id": 1043769529,
+            "source_run_id": 1857004,
+            "vote_report_id": 1043774383,
             "precincts_total": 2390,
             "election_track_id": 24,
             "nyt_vote_estimate": null,
             "precincts_reporting": 2386,
-            "provider_updated_at": "2022-11-16T16:52:29.019+00:00",
+            "provider_updated_at": "2022-11-16T17:40:31.792+00:00",
             "total_expected_vote": 2448797,
             "precincts_reporting_actual": 2386,
             "precincts_reporting_proportional": 2366
@@ -72001,13 +72001,13 @@
           "fips_suffix": null,
           "total_votes": 2432418,
           "state_postal": "MA",
-          "source_run_id": 1856479,
-          "vote_report_id": 1043769529,
+          "source_run_id": 1857004,
+          "vote_report_id": 1043774383,
           "precincts_total": 2390,
           "election_track_id": 24,
           "nyt_vote_estimate": null,
           "precincts_reporting": 2386,
-          "provider_updated_at": "2022-11-16T16:52:29.019+00:00",
+          "provider_updated_at": "2022-11-16T17:40:31.792+00:00",
           "total_expected_vote": 2448797,
           "precincts_reporting_actual": 2386,
           "precincts_reporting_proportional": 2366
@@ -72090,7 +72090,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-16T17:15:18.240Z",
+        "updated_at": "2022-11-16T17:39:18.548Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -72119,8 +72119,8 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 1892869,
-                  "advance": 971868
+                  "total": 1892886,
+                  "advance": 971879
                 },
                 "leader": true,
                 "nyt_id": "budd-t",
@@ -72128,8 +72128,8 @@
               },
               {
                 "votes": {
-                  "total": 1760992,
-                  "advance": 1154981
+                  "total": 1761027,
+                  "advance": 1155011
                 },
                 "leader": false,
                 "nyt_id": "beasley-c",
@@ -72137,7 +72137,7 @@
               },
               {
                 "votes": {
-                  "total": 50928,
+                  "total": 50929,
                   "advance": 22220
                 },
                 "leader": false,
@@ -72157,10 +72157,10 @@
             "fips_state": "37",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 3734090,
+            "total_votes": 3734143,
             "state_postal": "NC",
-            "source_run_id": 1856731,
-            "vote_report_id": 1043771979,
+            "source_run_id": 1857000,
+            "vote_report_id": 1043774340,
             "precincts_total": 2655,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -72170,7 +72170,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 2655,
-            "provider_updated_at": "2022-11-16T17:15:18.24+00:00",
+            "provider_updated_at": "2022-11-16T17:39:18.548+00:00",
             "total_expected_vote": 3764680,
             "precincts_reporting_actual": 2655,
             "precincts_reporting_proportional": 2628
@@ -72258,8 +72258,8 @@
           "candidates": [
             {
               "votes": {
-                "total": 1892869,
-                "advance": 971868
+                "total": 1892886,
+                "advance": 971879
               },
               "leader": true,
               "nyt_id": "budd-t",
@@ -72267,8 +72267,8 @@
             },
             {
               "votes": {
-                "total": 1760992,
-                "advance": 1154981
+                "total": 1761027,
+                "advance": 1155011
               },
               "leader": false,
               "nyt_id": "beasley-c",
@@ -72276,7 +72276,7 @@
             },
             {
               "votes": {
-                "total": 50928,
+                "total": 50929,
                 "advance": 22220
               },
               "leader": false,
@@ -72296,10 +72296,10 @@
           "fips_state": "37",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 3734090,
+          "total_votes": 3734143,
           "state_postal": "NC",
-          "source_run_id": 1856731,
-          "vote_report_id": 1043771979,
+          "source_run_id": 1857000,
+          "vote_report_id": 1043774340,
           "precincts_total": 2655,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -72309,7 +72309,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-16T17:15:18.24+00:00",
+          "provider_updated_at": "2022-11-16T17:39:18.548+00:00",
           "total_expected_vote": 3764680,
           "precincts_reporting_actual": 2655,
           "precincts_reporting_proportional": 2628
@@ -74822,7 +74822,7 @@
   },
   "resultsMeta": {
     "docsUpdatedAt": "2022-11-09T09:03:24.208Z",
-    "resultsUpdatedAt": "2022-11-16T17:16:08.966Z"
+    "resultsUpdatedAt": "2022-11-16T17:21:28.641Z"
   },
   "raceCollections": {
     "scoreboard_races": [
@@ -76953,7 +76953,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-16T17:15:18.240Z",
+        "updated_at": "2022-11-16T17:39:18.548Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -76980,23 +76980,23 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 1892869,
-                  "advance": 971868
+                  "total": 1892886,
+                  "advance": 971879
                 },
                 "leader": true,
                 "nyt_id": "budd-t"
               },
               {
                 "votes": {
-                  "total": 1760992,
-                  "advance": 1154981
+                  "total": 1761027,
+                  "advance": 1155011
                 },
                 "leader": false,
                 "nyt_id": "beasley-c"
               },
               {
                 "votes": {
-                  "total": 50928,
+                  "total": 50929,
                   "advance": 22220
                 },
                 "leader": false,
@@ -77014,7 +77014,7 @@
             "fips_state": "37",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 3734090,
+            "total_votes": 3734143,
             "state_postal": "NC",
             "precincts_total": 2655,
             "nyt_vote_estimate": {
@@ -77105,23 +77105,23 @@
           "candidates": [
             {
               "votes": {
-                "total": 1892869,
-                "advance": 971868
+                "total": 1892886,
+                "advance": 971879
               },
               "leader": true,
               "nyt_id": "budd-t"
             },
             {
               "votes": {
-                "total": 1760992,
-                "advance": 1154981
+                "total": 1761027,
+                "advance": 1155011
               },
               "leader": false,
               "nyt_id": "beasley-c"
             },
             {
               "votes": {
-                "total": 50928,
+                "total": 50929,
                 "advance": 22220
               },
               "leader": false,
@@ -77139,7 +77139,7 @@
           "fips_state": "37",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 3734090,
+          "total_votes": 3734143,
           "state_postal": "NC",
           "precincts_total": 2655,
           "nyt_vote_estimate": {
@@ -77149,7 +77149,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-16T17:15:18.24+00:00",
+          "provider_updated_at": "2022-11-16T17:39:18.548+00:00",
           "total_expected_vote": 3764680
         }
       },
