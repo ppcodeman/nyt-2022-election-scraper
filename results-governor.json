@@ -39795,7 +39795,7 @@
       "coverage": "state",
       "certified": false,
       "office_id": "G",
-      "updated_at": "2022-11-17T17:18:40.092Z",
+      "updated_at": "2022-11-17T18:25:23.698Z",
       "max_winners": 1,
       "race_titles": {
         "location": null,
@@ -41263,7 +41263,7 @@
         "precincts_total": 2163,
         "nyt_vote_estimate": null,
         "precincts_reporting": 2120,
-        "provider_updated_at": "2022-11-17T17:18:40.092+00:00",
+        "provider_updated_at": "2022-11-17T18:25:23.698+00:00",
         "total_expected_vote": 717296
       }
     },
@@ -66782,7 +66782,7 @@
         "coverage": "multi-county",
         "certified": false,
         "office_id": "H",
-        "updated_at": "2022-11-17T17:52:38.802Z",
+        "updated_at": "2022-11-17T18:17:25.715Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -66801,7 +66801,7 @@
         "has_incumbent": true,
         "reporting_units": [
           {
-            "eevp": 98.67,
+            "eevp": 98.69,
             "name": "Colorado",
             "level": "state",
             "nyt_id": "CO-state",
@@ -66811,7 +66811,7 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 162147
+                  "total": 162175
                 },
                 "leader": true,
                 "nyt_id": "boebert-l",
@@ -66819,7 +66819,7 @@
               },
               {
                 "votes": {
-                  "total": 161041
+                  "total": 161078
                 },
                 "leader": false,
                 "nyt_id": "frisch-a",
@@ -66829,10 +66829,10 @@
             "fips_state": "08",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 323188,
+            "total_votes": 323253,
             "state_postal": "CO",
-            "source_run_id": 1873040,
-            "vote_report_id": 1044104578,
+            "source_run_id": 1873316,
+            "vote_report_id": 1044108236,
             "precincts_total": 491,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -66841,11 +66841,11 @@
               "quantiles": null,
               "total_expected_vote": null
             },
-            "precincts_reporting": 484,
-            "provider_updated_at": "2022-11-17T17:52:38.802+00:00",
-            "total_expected_vote": 327538,
-            "precincts_reporting_actual": 441,
-            "precincts_reporting_proportional": 484
+            "precincts_reporting": 485,
+            "provider_updated_at": "2022-11-17T18:17:25.715+00:00",
+            "total_expected_vote": 327549,
+            "precincts_reporting_actual": 442,
+            "precincts_reporting_proportional": 485
           }
         ],
         "candidate_metadata": {
@@ -66886,7 +66886,7 @@
         },
         "show_precinct_data": null,
         "top_reporting_unit": {
-          "eevp": 98.67,
+          "eevp": 98.69,
           "name": "Colorado",
           "level": "state",
           "nyt_id": "CO-state",
@@ -66896,7 +66896,7 @@
           "candidates": [
             {
               "votes": {
-                "total": 162147
+                "total": 162175
               },
               "leader": true,
               "nyt_id": "boebert-l",
@@ -66904,7 +66904,7 @@
             },
             {
               "votes": {
-                "total": 161041
+                "total": 161078
               },
               "leader": false,
               "nyt_id": "frisch-a",
@@ -66914,10 +66914,10 @@
           "fips_state": "08",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 323188,
+          "total_votes": 323253,
           "state_postal": "CO",
-          "source_run_id": 1873040,
-          "vote_report_id": 1044104578,
+          "source_run_id": 1873316,
+          "vote_report_id": 1044108236,
           "precincts_total": 491,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -66926,11 +66926,11 @@
             "quantiles": null,
             "total_expected_vote": null
           },
-          "precincts_reporting": 484,
-          "provider_updated_at": "2022-11-17T17:52:38.802+00:00",
-          "total_expected_vote": 327538,
-          "precincts_reporting_actual": 441,
-          "precincts_reporting_proportional": 484
+          "precincts_reporting": 485,
+          "provider_updated_at": "2022-11-17T18:17:25.715+00:00",
+          "total_expected_vote": 327549,
+          "precincts_reporting_actual": 442,
+          "precincts_reporting_proportional": 485
         }
       },
       "text": "",
@@ -68814,7 +68814,7 @@
         "coverage": "multi-county",
         "certified": false,
         "office_id": "H",
-        "updated_at": "2022-11-17T17:52:38.802Z",
+        "updated_at": "2022-11-17T18:17:25.715Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -68833,7 +68833,7 @@
         "has_incumbent": true,
         "reporting_units": [
           {
-            "eevp": 98.67,
+            "eevp": 98.69,
             "name": "Colorado",
             "level": "state",
             "nyt_id": "CO-state",
@@ -68843,7 +68843,7 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 162147
+                  "total": 162175
                 },
                 "leader": true,
                 "nyt_id": "boebert-l",
@@ -68851,7 +68851,7 @@
               },
               {
                 "votes": {
-                  "total": 161041
+                  "total": 161078
                 },
                 "leader": false,
                 "nyt_id": "frisch-a",
@@ -68861,10 +68861,10 @@
             "fips_state": "08",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 323188,
+            "total_votes": 323253,
             "state_postal": "CO",
-            "source_run_id": 1873040,
-            "vote_report_id": 1044104578,
+            "source_run_id": 1873316,
+            "vote_report_id": 1044108236,
             "precincts_total": 491,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -68873,11 +68873,11 @@
               "quantiles": null,
               "total_expected_vote": null
             },
-            "precincts_reporting": 484,
-            "provider_updated_at": "2022-11-17T17:52:38.802+00:00",
-            "total_expected_vote": 327538,
-            "precincts_reporting_actual": 441,
-            "precincts_reporting_proportional": 484
+            "precincts_reporting": 485,
+            "provider_updated_at": "2022-11-17T18:17:25.715+00:00",
+            "total_expected_vote": 327549,
+            "precincts_reporting_actual": 442,
+            "precincts_reporting_proportional": 485
           }
         ],
         "candidate_metadata": {
@@ -68918,7 +68918,7 @@
         },
         "show_precinct_data": null,
         "top_reporting_unit": {
-          "eevp": 98.67,
+          "eevp": 98.69,
           "name": "Colorado",
           "level": "state",
           "nyt_id": "CO-state",
@@ -68928,7 +68928,7 @@
           "candidates": [
             {
               "votes": {
-                "total": 162147
+                "total": 162175
               },
               "leader": true,
               "nyt_id": "boebert-l",
@@ -68936,7 +68936,7 @@
             },
             {
               "votes": {
-                "total": 161041
+                "total": 161078
               },
               "leader": false,
               "nyt_id": "frisch-a",
@@ -68946,10 +68946,10 @@
           "fips_state": "08",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 323188,
+          "total_votes": 323253,
           "state_postal": "CO",
-          "source_run_id": 1873040,
-          "vote_report_id": 1044104578,
+          "source_run_id": 1873316,
+          "vote_report_id": 1044108236,
           "precincts_total": 491,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -68958,11 +68958,11 @@
             "quantiles": null,
             "total_expected_vote": null
           },
-          "precincts_reporting": 484,
-          "provider_updated_at": "2022-11-17T17:52:38.802+00:00",
-          "total_expected_vote": 327538,
-          "precincts_reporting_actual": 441,
-          "precincts_reporting_proportional": 484
+          "precincts_reporting": 485,
+          "provider_updated_at": "2022-11-17T18:17:25.715+00:00",
+          "total_expected_vote": 327549,
+          "precincts_reporting_actual": 442,
+          "precincts_reporting_proportional": 485
         }
       },
       "text": "Colorado’s Third District is leaning toward Lauren Boebert, an ardent supporter of Donald Trump, according to our estimates. ",
@@ -70080,7 +70080,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-17T17:52:15.128Z",
+        "updated_at": "2022-11-17T18:28:17.671Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -70149,8 +70149,8 @@
             "fips_suffix": null,
             "total_votes": 3735221,
             "state_postal": "NC",
-            "source_run_id": 1873033,
-            "vote_report_id": 1044104474,
+            "source_run_id": 1873437,
+            "vote_report_id": 1044109883,
             "precincts_total": 2655,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -70160,7 +70160,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 2655,
-            "provider_updated_at": "2022-11-17T17:52:15.128+00:00",
+            "provider_updated_at": "2022-11-17T18:28:17.671+00:00",
             "total_expected_vote": 3764680,
             "precincts_reporting_actual": 2655,
             "precincts_reporting_proportional": 2628
@@ -70288,8 +70288,8 @@
           "fips_suffix": null,
           "total_votes": 3735221,
           "state_postal": "NC",
-          "source_run_id": 1873033,
-          "vote_report_id": 1044104474,
+          "source_run_id": 1873437,
+          "vote_report_id": 1044109883,
           "precincts_total": 2655,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -70299,7 +70299,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-17T17:52:15.128+00:00",
+          "provider_updated_at": "2022-11-17T18:28:17.671+00:00",
           "total_expected_vote": 3764680,
           "precincts_reporting_actual": 2655,
           "precincts_reporting_proportional": 2628
@@ -71590,7 +71590,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-17T17:52:15.128Z",
+        "updated_at": "2022-11-17T18:28:17.671Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -71659,8 +71659,8 @@
             "fips_suffix": null,
             "total_votes": 3735221,
             "state_postal": "NC",
-            "source_run_id": 1873033,
-            "vote_report_id": 1044104474,
+            "source_run_id": 1873437,
+            "vote_report_id": 1044109883,
             "precincts_total": 2655,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -71670,7 +71670,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 2655,
-            "provider_updated_at": "2022-11-17T17:52:15.128+00:00",
+            "provider_updated_at": "2022-11-17T18:28:17.671+00:00",
             "total_expected_vote": 3764680,
             "precincts_reporting_actual": 2655,
             "precincts_reporting_proportional": 2628
@@ -71798,8 +71798,8 @@
           "fips_suffix": null,
           "total_votes": 3735221,
           "state_postal": "NC",
-          "source_run_id": 1873033,
-          "vote_report_id": 1044104474,
+          "source_run_id": 1873437,
+          "vote_report_id": 1044109883,
           "precincts_total": 2655,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -71809,7 +71809,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-17T17:52:15.128+00:00",
+          "provider_updated_at": "2022-11-17T18:28:17.671+00:00",
           "total_expected_vote": 3764680,
           "precincts_reporting_actual": 2655,
           "precincts_reporting_proportional": 2628
@@ -72111,7 +72111,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-17T17:52:15.128Z",
+        "updated_at": "2022-11-17T18:28:17.671Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -72180,8 +72180,8 @@
             "fips_suffix": null,
             "total_votes": 3735221,
             "state_postal": "NC",
-            "source_run_id": 1873033,
-            "vote_report_id": 1044104474,
+            "source_run_id": 1873437,
+            "vote_report_id": 1044109883,
             "precincts_total": 2655,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -72191,7 +72191,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 2655,
-            "provider_updated_at": "2022-11-17T17:52:15.128+00:00",
+            "provider_updated_at": "2022-11-17T18:28:17.671+00:00",
             "total_expected_vote": 3764680,
             "precincts_reporting_actual": 2655,
             "precincts_reporting_proportional": 2628
@@ -72319,8 +72319,8 @@
           "fips_suffix": null,
           "total_votes": 3735221,
           "state_postal": "NC",
-          "source_run_id": 1873033,
-          "vote_report_id": 1044104474,
+          "source_run_id": 1873437,
+          "vote_report_id": 1044109883,
           "precincts_total": 2655,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -72330,7 +72330,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-17T17:52:15.128+00:00",
+          "provider_updated_at": "2022-11-17T18:28:17.671+00:00",
           "total_expected_vote": 3764680,
           "precincts_reporting_actual": 2655,
           "precincts_reporting_proportional": 2628
@@ -74771,7 +74771,7 @@
   },
   "resultsMeta": {
     "docsUpdatedAt": "2022-11-09T09:03:24.208Z",
-    "resultsUpdatedAt": "2022-11-17T17:18:40.092Z"
+    "resultsUpdatedAt": "2022-11-17T18:25:23.698Z"
   },
   "raceCollections": {
     "scoreboard_races": [
@@ -75905,7 +75905,7 @@
         "coverage": "multi-county",
         "certified": false,
         "office_id": "H",
-        "updated_at": "2022-11-17T17:52:38.802Z",
+        "updated_at": "2022-11-17T18:17:25.715Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -75923,7 +75923,7 @@
         "has_incumbent": true,
         "reporting_units": [
           {
-            "eevp": 98.67,
+            "eevp": 98.69,
             "name": "Colorado",
             "level": "state",
             "nyt_id": "CO-state",
@@ -75932,14 +75932,14 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 162147
+                  "total": 162175
                 },
                 "leader": true,
                 "nyt_id": "boebert-l"
               },
               {
                 "votes": {
-                  "total": 161041
+                  "total": 161078
                 },
                 "leader": false,
                 "nyt_id": "frisch-a"
@@ -75948,7 +75948,7 @@
             "fips_state": "08",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 323188,
+            "total_votes": 323253,
             "state_postal": "CO",
             "precincts_total": 491,
             "nyt_vote_estimate": {
@@ -75957,8 +75957,8 @@
               "quantiles": null,
               "total_expected_vote": null
             },
-            "precincts_reporting": 484,
-            "total_expected_vote": 327538
+            "precincts_reporting": 485,
+            "total_expected_vote": 327549
           }
         ],
         "candidate_metadata": {
@@ -75997,7 +75997,7 @@
         },
         "show_precinct_data": null,
         "top_reporting_unit": {
-          "eevp": 98.67,
+          "eevp": 98.69,
           "name": "Colorado",
           "level": "state",
           "nyt_id": "CO-state",
@@ -76007,14 +76007,14 @@
           "candidates": [
             {
               "votes": {
-                "total": 162147
+                "total": 162175
               },
               "leader": true,
               "nyt_id": "boebert-l"
             },
             {
               "votes": {
-                "total": 161041
+                "total": 161078
               },
               "leader": false,
               "nyt_id": "frisch-a"
@@ -76023,7 +76023,7 @@
           "fips_state": "08",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 323188,
+          "total_votes": 323253,
           "state_postal": "CO",
           "precincts_total": 491,
           "nyt_vote_estimate": {
@@ -76032,9 +76032,9 @@
             "quantiles": null,
             "total_expected_vote": null
           },
-          "precincts_reporting": 484,
-          "provider_updated_at": "2022-11-17T17:52:38.802+00:00",
-          "total_expected_vote": 327538
+          "precincts_reporting": 485,
+          "provider_updated_at": "2022-11-17T18:17:25.715+00:00",
+          "total_expected_vote": 327549
         }
       },
       {
@@ -76908,7 +76908,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-17T17:52:15.128Z",
+        "updated_at": "2022-11-17T18:28:17.671Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -77104,7 +77104,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-17T17:52:15.128+00:00",
+          "provider_updated_at": "2022-11-17T18:28:17.671+00:00",
           "total_expected_vote": 3764680
         }
       },
