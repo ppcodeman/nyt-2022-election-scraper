@@ -26,7 +26,7 @@
       "coverage": "state",
       "certified": false,
       "office_id": "G",
-      "updated_at": "2022-11-18T23:43:06.467Z",
+      "updated_at": "2022-11-19T01:20:41.204Z",
       "max_winners": 1,
       "race_titles": {
         "location": null,
@@ -53,7 +53,7 @@
           "candidates": [
             {
               "votes": {
-                "total": 1283957,
+                "total": 1284748,
                 "advance": 0
               },
               "leader": true,
@@ -61,7 +61,7 @@
             },
             {
               "votes": {
-                "total": 1267111,
+                "total": 1267844,
                 "advance": 0
               },
               "leader": false,
@@ -71,7 +71,7 @@
           "fips_state": "04",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 2551068,
+          "total_votes": 2552592,
           "state_postal": "AZ",
           "precincts_total": 1732,
           "nyt_vote_estimate": null,
@@ -133,9 +133,9 @@
           "candidates": [
             {
               "votes": {
-                "total": 240610,
+                "total": 241398,
                 "advance": 0,
-                "provisional": 120,
+                "provisional": 901,
                 "absentee_mail": 0,
                 "early_in_person": 0,
                 "absentee_in_person": 0,
@@ -146,9 +146,9 @@
             },
             {
               "votes": {
-                "total": 156304,
+                "total": 157034,
                 "advance": 0,
-                "provisional": 162,
+                "provisional": 884,
                 "absentee_mail": 0,
                 "early_in_person": 0,
                 "absentee_in_person": 0,
@@ -161,12 +161,12 @@
           "fips_state": "04",
           "fips_county": "019",
           "fips_suffix": null,
-          "total_votes": 396914,
+          "total_votes": 398432,
           "state_postal": "AZ",
           "precincts_total": 278,
           "nyt_vote_estimate": null,
           "precincts_reporting": 275,
-          "total_expected_vote": 397825
+          "total_expected_vote": 398432
         },
         {
           "eevp": 99,
@@ -481,7 +481,7 @@
           "precincts_total": 14,
           "nyt_vote_estimate": null,
           "precincts_reporting": 14,
-          "total_expected_vote": 40394
+          "total_expected_vote": 40397
         },
         {
           "eevp": 99,
@@ -673,26 +673,26 @@
           "candidates": [
             {
               "votes": {
-                "total": 3844,
+                "total": 3847,
                 "advance": 0,
-                "provisional": 0,
+                "provisional": 632,
                 "absentee_mail": 0,
                 "early_in_person": 0,
                 "absentee_in_person": 0,
-                "election_day_in_person": 2465
+                "election_day_in_person": 1836
               },
               "leader": true,
               "nyt_id": "lake-k"
             },
             {
               "votes": {
-                "total": 1643,
+                "total": 1646,
                 "advance": 0,
-                "provisional": 0,
+                "provisional": 212,
                 "absentee_mail": 0,
                 "early_in_person": 0,
                 "absentee_in_person": 0,
-                "election_day_in_person": 1233
+                "election_day_in_person": 1024
               },
               "leader": false,
               "nyt_id": "hobbs-k"
@@ -701,12 +701,12 @@
           "fips_state": "04",
           "fips_county": "012",
           "fips_suffix": null,
-          "total_votes": 5487,
+          "total_votes": 5493,
           "state_postal": "AZ",
           "precincts_total": 11,
           "nyt_vote_estimate": null,
           "precincts_reporting": 11,
-          "total_expected_vote": 5487
+          "total_expected_vote": 5493
         },
         {
           "eevp": 99,
@@ -800,7 +800,7 @@
         "candidates": [
           {
             "votes": {
-              "total": 1283957,
+              "total": 1284748,
               "advance": 0
             },
             "leader": true,
@@ -808,7 +808,7 @@
           },
           {
             "votes": {
-              "total": 1267111,
+              "total": 1267844,
               "advance": 0
             },
             "leader": false,
@@ -818,12 +818,12 @@
         "fips_state": "04",
         "fips_county": null,
         "fips_suffix": null,
-        "total_votes": 2551068,
+        "total_votes": 2552592,
         "state_postal": "AZ",
         "precincts_total": 1732,
         "nyt_vote_estimate": null,
         "precincts_reporting": 1715,
-        "provider_updated_at": "2022-11-18T23:43:06.467+00:00",
+        "provider_updated_at": "2022-11-19T01:00:14.524+00:00",
         "total_expected_vote": 2564919
       }
     },
@@ -39795,7 +39795,7 @@
       "coverage": "state",
       "certified": false,
       "office_id": "G",
-      "updated_at": "2022-11-18T23:48:20.975Z",
+      "updated_at": "2022-11-19T01:34:15.516Z",
       "max_winners": 1,
       "race_titles": {
         "location": null,
@@ -41263,7 +41263,7 @@
         "precincts_total": 2163,
         "nyt_vote_estimate": null,
         "precincts_reporting": 2120,
-        "provider_updated_at": "2022-11-18T23:48:20.975+00:00",
+        "provider_updated_at": "2022-11-19T01:34:15.516+00:00",
         "total_expected_vote": 717296
       }
     },
@@ -43487,7 +43487,7 @@
       "coverage": "state",
       "certified": false,
       "office_id": "G",
-      "updated_at": "2022-11-18T16:40:06.981Z",
+      "updated_at": "2022-11-19T01:09:33.184Z",
       "max_winners": 1,
       "race_titles": {
         "location": null,
@@ -45639,7 +45639,7 @@
         "precincts_total": 1279,
         "nyt_vote_estimate": null,
         "precincts_reporting": 1266,
-        "provider_updated_at": "2022-11-18T16:40:06.981+00:00",
+        "provider_updated_at": "2022-11-19T01:09:33.184+00:00",
         "total_expected_vote": 1926367
       }
     },
@@ -45669,7 +45669,7 @@
       "coverage": "state",
       "certified": false,
       "office_id": "G",
-      "updated_at": "2022-11-18T21:17:46.341Z",
+      "updated_at": "2022-11-19T01:41:44.658Z",
       "max_winners": 1,
       "race_titles": {
         "location": null,
@@ -45696,7 +45696,7 @@
           "candidates": [
             {
               "votes": {
-                "total": 3008320,
+                "total": 3017200,
                 "advance": 864340
               },
               "leader": true,
@@ -45704,7 +45704,7 @@
             },
             {
               "votes": {
-                "total": 2233216,
+                "total": 2233820,
                 "advance": 167930
               },
               "leader": false,
@@ -45712,7 +45712,7 @@
             },
             {
               "votes": {
-                "total": 51358,
+                "total": 51414,
                 "advance": 7254
               },
               "leader": false,
@@ -45720,7 +45720,7 @@
             },
             {
               "votes": {
-                "total": 24246,
+                "total": 24312,
                 "advance": 5130
               },
               "leader": false,
@@ -45728,7 +45728,7 @@
             },
             {
               "votes": {
-                "total": 20405,
+                "total": 20429,
                 "advance": 52
               },
               "leader": false,
@@ -45738,7 +45738,7 @@
           "fips_state": "42",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 5337545,
+          "total_votes": 5347175,
           "state_postal": "PA",
           "precincts_total": 9173,
           "nyt_vote_estimate": null,
@@ -45800,7 +45800,7 @@
           "total_expected_vote": 570835
         },
         {
-          "eevp": 98.38,
+          "eevp": 99,
           "name": "Philadelphia",
           "level": "county",
           "nyt_id": "PA-county-42-101",
@@ -45809,7 +45809,7 @@
           "candidates": [
             {
               "votes": {
-                "total": 415987,
+                "total": 424867,
                 "advance": 110670,
                 "provisional": 0,
                 "absentee_mail": 0,
@@ -45821,7 +45821,7 @@
             },
             {
               "votes": {
-                "total": 64559,
+                "total": 65163,
                 "advance": 5216,
                 "provisional": 0,
                 "absentee_mail": 0,
@@ -45833,7 +45833,7 @@
             },
             {
               "votes": {
-                "total": 2431,
+                "total": 2487,
                 "advance": 513,
                 "provisional": 0,
                 "absentee_mail": 0,
@@ -45845,7 +45845,7 @@
             },
             {
               "votes": {
-                "total": 2303,
+                "total": 2369,
                 "advance": 562,
                 "provisional": 0,
                 "absentee_mail": 0,
@@ -45857,7 +45857,7 @@
             },
             {
               "votes": {
-                "total": 1194
+                "total": 1218
               },
               "leader": false,
               "nyt_id": "soloski-j"
@@ -45866,12 +45866,12 @@
           "fips_state": "42",
           "fips_county": "101",
           "fips_suffix": null,
-          "total_votes": 486474,
+          "total_votes": 496104,
           "state_postal": "PA",
           "precincts_total": 1703,
           "nyt_vote_estimate": null,
-          "precincts_reporting": 1675,
-          "total_expected_vote": 494467
+          "precincts_reporting": 1686,
+          "total_expected_vote": 501115
         },
         {
           "eevp": 99,
@@ -50783,7 +50783,7 @@
         "candidates": [
           {
             "votes": {
-              "total": 3008320,
+              "total": 3017200,
               "advance": 864340
             },
             "leader": true,
@@ -50791,7 +50791,7 @@
           },
           {
             "votes": {
-              "total": 2233216,
+              "total": 2233820,
               "advance": 167930
             },
             "leader": false,
@@ -50799,7 +50799,7 @@
           },
           {
             "votes": {
-              "total": 51358,
+              "total": 51414,
               "advance": 7254
             },
             "leader": false,
@@ -50807,7 +50807,7 @@
           },
           {
             "votes": {
-              "total": 24246,
+              "total": 24312,
               "advance": 5130
             },
             "leader": false,
@@ -50815,7 +50815,7 @@
           },
           {
             "votes": {
-              "total": 20405,
+              "total": 20429,
               "advance": 52
             },
             "leader": false,
@@ -50825,12 +50825,12 @@
         "fips_state": "42",
         "fips_county": null,
         "fips_suffix": null,
-        "total_votes": 5337545,
+        "total_votes": 5347175,
         "state_postal": "PA",
         "precincts_total": 9173,
         "nyt_vote_estimate": null,
         "precincts_reporting": 9081,
-        "provider_updated_at": "2022-11-18T21:17:46.341+00:00",
+        "provider_updated_at": "2022-11-19T01:41:44.658+00:00",
         "total_expected_vote": 5373001
       }
     },
@@ -69055,7 +69055,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-18T21:17:46.157Z",
+        "updated_at": "2022-11-19T01:41:43.270Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -69084,7 +69084,7 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 2727898,
+                  "total": 2737263,
                   "advance": 809434
                 },
                 "leader": true,
@@ -69093,7 +69093,7 @@
               },
               {
                 "votes": {
-                  "total": 2481067,
+                  "total": 2481826,
                   "advance": 207784
                 },
                 "leader": false,
@@ -69102,7 +69102,7 @@
               },
               {
                 "votes": {
-                  "total": 72580,
+                  "total": 72649,
                   "advance": 13533
                 },
                 "leader": false,
@@ -69111,7 +69111,7 @@
               },
               {
                 "votes": {
-                  "total": 30245,
+                  "total": 30312,
                   "advance": 8044
                 },
                 "leader": false,
@@ -69120,7 +69120,7 @@
               },
               {
                 "votes": {
-                  "total": 26327,
+                  "total": 26339,
                   "advance": 81
                 },
                 "leader": false,
@@ -69131,10 +69131,10 @@
             "fips_state": "42",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 5338117,
+            "total_votes": 5348389,
             "state_postal": "PA",
-            "source_run_id": 1891240,
-            "vote_report_id": 1044705270,
+            "source_run_id": 1894158,
+            "vote_report_id": 1044750755,
             "precincts_total": 9173,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -69144,7 +69144,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 9081,
-            "provider_updated_at": "2022-11-18T21:17:46.157+00:00",
+            "provider_updated_at": "2022-11-19T01:41:43.27+00:00",
             "total_expected_vote": 5372045,
             "precincts_reporting_actual": 9173,
             "precincts_reporting_proportional": 9081
@@ -69249,7 +69249,7 @@
           "candidates": [
             {
               "votes": {
-                "total": 2727898,
+                "total": 2737263,
                 "advance": 809434
               },
               "leader": true,
@@ -69258,7 +69258,7 @@
             },
             {
               "votes": {
-                "total": 2481067,
+                "total": 2481826,
                 "advance": 207784
               },
               "leader": false,
@@ -69267,7 +69267,7 @@
             },
             {
               "votes": {
-                "total": 72580,
+                "total": 72649,
                 "advance": 13533
               },
               "leader": false,
@@ -69276,7 +69276,7 @@
             },
             {
               "votes": {
-                "total": 30245,
+                "total": 30312,
                 "advance": 8044
               },
               "leader": false,
@@ -69285,7 +69285,7 @@
             },
             {
               "votes": {
-                "total": 26327,
+                "total": 26339,
                 "advance": 81
               },
               "leader": false,
@@ -69296,10 +69296,10 @@
           "fips_state": "42",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 5338117,
+          "total_votes": 5348389,
           "state_postal": "PA",
-          "source_run_id": 1891240,
-          "vote_report_id": 1044705270,
+          "source_run_id": 1894158,
+          "vote_report_id": 1044750755,
           "precincts_total": 9173,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -69309,7 +69309,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 9081,
-          "provider_updated_at": "2022-11-18T21:17:46.157+00:00",
+          "provider_updated_at": "2022-11-19T01:41:43.27+00:00",
           "total_expected_vote": 5372045,
           "precincts_reporting_actual": 9173,
           "precincts_reporting_proportional": 9081
@@ -69590,7 +69590,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-18T23:43:06.335Z",
+        "updated_at": "2022-11-19T01:00:14.574Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -69619,7 +69619,7 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 1317880,
+                  "total": 1318713,
                   "advance": 0
                 },
                 "leader": true,
@@ -69628,7 +69628,7 @@
               },
               {
                 "votes": {
-                  "total": 1192873,
+                  "total": 1193537,
                   "advance": 0
                 },
                 "leader": false,
@@ -69637,7 +69637,7 @@
               },
               {
                 "votes": {
-                  "total": 53581,
+                  "total": 53620,
                   "advance": 0
                 },
                 "leader": false,
@@ -69648,10 +69648,10 @@
             "fips_state": "04",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 2564334,
+            "total_votes": 2565870,
             "state_postal": "AZ",
-            "source_run_id": 1892844,
-            "vote_report_id": 1044730725,
+            "source_run_id": 1893700,
+            "vote_report_id": 1044744200,
             "precincts_total": 1732,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -69661,7 +69661,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 1715,
-            "provider_updated_at": "2022-11-18T23:43:06.335+00:00",
+            "provider_updated_at": "2022-11-19T01:00:14.574+00:00",
             "total_expected_vote": 2578013,
             "precincts_reporting_actual": 1732,
             "precincts_reporting_proportional": 1715
@@ -69732,7 +69732,7 @@
           "candidates": [
             {
               "votes": {
-                "total": 1317880,
+                "total": 1318713,
                 "advance": 0
               },
               "leader": true,
@@ -69741,7 +69741,7 @@
             },
             {
               "votes": {
-                "total": 1192873,
+                "total": 1193537,
                 "advance": 0
               },
               "leader": false,
@@ -69750,7 +69750,7 @@
             },
             {
               "votes": {
-                "total": 53581,
+                "total": 53620,
                 "advance": 0
               },
               "leader": false,
@@ -69761,10 +69761,10 @@
           "fips_state": "04",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 2564334,
+          "total_votes": 2565870,
           "state_postal": "AZ",
-          "source_run_id": 1892844,
-          "vote_report_id": 1044730725,
+          "source_run_id": 1893700,
+          "vote_report_id": 1044744200,
           "precincts_total": 1732,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -69774,7 +69774,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 1715,
-          "provider_updated_at": "2022-11-18T23:43:06.335+00:00",
+          "provider_updated_at": "2022-11-19T01:00:14.574+00:00",
           "total_expected_vote": 2578013,
           "precincts_reporting_actual": 1732,
           "precincts_reporting_proportional": 1715
@@ -70091,7 +70091,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-18T23:49:18.453Z",
+        "updated_at": "2022-11-19T01:55:16.123Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -70160,8 +70160,8 @@
             "fips_suffix": null,
             "total_votes": 3769861,
             "state_postal": "NC",
-            "source_run_id": 1892920,
-            "vote_report_id": 1044731660,
+            "source_run_id": 1894309,
+            "vote_report_id": 1044752528,
             "precincts_total": 2655,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -70171,7 +70171,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 2655,
-            "provider_updated_at": "2022-11-18T23:49:18.453+00:00",
+            "provider_updated_at": "2022-11-19T01:55:16.123+00:00",
             "total_expected_vote": 3764680,
             "precincts_reporting_actual": 2655,
             "precincts_reporting_proportional": 2628
@@ -70299,8 +70299,8 @@
           "fips_suffix": null,
           "total_votes": 3769861,
           "state_postal": "NC",
-          "source_run_id": 1892920,
-          "vote_report_id": 1044731660,
+          "source_run_id": 1894309,
+          "vote_report_id": 1044752528,
           "precincts_total": 2655,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -70310,7 +70310,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-18T23:49:18.453+00:00",
+          "provider_updated_at": "2022-11-19T01:55:16.123+00:00",
           "total_expected_vote": 3764680,
           "precincts_reporting_actual": 2655,
           "precincts_reporting_proportional": 2628
@@ -70384,7 +70384,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-18T21:17:46.157Z",
+        "updated_at": "2022-11-19T01:41:43.270Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -70413,7 +70413,7 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 2727898,
+                  "total": 2737263,
                   "advance": 809434
                 },
                 "leader": true,
@@ -70422,7 +70422,7 @@
               },
               {
                 "votes": {
-                  "total": 2481067,
+                  "total": 2481826,
                   "advance": 207784
                 },
                 "leader": false,
@@ -70431,7 +70431,7 @@
               },
               {
                 "votes": {
-                  "total": 72580,
+                  "total": 72649,
                   "advance": 13533
                 },
                 "leader": false,
@@ -70440,7 +70440,7 @@
               },
               {
                 "votes": {
-                  "total": 30245,
+                  "total": 30312,
                   "advance": 8044
                 },
                 "leader": false,
@@ -70449,7 +70449,7 @@
               },
               {
                 "votes": {
-                  "total": 26327,
+                  "total": 26339,
                   "advance": 81
                 },
                 "leader": false,
@@ -70460,10 +70460,10 @@
             "fips_state": "42",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 5338117,
+            "total_votes": 5348389,
             "state_postal": "PA",
-            "source_run_id": 1891240,
-            "vote_report_id": 1044705270,
+            "source_run_id": 1894158,
+            "vote_report_id": 1044750755,
             "precincts_total": 9173,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -70473,7 +70473,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 9081,
-            "provider_updated_at": "2022-11-18T21:17:46.157+00:00",
+            "provider_updated_at": "2022-11-19T01:41:43.27+00:00",
             "total_expected_vote": 5372045,
             "precincts_reporting_actual": 9173,
             "precincts_reporting_proportional": 9081
@@ -70578,7 +70578,7 @@
           "candidates": [
             {
               "votes": {
-                "total": 2727898,
+                "total": 2737263,
                 "advance": 809434
               },
               "leader": true,
@@ -70587,7 +70587,7 @@
             },
             {
               "votes": {
-                "total": 2481067,
+                "total": 2481826,
                 "advance": 207784
               },
               "leader": false,
@@ -70596,7 +70596,7 @@
             },
             {
               "votes": {
-                "total": 72580,
+                "total": 72649,
                 "advance": 13533
               },
               "leader": false,
@@ -70605,7 +70605,7 @@
             },
             {
               "votes": {
-                "total": 30245,
+                "total": 30312,
                 "advance": 8044
               },
               "leader": false,
@@ -70614,7 +70614,7 @@
             },
             {
               "votes": {
-                "total": 26327,
+                "total": 26339,
                 "advance": 81
               },
               "leader": false,
@@ -70625,10 +70625,10 @@
           "fips_state": "42",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 5338117,
+          "total_votes": 5348389,
           "state_postal": "PA",
-          "source_run_id": 1891240,
-          "vote_report_id": 1044705270,
+          "source_run_id": 1894158,
+          "vote_report_id": 1044750755,
           "precincts_total": 9173,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -70638,7 +70638,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 9081,
-          "provider_updated_at": "2022-11-18T21:17:46.157+00:00",
+          "provider_updated_at": "2022-11-19T01:41:43.27+00:00",
           "total_expected_vote": 5372045,
           "precincts_reporting_actual": 9173,
           "precincts_reporting_proportional": 9081
@@ -70886,7 +70886,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-18T21:17:46.157Z",
+        "updated_at": "2022-11-19T01:41:43.270Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -70915,7 +70915,7 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 2727898,
+                  "total": 2737263,
                   "advance": 809434
                 },
                 "leader": true,
@@ -70924,7 +70924,7 @@
               },
               {
                 "votes": {
-                  "total": 2481067,
+                  "total": 2481826,
                   "advance": 207784
                 },
                 "leader": false,
@@ -70933,7 +70933,7 @@
               },
               {
                 "votes": {
-                  "total": 72580,
+                  "total": 72649,
                   "advance": 13533
                 },
                 "leader": false,
@@ -70942,7 +70942,7 @@
               },
               {
                 "votes": {
-                  "total": 30245,
+                  "total": 30312,
                   "advance": 8044
                 },
                 "leader": false,
@@ -70951,7 +70951,7 @@
               },
               {
                 "votes": {
-                  "total": 26327,
+                  "total": 26339,
                   "advance": 81
                 },
                 "leader": false,
@@ -70962,10 +70962,10 @@
             "fips_state": "42",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 5338117,
+            "total_votes": 5348389,
             "state_postal": "PA",
-            "source_run_id": 1891240,
-            "vote_report_id": 1044705270,
+            "source_run_id": 1894158,
+            "vote_report_id": 1044750755,
             "precincts_total": 9173,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -70975,7 +70975,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 9081,
-            "provider_updated_at": "2022-11-18T21:17:46.157+00:00",
+            "provider_updated_at": "2022-11-19T01:41:43.27+00:00",
             "total_expected_vote": 5372045,
             "precincts_reporting_actual": 9173,
             "precincts_reporting_proportional": 9081
@@ -71080,7 +71080,7 @@
           "candidates": [
             {
               "votes": {
-                "total": 2727898,
+                "total": 2737263,
                 "advance": 809434
               },
               "leader": true,
@@ -71089,7 +71089,7 @@
             },
             {
               "votes": {
-                "total": 2481067,
+                "total": 2481826,
                 "advance": 207784
               },
               "leader": false,
@@ -71098,7 +71098,7 @@
             },
             {
               "votes": {
-                "total": 72580,
+                "total": 72649,
                 "advance": 13533
               },
               "leader": false,
@@ -71107,7 +71107,7 @@
             },
             {
               "votes": {
-                "total": 30245,
+                "total": 30312,
                 "advance": 8044
               },
               "leader": false,
@@ -71116,7 +71116,7 @@
             },
             {
               "votes": {
-                "total": 26327,
+                "total": 26339,
                 "advance": 81
               },
               "leader": false,
@@ -71127,10 +71127,10 @@
           "fips_state": "42",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 5338117,
+          "total_votes": 5348389,
           "state_postal": "PA",
-          "source_run_id": 1891240,
-          "vote_report_id": 1044705270,
+          "source_run_id": 1894158,
+          "vote_report_id": 1044750755,
           "precincts_total": 9173,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -71140,7 +71140,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 9081,
-          "provider_updated_at": "2022-11-18T21:17:46.157+00:00",
+          "provider_updated_at": "2022-11-19T01:41:43.27+00:00",
           "total_expected_vote": 5372045,
           "precincts_reporting_actual": 9173,
           "precincts_reporting_proportional": 9081
@@ -71601,7 +71601,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-18T23:49:18.453Z",
+        "updated_at": "2022-11-19T01:55:16.123Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -71670,8 +71670,8 @@
             "fips_suffix": null,
             "total_votes": 3769861,
             "state_postal": "NC",
-            "source_run_id": 1892920,
-            "vote_report_id": 1044731660,
+            "source_run_id": 1894309,
+            "vote_report_id": 1044752528,
             "precincts_total": 2655,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -71681,7 +71681,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 2655,
-            "provider_updated_at": "2022-11-18T23:49:18.453+00:00",
+            "provider_updated_at": "2022-11-19T01:55:16.123+00:00",
             "total_expected_vote": 3764680,
             "precincts_reporting_actual": 2655,
             "precincts_reporting_proportional": 2628
@@ -71809,8 +71809,8 @@
           "fips_suffix": null,
           "total_votes": 3769861,
           "state_postal": "NC",
-          "source_run_id": 1892920,
-          "vote_report_id": 1044731660,
+          "source_run_id": 1894309,
+          "vote_report_id": 1044752528,
           "precincts_total": 2655,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -71820,7 +71820,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-18T23:49:18.453+00:00",
+          "provider_updated_at": "2022-11-19T01:55:16.123+00:00",
           "total_expected_vote": 3764680,
           "precincts_reporting_actual": 2655,
           "precincts_reporting_proportional": 2628
@@ -72122,7 +72122,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-18T23:49:18.453Z",
+        "updated_at": "2022-11-19T01:55:16.123Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -72191,8 +72191,8 @@
             "fips_suffix": null,
             "total_votes": 3769861,
             "state_postal": "NC",
-            "source_run_id": 1892920,
-            "vote_report_id": 1044731660,
+            "source_run_id": 1894309,
+            "vote_report_id": 1044752528,
             "precincts_total": 2655,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -72202,7 +72202,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 2655,
-            "provider_updated_at": "2022-11-18T23:49:18.453+00:00",
+            "provider_updated_at": "2022-11-19T01:55:16.123+00:00",
             "total_expected_vote": 3764680,
             "precincts_reporting_actual": 2655,
             "precincts_reporting_proportional": 2628
@@ -72330,8 +72330,8 @@
           "fips_suffix": null,
           "total_votes": 3769861,
           "state_postal": "NC",
-          "source_run_id": 1892920,
-          "vote_report_id": 1044731660,
+          "source_run_id": 1894309,
+          "vote_report_id": 1044752528,
           "precincts_total": 2655,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -72341,7 +72341,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-18T23:49:18.453+00:00",
+          "provider_updated_at": "2022-11-19T01:55:16.123+00:00",
           "total_expected_vote": 3764680,
           "precincts_reporting_actual": 2655,
           "precincts_reporting_proportional": 2628
@@ -74782,7 +74782,7 @@
   },
   "resultsMeta": {
     "docsUpdatedAt": "2022-11-09T09:03:24.208Z",
-    "resultsUpdatedAt": "2022-11-18T23:48:20.975Z"
+    "resultsUpdatedAt": "2022-11-19T01:41:44.658Z"
   },
   "raceCollections": {
     "scoreboard_races": [
@@ -74812,7 +74812,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-18T23:43:06.335Z",
+        "updated_at": "2022-11-19T01:00:14.574Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -74839,7 +74839,7 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 1317880,
+                  "total": 1318713,
                   "advance": 0
                 },
                 "leader": true,
@@ -74847,7 +74847,7 @@
               },
               {
                 "votes": {
-                  "total": 1192873,
+                  "total": 1193537,
                   "advance": 0
                 },
                 "leader": false,
@@ -74855,7 +74855,7 @@
               },
               {
                 "votes": {
-                  "total": 53581,
+                  "total": 53620,
                   "advance": 0
                 },
                 "leader": false,
@@ -74865,7 +74865,7 @@
             "fips_state": "04",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 2564334,
+            "total_votes": 2565870,
             "state_postal": "AZ",
             "precincts_total": 1732,
             "nyt_vote_estimate": {
@@ -74940,7 +74940,7 @@
           "candidates": [
             {
               "votes": {
-                "total": 1317880,
+                "total": 1318713,
                 "advance": 0
               },
               "leader": true,
@@ -74948,7 +74948,7 @@
             },
             {
               "votes": {
-                "total": 1192873,
+                "total": 1193537,
                 "advance": 0
               },
               "leader": false,
@@ -74956,7 +74956,7 @@
             },
             {
               "votes": {
-                "total": 53581,
+                "total": 53620,
                 "advance": 0
               },
               "leader": false,
@@ -74966,7 +74966,7 @@
           "fips_state": "04",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 2564334,
+          "total_votes": 2565870,
           "state_postal": "AZ",
           "precincts_total": 1732,
           "nyt_vote_estimate": {
@@ -74976,7 +74976,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 1715,
-          "provider_updated_at": "2022-11-18T23:43:06.335+00:00",
+          "provider_updated_at": "2022-11-19T01:00:14.574+00:00",
           "total_expected_vote": 2578013
         }
       },
@@ -75000,7 +75000,7 @@
         "coverage": "multi-county",
         "certified": false,
         "office_id": "H",
-        "updated_at": "2022-11-18T23:39:15.325Z",
+        "updated_at": "2022-11-19T01:40:12.086Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -75018,7 +75018,7 @@
         "has_incumbent": false,
         "reporting_units": [
           {
-            "eevp": 63.76,
+            "eevp": 71.56,
             "name": "California",
             "level": "state",
             "nyt_id": "CA-state",
@@ -75027,14 +75027,14 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 107373
+                  "total": 123561
                 },
                 "leader": true,
                 "nyt_id": "kiley-k"
               },
               {
                 "votes": {
-                  "total": 97802
+                  "total": 113493
                 },
                 "leader": false,
                 "nyt_id": "jones-k"
@@ -75043,7 +75043,7 @@
             "fips_state": "06",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 205175,
+            "total_votes": 237054,
             "state_postal": "CA",
             "precincts_total": 787,
             "nyt_vote_estimate": {
@@ -75052,8 +75052,8 @@
               "quantiles": null,
               "total_expected_vote": null
             },
-            "precincts_reporting": 502,
-            "total_expected_vote": 321805
+            "precincts_reporting": 563,
+            "total_expected_vote": 331260
           }
         ],
         "candidate_metadata": {
@@ -75092,7 +75092,7 @@
         },
         "show_precinct_data": null,
         "top_reporting_unit": {
-          "eevp": 63.76,
+          "eevp": 71.56,
           "name": "California",
           "level": "state",
           "nyt_id": "CA-state",
@@ -75102,14 +75102,14 @@
           "candidates": [
             {
               "votes": {
-                "total": 107373
+                "total": 123561
               },
               "leader": true,
               "nyt_id": "kiley-k"
             },
             {
               "votes": {
-                "total": 97802
+                "total": 113493
               },
               "leader": false,
               "nyt_id": "jones-k"
@@ -75118,7 +75118,7 @@
           "fips_state": "06",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 205175,
+          "total_votes": 237054,
           "state_postal": "CA",
           "precincts_total": 787,
           "nyt_vote_estimate": {
@@ -75127,9 +75127,9 @@
             "quantiles": null,
             "total_expected_vote": null
           },
-          "precincts_reporting": 502,
-          "provider_updated_at": "2022-11-18T23:39:15.325+00:00",
-          "total_expected_vote": 321805
+          "precincts_reporting": 563,
+          "provider_updated_at": "2022-11-19T01:40:12.086+00:00",
+          "total_expected_vote": 331260
         }
       },
       {
@@ -75158,7 +75158,7 @@
         "coverage": "multi-county",
         "certified": false,
         "office_id": "H",
-        "updated_at": "2022-11-18T21:03:39.655Z",
+        "updated_at": "2022-11-19T00:06:44.738Z",
         "max_winners": 1,
         "rcv_nyt_ids": null,
         "seat_number": "9",
@@ -75168,7 +75168,7 @@
         "has_incumbent": true,
         "reporting_units": [
           {
-            "eevp": 80.2,
+            "eevp": 80.22,
             "name": "California",
             "level": "state",
             "nyt_id": "CA-state",
@@ -75177,14 +75177,14 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 75707
+                  "total": 75722
                 },
                 "leader": true,
                 "nyt_id": "harder-j"
               },
               {
                 "votes": {
-                  "total": 59541
+                  "total": 59562
                 },
                 "leader": false,
                 "nyt_id": "patti-t"
@@ -75193,7 +75193,7 @@
             "fips_state": "06",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 135248,
+            "total_votes": 135284,
             "state_postal": "CA",
             "precincts_total": 393,
             "nyt_vote_estimate": {
@@ -75242,7 +75242,7 @@
         },
         "show_precinct_data": null,
         "top_reporting_unit": {
-          "eevp": 80.2,
+          "eevp": 80.22,
           "name": "California",
           "level": "state",
           "nyt_id": "CA-state",
@@ -75252,14 +75252,14 @@
           "candidates": [
             {
               "votes": {
-                "total": 75707
+                "total": 75722
               },
               "leader": true,
               "nyt_id": "harder-j"
             },
             {
               "votes": {
-                "total": 59541
+                "total": 59562
               },
               "leader": false,
               "nyt_id": "patti-t"
@@ -75268,7 +75268,7 @@
           "fips_state": "06",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 135248,
+          "total_votes": 135284,
           "state_postal": "CA",
           "precincts_total": 393,
           "nyt_vote_estimate": {
@@ -75278,7 +75278,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 315,
-          "provider_updated_at": "2022-11-18T21:03:39.655+00:00",
+          "provider_updated_at": "2022-11-19T00:06:44.738+00:00",
           "total_expected_vote": 168636
         }
       },
@@ -75302,7 +75302,7 @@
         "coverage": "multi-county",
         "certified": false,
         "office_id": "H",
-        "updated_at": "2022-11-18T22:47:38.957Z",
+        "updated_at": "2022-11-19T01:53:34.026Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -75320,7 +75320,7 @@
         "has_incumbent": false,
         "reporting_units": [
           {
-            "eevp": 93.46,
+            "eevp": 94.83,
             "name": "California",
             "level": "state",
             "nyt_id": "CA-state",
@@ -75329,14 +75329,14 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 62756
+                  "total": 63539
                 },
                 "leader": true,
                 "nyt_id": "duarte-j"
               },
               {
                 "votes": {
-                  "total": 61853
+                  "total": 62674
                 },
                 "leader": false,
                 "nyt_id": "gray-a"
@@ -75345,7 +75345,7 @@
             "fips_state": "06",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 124609,
+            "total_votes": 126213,
             "state_postal": "CA",
             "precincts_total": 496,
             "nyt_vote_estimate": {
@@ -75354,8 +75354,8 @@
               "quantiles": null,
               "total_expected_vote": null
             },
-            "precincts_reporting": 464,
-            "total_expected_vote": 133326
+            "precincts_reporting": 470,
+            "total_expected_vote": 133090
           }
         ],
         "candidate_metadata": {
@@ -75394,7 +75394,7 @@
         },
         "show_precinct_data": null,
         "top_reporting_unit": {
-          "eevp": 93.46,
+          "eevp": 94.83,
           "name": "California",
           "level": "state",
           "nyt_id": "CA-state",
@@ -75404,14 +75404,14 @@
           "candidates": [
             {
               "votes": {
-                "total": 62756
+                "total": 63539
               },
               "leader": true,
               "nyt_id": "duarte-j"
             },
             {
               "votes": {
-                "total": 61853
+                "total": 62674
               },
               "leader": false,
               "nyt_id": "gray-a"
@@ -75420,7 +75420,7 @@
           "fips_state": "06",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 124609,
+          "total_votes": 126213,
           "state_postal": "CA",
           "precincts_total": 496,
           "nyt_vote_estimate": {
@@ -75429,9 +75429,9 @@
             "quantiles": null,
             "total_expected_vote": null
           },
-          "precincts_reporting": 464,
-          "provider_updated_at": "2022-11-18T22:47:38.957+00:00",
-          "total_expected_vote": 133326
+          "precincts_reporting": 470,
+          "provider_updated_at": "2022-11-19T01:53:34.026+00:00",
+          "total_expected_vote": 133090
         }
       },
       {
@@ -75454,7 +75454,7 @@
         "coverage": "multi-county",
         "certified": false,
         "office_id": "H",
-        "updated_at": "2022-11-18T21:03:39.999Z",
+        "updated_at": "2022-11-19T00:39:34.415Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -75472,7 +75472,7 @@
         "has_incumbent": true,
         "reporting_units": [
           {
-            "eevp": 75.33,
+            "eevp": 86.14,
             "name": "California",
             "level": "state",
             "nyt_id": "CA-state",
@@ -75481,14 +75481,14 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 39043
+                  "total": 44862
                 },
                 "leader": true,
                 "nyt_id": "valadao-d"
               },
               {
                 "votes": {
-                  "total": 34598
+                  "total": 40315
                 },
                 "leader": false,
                 "nyt_id": "salas-r"
@@ -75497,7 +75497,7 @@
             "fips_state": "06",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 73641,
+            "total_votes": 85177,
             "state_postal": "CA",
             "precincts_total": 550,
             "nyt_vote_estimate": {
@@ -75506,8 +75506,8 @@
               "quantiles": null,
               "total_expected_vote": null
             },
-            "precincts_reporting": 414,
-            "total_expected_vote": 97758
+            "precincts_reporting": 474,
+            "total_expected_vote": 98877
           }
         ],
         "candidate_metadata": {
@@ -75546,7 +75546,7 @@
         },
         "show_precinct_data": null,
         "top_reporting_unit": {
-          "eevp": 75.33,
+          "eevp": 86.14,
           "name": "California",
           "level": "state",
           "nyt_id": "CA-state",
@@ -75556,14 +75556,14 @@
           "candidates": [
             {
               "votes": {
-                "total": 39043
+                "total": 44862
               },
               "leader": true,
               "nyt_id": "valadao-d"
             },
             {
               "votes": {
-                "total": 34598
+                "total": 40315
               },
               "leader": false,
               "nyt_id": "salas-r"
@@ -75572,7 +75572,7 @@
           "fips_state": "06",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 73641,
+          "total_votes": 85177,
           "state_postal": "CA",
           "precincts_total": 550,
           "nyt_vote_estimate": {
@@ -75581,9 +75581,9 @@
             "quantiles": null,
             "total_expected_vote": null
           },
-          "precincts_reporting": 414,
-          "provider_updated_at": "2022-11-18T21:03:39.999+00:00",
-          "total_expected_vote": 97758
+          "precincts_reporting": 474,
+          "provider_updated_at": "2022-11-19T00:39:34.415+00:00",
+          "total_expected_vote": 98877
         }
       },
       {
@@ -75612,7 +75612,7 @@
         "coverage": "county",
         "certified": false,
         "office_id": "H",
-        "updated_at": "2022-11-18T21:03:40.239Z",
+        "updated_at": "2022-11-19T01:33:25.015Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -75630,7 +75630,7 @@
         "has_incumbent": true,
         "reporting_units": [
           {
-            "eevp": 83,
+            "eevp": 91,
             "name": "California",
             "level": "state",
             "nyt_id": "CA-state",
@@ -75639,14 +75639,14 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 94538
+                  "total": 99847
                 },
                 "leader": true,
                 "nyt_id": "garcia-m"
               },
               {
                 "votes": {
-                  "total": 80614
+                  "total": 85980
                 },
                 "leader": false,
                 "nyt_id": "smith-c"
@@ -75655,7 +75655,7 @@
             "fips_state": "06",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 175152,
+            "total_votes": 185827,
             "state_postal": "CA",
             "precincts_total": 468,
             "nyt_vote_estimate": {
@@ -75664,8 +75664,8 @@
               "quantiles": null,
               "total_expected_vote": null
             },
-            "precincts_reporting": 388,
-            "total_expected_vote": 211027
+            "precincts_reporting": 426,
+            "total_expected_vote": 204205
           }
         ],
         "candidate_metadata": {
@@ -75704,7 +75704,7 @@
         },
         "show_precinct_data": null,
         "top_reporting_unit": {
-          "eevp": 83,
+          "eevp": 91,
           "name": "California",
           "level": "state",
           "nyt_id": "CA-state",
@@ -75714,14 +75714,14 @@
           "candidates": [
             {
               "votes": {
-                "total": 94538
+                "total": 99847
               },
               "leader": true,
               "nyt_id": "garcia-m"
             },
             {
               "votes": {
-                "total": 80614
+                "total": 85980
               },
               "leader": false,
               "nyt_id": "smith-c"
@@ -75730,7 +75730,7 @@
           "fips_state": "06",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 175152,
+          "total_votes": 185827,
           "state_postal": "CA",
           "precincts_total": 468,
           "nyt_vote_estimate": {
@@ -75739,9 +75739,9 @@
             "quantiles": null,
             "total_expected_vote": null
           },
-          "precincts_reporting": 388,
-          "provider_updated_at": "2022-11-18T21:03:40.239+00:00",
-          "total_expected_vote": 211027
+          "precincts_reporting": 426,
+          "provider_updated_at": "2022-11-19T01:33:25.015+00:00",
+          "total_expected_vote": 204205
         }
       },
       {
@@ -75770,7 +75770,7 @@
         "coverage": "county",
         "certified": false,
         "office_id": "H",
-        "updated_at": "2022-11-18T21:03:41.075Z",
+        "updated_at": "2022-11-19T01:11:52.290Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -75788,7 +75788,7 @@
         "has_incumbent": true,
         "reporting_units": [
           {
-            "eevp": 97,
+            "eevp": 97.32,
             "name": "California",
             "level": "state",
             "nyt_id": "CA-state",
@@ -75797,14 +75797,14 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 133759
+                  "total": 134258
                 },
                 "leader": true,
                 "nyt_id": "porter-k"
               },
               {
                 "votes": {
-                  "total": 125509
+                  "total": 125857
                 },
                 "leader": false,
                 "nyt_id": "baugh-s"
@@ -75813,7 +75813,7 @@
             "fips_state": "06",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 259268,
+            "total_votes": 260115,
             "state_postal": "CA",
             "precincts_total": 534,
             "nyt_vote_estimate": {
@@ -75822,7 +75822,7 @@
               "quantiles": null,
               "total_expected_vote": null
             },
-            "precincts_reporting": 518,
+            "precincts_reporting": 520,
             "total_expected_vote": 267287
           }
         ],
@@ -75862,7 +75862,7 @@
         },
         "show_precinct_data": null,
         "top_reporting_unit": {
-          "eevp": 97,
+          "eevp": 97.32,
           "name": "California",
           "level": "state",
           "nyt_id": "CA-state",
@@ -75872,14 +75872,14 @@
           "candidates": [
             {
               "votes": {
-                "total": 133759
+                "total": 134258
               },
               "leader": true,
               "nyt_id": "porter-k"
             },
             {
               "votes": {
-                "total": 125509
+                "total": 125857
               },
               "leader": false,
               "nyt_id": "baugh-s"
@@ -75888,7 +75888,7 @@
           "fips_state": "06",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 259268,
+          "total_votes": 260115,
           "state_postal": "CA",
           "precincts_total": 534,
           "nyt_vote_estimate": {
@@ -75897,8 +75897,8 @@
             "quantiles": null,
             "total_expected_vote": null
           },
-          "precincts_reporting": 518,
-          "provider_updated_at": "2022-11-18T21:03:41.075+00:00",
+          "precincts_reporting": 520,
+          "provider_updated_at": "2022-11-19T01:11:52.29+00:00",
           "total_expected_vote": 267287
         }
       },
@@ -76080,7 +76080,7 @@
         "coverage": "multi-county",
         "certified": false,
         "office_id": "H",
-        "updated_at": "2022-11-18T22:43:32.509Z",
+        "updated_at": "2022-11-19T00:23:31.601Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -76238,7 +76238,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 385,
-          "provider_updated_at": "2022-11-18T22:43:32.509+00:00",
+          "provider_updated_at": "2022-11-19T00:23:31.601+00:00",
           "total_expected_vote": 237916
         }
       },
@@ -76925,7 +76925,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-18T23:49:18.453Z",
+        "updated_at": "2022-11-19T01:55:16.123Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -77121,7 +77121,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-18T23:49:18.453+00:00",
+          "provider_updated_at": "2022-11-19T01:55:16.123+00:00",
           "total_expected_vote": 3764680
         }
       },
@@ -77313,7 +77313,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-18T21:17:46.157Z",
+        "updated_at": "2022-11-19T01:41:43.270Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -77340,7 +77340,7 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 2727898,
+                  "total": 2737263,
                   "advance": 809434
                 },
                 "leader": true,
@@ -77348,7 +77348,7 @@
               },
               {
                 "votes": {
-                  "total": 2481067,
+                  "total": 2481826,
                   "advance": 207784
                 },
                 "leader": false,
@@ -77356,7 +77356,7 @@
               },
               {
                 "votes": {
-                  "total": 72580,
+                  "total": 72649,
                   "advance": 13533
                 },
                 "leader": false,
@@ -77364,7 +77364,7 @@
               },
               {
                 "votes": {
-                  "total": 30245,
+                  "total": 30312,
                   "advance": 8044
                 },
                 "leader": false,
@@ -77372,7 +77372,7 @@
               },
               {
                 "votes": {
-                  "total": 26327,
+                  "total": 26339,
                   "advance": 81
                 },
                 "leader": false,
@@ -77382,7 +77382,7 @@
             "fips_state": "42",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 5338117,
+            "total_votes": 5348389,
             "state_postal": "PA",
             "precincts_total": 9173,
             "nyt_vote_estimate": {
@@ -77489,7 +77489,7 @@
           "candidates": [
             {
               "votes": {
-                "total": 2727898,
+                "total": 2737263,
                 "advance": 809434
               },
               "leader": true,
@@ -77497,7 +77497,7 @@
             },
             {
               "votes": {
-                "total": 2481067,
+                "total": 2481826,
                 "advance": 207784
               },
               "leader": false,
@@ -77505,7 +77505,7 @@
             },
             {
               "votes": {
-                "total": 72580,
+                "total": 72649,
                 "advance": 13533
               },
               "leader": false,
@@ -77513,7 +77513,7 @@
             },
             {
               "votes": {
-                "total": 30245,
+                "total": 30312,
                 "advance": 8044
               },
               "leader": false,
@@ -77521,7 +77521,7 @@
             },
             {
               "votes": {
-                "total": 26327,
+                "total": 26339,
                 "advance": 81
               },
               "leader": false,
@@ -77531,7 +77531,7 @@
           "fips_state": "42",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 5338117,
+          "total_votes": 5348389,
           "state_postal": "PA",
           "precincts_total": 9173,
           "nyt_vote_estimate": {
@@ -77541,7 +77541,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 9081,
-          "provider_updated_at": "2022-11-18T21:17:46.157+00:00",
+          "provider_updated_at": "2022-11-19T01:41:43.27+00:00",
           "total_expected_vote": 5372045
         }
       },
