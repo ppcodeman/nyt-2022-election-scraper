@@ -42663,7 +42663,7 @@
       "coverage": "state",
       "certified": false,
       "office_id": "G",
-      "updated_at": "2022-11-22T01:11:11.147Z",
+      "updated_at": "2022-11-22T02:38:16.558Z",
       "max_winners": 1,
       "race_titles": {
         "location": null,
@@ -44131,7 +44131,7 @@
         "precincts_total": 2163,
         "nyt_vote_estimate": null,
         "precincts_reporting": 2120,
-        "provider_updated_at": "2022-11-22T01:11:11.147+00:00",
+        "provider_updated_at": "2022-11-22T02:38:16.558+00:00",
         "total_expected_vote": 717296
       }
     },
@@ -68912,6 +68912,17 @@
   ],
   "liveAlerts": [
     {
+      "id": "CA-G-H-22-2022-11-08-valadao-d",
+      "hed": "",
+      "url": "https://www.nytimes.com/interactive/2022/11/08/us/elections/results-california-us-house-district-22.html",
+      "text": "David Valadao, Republican, wins re-election to the U.S. House to represent California’s 22nd Congressional District.",
+      "type": "race_call",
+      "image": "https://static01.nyt.com/elections-assets/2022/headshots/CA-P-H-22-2022-06-07__valadao-d-us-house-22-ca.png",
+      "party": "Republican",
+      "is_runoff": false,
+      "timestamp": "2022-11-22T02:50:43.163+00:00"
+    },
+    {
       "id": "CA-G-H-47-2022-11-08-porter-k",
       "hed": "",
       "url": "https://www.nytimes.com/interactive/2022/11/08/us/elections/results-california-us-house-district-47.html",
@@ -68923,16 +68934,6 @@
       "timestamp": "2022-11-18T01:29:24.036068+00:00"
     },
     {
-      "id": "house-control",
-      "hed": "Republicans Win the House",
-      "url": "https://www.nytimes.com/interactive/2022/11/08/us/elections/results-house.html",
-      "text": "Republicans formally captured 218 House seats, a delayed yet consequential finish to the 2022 midterm elections.",
-      "type": "race_call",
-      "image": "",
-      "party": "Republican",
-      "timestamp": "2022-11-16T23:32:31.891Z"
-    },
-    {
       "id": "1667657294382299",
       "text": "[house scoreboard]",
       "header": "",
@@ -68941,6 +68942,16 @@
       "pin_index": "3",
       "nyt_race_id": "",
       "update_link": ""
+    },
+    {
+      "id": "house-control",
+      "hed": "Republicans Win the House",
+      "url": "https://www.nytimes.com/interactive/2022/11/08/us/elections/results-house.html",
+      "text": "Republicans formally captured 218 House seats, a delayed yet consequential finish to the 2022 midterm elections.",
+      "type": "race_call",
+      "image": "",
+      "party": "Republican",
+      "timestamp": "2022-11-16T23:32:31.891Z"
     },
     {
       "id": "CA-G-H-27-2022-11-08-garcia-m",
@@ -68954,6 +68965,16 @@
       "timestamp": "2022-11-16T23:32:30.891568+00:00"
     },
     {
+      "id": "1667657288143659",
+      "text": "[senate scoreboard]",
+      "header": "",
+      "datetime": "2022-11-05T10:08:08-04:00",
+      "component": "senate-scoreboard",
+      "pin_index": "6",
+      "nyt_race_id": "",
+      "update_link": ""
+    },
+    {
       "id": "CO-G-H-8-2022-11-08-caraveo-y",
       "hed": "",
       "url": "https://www.nytimes.com/interactive/2022/11/08/us/elections/results-colorado-us-house-district-8.html",
@@ -68963,16 +68984,6 @@
       "party": "Democrat",
       "is_runoff": false,
       "timestamp": "2022-11-15T19:38:02.672081+00:00"
-    },
-    {
-      "id": "1667657288143659",
-      "text": "[senate scoreboard]",
-      "header": "",
-      "datetime": "2022-11-05T10:08:08-04:00",
-      "component": "senate-scoreboard",
-      "pin_index": "6",
-      "nyt_race_id": "",
-      "update_link": ""
     },
     {
       "id": "NY-G-H-22-2022-11-08-williams-b",
@@ -72965,7 +72976,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-22T02:05:14.435Z",
+        "updated_at": "2022-11-22T03:15:12.544Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -73034,8 +73045,8 @@
             "fips_suffix": null,
             "total_votes": 3771690,
             "state_postal": "NC",
-            "source_run_id": 1942747,
-            "vote_report_id": 1045365929,
+            "source_run_id": 1943514,
+            "vote_report_id": 1045373614,
             "precincts_total": 2655,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -73045,7 +73056,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 2655,
-            "provider_updated_at": "2022-11-22T02:05:14.435+00:00",
+            "provider_updated_at": "2022-11-22T03:15:12.544+00:00",
             "total_expected_vote": 3809603,
             "precincts_reporting_actual": 2655,
             "precincts_reporting_proportional": 2628
@@ -73173,8 +73184,8 @@
           "fips_suffix": null,
           "total_votes": 3771690,
           "state_postal": "NC",
-          "source_run_id": 1942747,
-          "vote_report_id": 1045365929,
+          "source_run_id": 1943514,
+          "vote_report_id": 1045373614,
           "precincts_total": 2655,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -73184,7 +73195,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-22T02:05:14.435+00:00",
+          "provider_updated_at": "2022-11-22T03:15:12.544+00:00",
           "total_expected_vote": 3809603,
           "precincts_reporting_actual": 2655,
           "precincts_reporting_proportional": 2628
@@ -74475,7 +74486,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-22T02:05:14.435Z",
+        "updated_at": "2022-11-22T03:15:12.544Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -74544,8 +74555,8 @@
             "fips_suffix": null,
             "total_votes": 3771690,
             "state_postal": "NC",
-            "source_run_id": 1942747,
-            "vote_report_id": 1045365929,
+            "source_run_id": 1943514,
+            "vote_report_id": 1045373614,
             "precincts_total": 2655,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -74555,7 +74566,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 2655,
-            "provider_updated_at": "2022-11-22T02:05:14.435+00:00",
+            "provider_updated_at": "2022-11-22T03:15:12.544+00:00",
             "total_expected_vote": 3809603,
             "precincts_reporting_actual": 2655,
             "precincts_reporting_proportional": 2628
@@ -74683,8 +74694,8 @@
           "fips_suffix": null,
           "total_votes": 3771690,
           "state_postal": "NC",
-          "source_run_id": 1942747,
-          "vote_report_id": 1045365929,
+          "source_run_id": 1943514,
+          "vote_report_id": 1045373614,
           "precincts_total": 2655,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -74694,7 +74705,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-22T02:05:14.435+00:00",
+          "provider_updated_at": "2022-11-22T03:15:12.544+00:00",
           "total_expected_vote": 3809603,
           "precincts_reporting_actual": 2655,
           "precincts_reporting_proportional": 2628
@@ -74996,7 +75007,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-22T02:05:14.435Z",
+        "updated_at": "2022-11-22T03:15:12.544Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -75065,8 +75076,8 @@
             "fips_suffix": null,
             "total_votes": 3771690,
             "state_postal": "NC",
-            "source_run_id": 1942747,
-            "vote_report_id": 1045365929,
+            "source_run_id": 1943514,
+            "vote_report_id": 1045373614,
             "precincts_total": 2655,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -75076,7 +75087,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 2655,
-            "provider_updated_at": "2022-11-22T02:05:14.435+00:00",
+            "provider_updated_at": "2022-11-22T03:15:12.544+00:00",
             "total_expected_vote": 3809603,
             "precincts_reporting_actual": 2655,
             "precincts_reporting_proportional": 2628
@@ -75204,8 +75215,8 @@
           "fips_suffix": null,
           "total_votes": 3771690,
           "state_postal": "NC",
-          "source_run_id": 1942747,
-          "vote_report_id": 1045365929,
+          "source_run_id": 1943514,
+          "vote_report_id": 1045373614,
           "precincts_total": 2655,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -75215,7 +75226,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-22T02:05:14.435+00:00",
+          "provider_updated_at": "2022-11-22T03:15:12.544+00:00",
           "total_expected_vote": 3809603,
           "precincts_reporting_actual": 2655,
           "precincts_reporting_proportional": 2628
@@ -77662,7 +77673,7 @@
   },
   "resultsMeta": {
     "docsUpdatedAt": "2022-11-09T09:03:24.208Z",
-    "resultsUpdatedAt": "2022-11-22T01:11:11.147Z"
+    "resultsUpdatedAt": "2022-11-22T02:38:16.558Z"
   },
   "raceCollections": {
     "scoreboard_races": [
@@ -78324,17 +78335,23 @@
         "office": "U.S. House",
         "rating": "tossup",
         "outcome": {
-          "won": [],
+          "won": [
+            "valadao-d"
+          ],
           "gained": null,
-          "called_by": [],
+          "called_by": [
+            "ap"
+          ],
           "advanced_to_runoff": [],
           "runoff_accepted_at": [],
-          "winner_accepted_at": []
+          "winner_accepted_at": [
+            "2022-11-22T02:50:43.163+00:00"
+          ]
         },
         "coverage": "multi-county",
         "certified": false,
         "office_id": "H",
-        "updated_at": "2022-11-22T01:44:56.681Z",
+        "updated_at": "2022-11-22T02:47:38.804Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -78462,7 +78479,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 540,
-          "provider_updated_at": "2022-11-22T01:44:56.681+00:00",
+          "provider_updated_at": "2022-11-22T02:47:38.804+00:00",
           "total_expected_vote": 102120
         }
       },
@@ -79811,7 +79828,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-22T02:05:14.435Z",
+        "updated_at": "2022-11-22T03:15:12.544Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -80007,7 +80024,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-22T02:05:14.435+00:00",
+          "provider_updated_at": "2022-11-22T03:15:12.544+00:00",
           "total_expected_vote": 3809603
         }
       },
