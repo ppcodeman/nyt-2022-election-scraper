@@ -41505,7 +41505,7 @@
         ]
       },
       "coverage": "state",
-      "certified": false,
+      "certified": true,
       "office_id": "G",
       "updated_at": "2022-11-22T21:33:44.894Z",
       "max_winners": 1,
@@ -41525,7 +41525,7 @@
       "has_incumbent": true,
       "reporting_units": [
         {
-          "eevp": 98.88,
+          "eevp": 100,
           "name": "Nevada",
           "level": "state",
           "nyt_id": "NV-state",
@@ -41534,35 +41534,35 @@
           "candidates": [
             {
               "votes": {
-                "total": 491314
+                "total": 497377
               },
               "leader": true,
               "nyt_id": "lombardo-j"
             },
             {
               "votes": {
-                "total": 477349
+                "total": 481991
               },
               "leader": false,
               "nyt_id": "sisolak-s"
             },
             {
               "votes": {
-                "total": 14663
+                "total": 14919
               },
               "leader": false,
               "nyt_id": "davis-b"
             },
             {
               "votes": {
-                "total": 14620
+                "total": 14866
               },
               "leader": false,
               "nyt_id": "none_of_these_candidates"
             },
             {
               "votes": {
-                "total": 9761
+                "total": 9918
               },
               "leader": false,
               "nyt_id": "bridges-e"
@@ -41571,7 +41571,7 @@
           "fips_state": "32",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 1007707,
+          "total_votes": 1019071,
           "state_postal": "NV",
           "precincts_total": 1690,
           "nyt_vote_estimate": null,
@@ -41579,7 +41579,7 @@
           "total_expected_vote": 1019071
         },
         {
-          "eevp": 99.3,
+          "eevp": 100,
           "name": "Clark",
           "level": "county",
           "nyt_id": "NV-county-32-003",
@@ -41588,35 +41588,35 @@
           "candidates": [
             {
               "votes": {
-                "total": 345146
+                "total": 347397
               },
               "leader": true,
               "nyt_id": "sisolak-s"
             },
             {
               "votes": {
-                "total": 306457
+                "total": 308760
               },
               "leader": false,
               "nyt_id": "lombardo-j"
             },
             {
               "votes": {
-                "total": 9170
+                "total": 9257
               },
               "leader": false,
               "nyt_id": "davis-b"
             },
             {
               "votes": {
-                "total": 9076
+                "total": 9173
               },
               "leader": false,
               "nyt_id": "none_of_these_candidates"
             },
             {
               "votes": {
-                "total": 5717
+                "total": 5768
               },
               "leader": false,
               "nyt_id": "bridges-e"
@@ -41625,7 +41625,7 @@
           "fips_state": "32",
           "fips_county": "003",
           "fips_suffix": null,
-          "total_votes": 675566,
+          "total_votes": 680355,
           "state_postal": "NV",
           "precincts_total": 914,
           "nyt_vote_estimate": null,
@@ -41633,7 +41633,7 @@
           "total_expected_vote": 680355
         },
         {
-          "eevp": 98.82,
+          "eevp": 100,
           "name": "Washoe",
           "level": "county",
           "nyt_id": "NV-county-32-031",
@@ -41642,35 +41642,35 @@
           "candidates": [
             {
               "votes": {
-                "total": 93360
+                "total": 94646
               },
               "leader": true,
               "nyt_id": "sisolak-s"
             },
             {
               "votes": {
-                "total": 90962
+                "total": 91862
               },
               "leader": false,
               "nyt_id": "lombardo-j"
             },
             {
               "votes": {
-                "total": 2947
+                "total": 2982
               },
               "leader": false,
               "nyt_id": "davis-b"
             },
             {
               "votes": {
-                "total": 2686
+                "total": 2728
               },
               "leader": false,
               "nyt_id": "none_of_these_candidates"
             },
             {
               "votes": {
-                "total": 1807
+                "total": 1824
               },
               "leader": false,
               "nyt_id": "bridges-e"
@@ -41679,7 +41679,7 @@
           "fips_state": "32",
           "fips_county": "031",
           "fips_suffix": null,
-          "total_votes": 191762,
+          "total_votes": 194042,
           "state_postal": "NV",
           "precincts_total": 494,
           "nyt_vote_estimate": null,
@@ -41687,7 +41687,7 @@
           "total_expected_vote": 194042
         },
         {
-          "eevp": 93.33,
+          "eevp": 100,
           "name": "Douglas",
           "level": "county",
           "nyt_id": "NV-county-32-005",
@@ -41696,35 +41696,35 @@
           "candidates": [
             {
               "votes": {
-                "total": 17779
+                "total": 19070
               },
               "leader": true,
               "nyt_id": "lombardo-j"
             },
             {
               "votes": {
-                "total": 8470
+                "total": 9014
               },
               "leader": false,
               "nyt_id": "sisolak-s"
             },
             {
               "votes": {
-                "total": 403
+                "total": 439
               },
               "leader": false,
               "nyt_id": "none_of_these_candidates"
             },
             {
               "votes": {
-                "total": 339
+                "total": 382
               },
               "leader": false,
               "nyt_id": "davis-b"
             },
             {
               "votes": {
-                "total": 218
+                "total": 249
               },
               "leader": false,
               "nyt_id": "bridges-e"
@@ -41733,7 +41733,7 @@
           "fips_state": "32",
           "fips_county": "005",
           "fips_suffix": null,
-          "total_votes": 27209,
+          "total_votes": 29154,
           "state_postal": "NV",
           "precincts_total": 41,
           "nyt_vote_estimate": null,
@@ -41795,7 +41795,7 @@
           "total_expected_vote": 23665
         },
         {
-          "eevp": 97.95,
+          "eevp": 100,
           "name": "Lyon",
           "level": "county",
           "nyt_id": "NV-county-32-019",
@@ -41804,35 +41804,35 @@
           "candidates": [
             {
               "votes": {
-                "total": 16031
+                "total": 16338
               },
               "leader": true,
               "nyt_id": "lombardo-j"
             },
             {
               "votes": {
-                "total": 5812
+                "total": 5960
               },
               "leader": false,
               "nyt_id": "sisolak-s"
             },
             {
               "votes": {
-                "total": 471
+                "total": 478
               },
               "leader": false,
               "nyt_id": "none_of_these_candidates"
             },
             {
               "votes": {
-                "total": 453
+                "total": 472
               },
               "leader": false,
               "nyt_id": "davis-b"
             },
             {
               "votes": {
-                "total": 349
+                "total": 353
               },
               "leader": false,
               "nyt_id": "bridges-e"
@@ -41841,7 +41841,7 @@
           "fips_state": "32",
           "fips_county": "019",
           "fips_suffix": null,
-          "total_votes": 23116,
+          "total_votes": 23601,
           "state_postal": "NV",
           "precincts_total": 41,
           "nyt_vote_estimate": null,
@@ -41849,7 +41849,7 @@
           "total_expected_vote": 23601
         },
         {
-          "eevp": 99.11,
+          "eevp": 100,
           "name": "Nye",
           "level": "county",
           "nyt_id": "NV-county-32-023",
@@ -41858,35 +41858,35 @@
           "candidates": [
             {
               "votes": {
-                "total": 13703
+                "total": 13824
               },
               "leader": true,
               "nyt_id": "lombardo-j"
             },
             {
               "votes": {
-                "total": 5762
+                "total": 5813
               },
               "leader": false,
               "nyt_id": "sisolak-s"
             },
             {
               "votes": {
-                "total": 399
-              },
-              "leader": false,
-              "nyt_id": "bridges-e"
-            },
-            {
-              "votes": {
-                "total": 399
+                "total": 408
               },
               "leader": false,
               "nyt_id": "none_of_these_candidates"
             },
             {
               "votes": {
-                "total": 367
+                "total": 402
+              },
+              "leader": false,
+              "nyt_id": "bridges-e"
+            },
+            {
+              "votes": {
+                "total": 368
               },
               "leader": false,
               "nyt_id": "davis-b"
@@ -41895,7 +41895,7 @@
           "fips_state": "32",
           "fips_county": "023",
           "fips_suffix": null,
-          "total_votes": 20630,
+          "total_votes": 20815,
           "state_postal": "NV",
           "precincts_total": 34,
           "nyt_vote_estimate": null,
@@ -41903,7 +41903,7 @@
           "total_expected_vote": 20815
         },
         {
-          "eevp": 91.54,
+          "eevp": 100,
           "name": "Elko",
           "level": "county",
           "nyt_id": "NV-county-32-007",
@@ -41912,35 +41912,35 @@
           "candidates": [
             {
               "votes": {
-                "total": 11247
+                "total": 12173
               },
               "leader": true,
               "nyt_id": "lombardo-j"
             },
             {
               "votes": {
-                "total": 2622
+                "total": 2923
               },
               "leader": false,
               "nyt_id": "sisolak-s"
             },
             {
               "votes": {
-                "total": 336
+                "total": 375
               },
               "leader": false,
               "nyt_id": "bridges-e"
             },
             {
               "votes": {
-                "total": 307
+                "total": 369
               },
               "leader": false,
               "nyt_id": "davis-b"
             },
             {
               "votes": {
-                "total": 302
+                "total": 343
               },
               "leader": false,
               "nyt_id": "none_of_these_candidates"
@@ -41949,7 +41949,7 @@
           "fips_state": "32",
           "fips_county": "007",
           "fips_suffix": null,
-          "total_votes": 14814,
+          "total_votes": 16183,
           "state_postal": "NV",
           "precincts_total": 41,
           "nyt_vote_estimate": null,
@@ -42065,7 +42065,7 @@
           "total_expected_vote": 6109
         },
         {
-          "eevp": 96.99,
+          "eevp": 100,
           "name": "White Pine",
           "level": "county",
           "nyt_id": "NV-county-32-033",
@@ -42074,35 +42074,35 @@
           "candidates": [
             {
               "votes": {
-                "total": 2470
+                "total": 2542
               },
               "leader": true,
               "nyt_id": "lombardo-j"
             },
             {
               "votes": {
-                "total": 590
+                "total": 612
               },
               "leader": false,
               "nyt_id": "sisolak-s"
             },
             {
               "votes": {
-                "total": 121
+                "total": 123
               },
               "leader": false,
               "nyt_id": "none_of_these_candidates"
             },
             {
               "votes": {
-                "total": 91
+                "total": 95
               },
               "leader": false,
               "nyt_id": "bridges-e"
             },
             {
               "votes": {
-                "total": 74
+                "total": 78
               },
               "leader": false,
               "nyt_id": "davis-b"
@@ -42111,7 +42111,7 @@
           "fips_state": "32",
           "fips_county": "033",
           "fips_suffix": null,
-          "total_votes": 3346,
+          "total_votes": 3450,
           "state_postal": "NV",
           "precincts_total": 10,
           "nyt_vote_estimate": null,
@@ -42119,7 +42119,7 @@
           "total_expected_vote": 3450
         },
         {
-          "eevp": 97.58,
+          "eevp": 100,
           "name": "Storey",
           "level": "county",
           "nyt_id": "NV-county-32-029",
@@ -42128,28 +42128,28 @@
           "candidates": [
             {
               "votes": {
-                "total": 1710
+                "total": 1748
               },
               "leader": true,
               "nyt_id": "lombardo-j"
             },
             {
               "votes": {
-                "total": 661
+                "total": 678
               },
               "leader": false,
               "nyt_id": "sisolak-s"
             },
             {
               "votes": {
-                "total": 45
+                "total": 49
               },
               "leader": false,
               "nyt_id": "davis-b"
             },
             {
               "votes": {
-                "total": 43
+                "total": 46
               },
               "leader": false,
               "nyt_id": "none_of_these_candidates"
@@ -42165,7 +42165,7 @@
           "fips_state": "32",
           "fips_county": "029",
           "fips_suffix": null,
-          "total_votes": 2500,
+          "total_votes": 2562,
           "state_postal": "NV",
           "precincts_total": 15,
           "nyt_vote_estimate": null,
@@ -42227,7 +42227,7 @@
           "total_expected_vote": 2208
         },
         {
-          "eevp": 94.91,
+          "eevp": 100,
           "name": "Lincoln",
           "level": "county",
           "nyt_id": "NV-county-32-017",
@@ -42236,35 +42236,35 @@
           "candidates": [
             {
               "votes": {
-                "total": 1627
+                "total": 1710
               },
               "leader": true,
               "nyt_id": "lombardo-j"
             },
             {
               "votes": {
-                "total": 249
+                "total": 264
               },
               "leader": false,
               "nyt_id": "sisolak-s"
             },
             {
               "votes": {
-                "total": 65
+                "total": 70
               },
               "leader": false,
               "nyt_id": "none_of_these_candidates"
             },
             {
               "votes": {
-                "total": 55
+                "total": 61
               },
               "leader": false,
               "nyt_id": "bridges-e"
             },
             {
               "votes": {
-                "total": 54
+                "total": 55
               },
               "leader": false,
               "nyt_id": "davis-b"
@@ -42273,7 +42273,7 @@
           "fips_state": "32",
           "fips_county": "017",
           "fips_suffix": null,
-          "total_votes": 2050,
+          "total_votes": 2160,
           "state_postal": "NV",
           "precincts_total": 5,
           "nyt_vote_estimate": null,
@@ -42389,7 +42389,7 @@
           "total_expected_vote": 1774
         },
         {
-          "eevp": 96.16,
+          "eevp": 100,
           "name": "Eureka",
           "level": "county",
           "nyt_id": "NV-county-32-011",
@@ -42398,28 +42398,28 @@
           "candidates": [
             {
               "votes": {
-                "total": 659
+                "total": 681
               },
               "leader": true,
               "nyt_id": "lombardo-j"
             },
             {
               "votes": {
-                "total": 57
+                "total": 61
               },
               "leader": false,
               "nyt_id": "sisolak-s"
             },
             {
               "votes": {
-                "total": 17
+                "total": 18
               },
               "leader": false,
               "nyt_id": "bridges-e"
             },
             {
               "votes": {
-                "total": 11
+                "total": 14
               },
               "leader": false,
               "nyt_id": "none_of_these_candidates"
@@ -42435,7 +42435,7 @@
           "fips_state": "32",
           "fips_county": "011",
           "fips_suffix": null,
-          "total_votes": 752,
+          "total_votes": 782,
           "state_postal": "NV",
           "precincts_total": 5,
           "nyt_vote_estimate": null,
@@ -42443,7 +42443,7 @@
           "total_expected_vote": 782
         },
         {
-          "eevp": 98.9,
+          "eevp": 100,
           "name": "Esmeralda",
           "level": "county",
           "nyt_id": "NV-county-32-009",
@@ -42459,21 +42459,21 @@
             },
             {
               "votes": {
-                "total": 61
+                "total": 64
               },
               "leader": false,
               "nyt_id": "sisolak-s"
             },
             {
               "votes": {
-                "total": 21
+                "total": 22
               },
               "leader": false,
               "nyt_id": "none_of_these_candidates"
             },
             {
               "votes": {
-                "total": 17
+                "total": 18
               },
               "leader": false,
               "nyt_id": "bridges-e"
@@ -42489,7 +42489,7 @@
           "fips_state": "32",
           "fips_county": "009",
           "fips_suffix": null,
-          "total_votes": 448,
+          "total_votes": 453,
           "state_postal": "NV",
           "precincts_total": 5,
           "nyt_vote_estimate": null,
@@ -42581,7 +42581,7 @@
       },
       "show_precinct_data": null,
       "top_reporting_unit": {
-        "eevp": 98.88,
+        "eevp": 100,
         "name": "Nevada",
         "level": "state",
         "nyt_id": "NV-state",
@@ -42591,35 +42591,35 @@
         "candidates": [
           {
             "votes": {
-              "total": 491314
+              "total": 497377
             },
             "leader": true,
             "nyt_id": "lombardo-j"
           },
           {
             "votes": {
-              "total": 477349
+              "total": 481991
             },
             "leader": false,
             "nyt_id": "sisolak-s"
           },
           {
             "votes": {
-              "total": 14663
+              "total": 14919
             },
             "leader": false,
             "nyt_id": "davis-b"
           },
           {
             "votes": {
-              "total": 14620
+              "total": 14866
             },
             "leader": false,
             "nyt_id": "none_of_these_candidates"
           },
           {
             "votes": {
-              "total": 9761
+              "total": 9918
             },
             "leader": false,
             "nyt_id": "bridges-e"
@@ -42628,7 +42628,7 @@
         "fips_state": "32",
         "fips_county": null,
         "fips_suffix": null,
-        "total_votes": 1007707,
+        "total_votes": 1019071,
         "state_postal": "NV",
         "precincts_total": 1690,
         "nyt_vote_estimate": null,
@@ -42663,7 +42663,7 @@
       "coverage": "state",
       "certified": false,
       "office_id": "G",
-      "updated_at": "2022-11-22T21:58:19.511Z",
+      "updated_at": "2022-11-22T22:35:14.484Z",
       "max_winners": 1,
       "race_titles": {
         "location": null,
@@ -44131,7 +44131,7 @@
         "precincts_total": 2163,
         "nyt_vote_estimate": null,
         "precincts_reporting": 2120,
-        "provider_updated_at": "2022-11-22T21:58:19.511+00:00",
+        "provider_updated_at": "2022-11-22T22:35:14.484+00:00",
         "total_expected_vote": 717296
       }
     },
@@ -46355,7 +46355,7 @@
       "coverage": "state",
       "certified": false,
       "office_id": "G",
-      "updated_at": "2022-11-22T19:43:32.218Z",
+      "updated_at": "2022-11-22T22:36:26.475Z",
       "max_winners": 1,
       "race_titles": {
         "location": null,
@@ -46694,7 +46694,7 @@
           "precincts_total": 117,
           "nyt_vote_estimate": null,
           "precincts_reporting": 116,
-          "total_expected_vote": 133709
+          "total_expected_vote": 135375
         },
         {
           "eevp": 99,
@@ -48507,7 +48507,7 @@
         "precincts_total": 1279,
         "nyt_vote_estimate": null,
         "precincts_reporting": 1266,
-        "provider_updated_at": "2022-11-22T19:43:32.218+00:00",
+        "provider_updated_at": "2022-11-22T22:36:26.475+00:00",
         "total_expected_vote": 1947522
       }
     },
@@ -69370,7 +69370,7 @@
           ]
         },
         "coverage": "state",
-        "certified": false,
+        "certified": true,
         "office_id": "G",
         "updated_at": "2022-11-22T21:33:44.894Z",
         "description": null,
@@ -69391,7 +69391,7 @@
         "has_incumbent": true,
         "reporting_units": [
           {
-            "eevp": 98.88,
+            "eevp": 100,
             "name": "Nevada",
             "level": "state",
             "nyt_id": "NV-state",
@@ -69401,7 +69401,7 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 491314
+                  "total": 497377
                 },
                 "leader": true,
                 "nyt_id": "lombardo-j",
@@ -69409,7 +69409,7 @@
               },
               {
                 "votes": {
-                  "total": 477349
+                  "total": 481991
                 },
                 "leader": false,
                 "nyt_id": "sisolak-s",
@@ -69417,7 +69417,7 @@
               },
               {
                 "votes": {
-                  "total": 14663
+                  "total": 14919
                 },
                 "leader": false,
                 "nyt_id": "davis-b",
@@ -69425,7 +69425,7 @@
               },
               {
                 "votes": {
-                  "total": 14620
+                  "total": 14866
                 },
                 "leader": false,
                 "nyt_id": "none_of_these_candidates",
@@ -69433,7 +69433,7 @@
               },
               {
                 "votes": {
-                  "total": 9761
+                  "total": 9918
                 },
                 "leader": false,
                 "nyt_id": "bridges-e",
@@ -69443,7 +69443,7 @@
             "fips_state": "32",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 1007707,
+            "total_votes": 1019071,
             "state_postal": "NV",
             "source_run_id": 1955368,
             "vote_report_id": 1045546061,
@@ -69546,7 +69546,7 @@
         },
         "show_precinct_data": null,
         "top_reporting_unit": {
-          "eevp": 98.88,
+          "eevp": 100,
           "name": "Nevada",
           "level": "state",
           "nyt_id": "NV-state",
@@ -69556,7 +69556,7 @@
           "candidates": [
             {
               "votes": {
-                "total": 491314
+                "total": 497377
               },
               "leader": true,
               "nyt_id": "lombardo-j",
@@ -69564,7 +69564,7 @@
             },
             {
               "votes": {
-                "total": 477349
+                "total": 481991
               },
               "leader": false,
               "nyt_id": "sisolak-s",
@@ -69572,7 +69572,7 @@
             },
             {
               "votes": {
-                "total": 14663
+                "total": 14919
               },
               "leader": false,
               "nyt_id": "davis-b",
@@ -69580,7 +69580,7 @@
             },
             {
               "votes": {
-                "total": 14620
+                "total": 14866
               },
               "leader": false,
               "nyt_id": "none_of_these_candidates",
@@ -69588,7 +69588,7 @@
             },
             {
               "votes": {
-                "total": 9761
+                "total": 9918
               },
               "leader": false,
               "nyt_id": "bridges-e",
@@ -69598,7 +69598,7 @@
           "fips_state": "32",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 1007707,
+          "total_votes": 1019071,
           "state_postal": "NV",
           "source_run_id": 1955368,
           "vote_report_id": 1045546061,
@@ -71155,7 +71155,7 @@
           ]
         },
         "coverage": "state",
-        "certified": false,
+        "certified": true,
         "office_id": "S",
         "updated_at": "2022-11-22T21:33:45.681Z",
         "description": null,
@@ -71176,7 +71176,7 @@
         "has_incumbent": true,
         "reporting_units": [
           {
-            "eevp": 98.89,
+            "eevp": 100,
             "name": "Nevada",
             "level": "state",
             "nyt_id": "NV-state",
@@ -71186,7 +71186,7 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 493443
+                  "total": 498316
                 },
                 "leader": true,
                 "nyt_id": "cortez_masto-c",
@@ -71194,7 +71194,7 @@
               },
               {
                 "votes": {
-                  "total": 484436
+                  "total": 490388
                 },
                 "leader": false,
                 "nyt_id": "laxalt-a",
@@ -71202,7 +71202,7 @@
               },
               {
                 "votes": {
-                  "total": 12217
+                  "total": 12441
                 },
                 "leader": false,
                 "nyt_id": "none_of_these_candidates",
@@ -71210,7 +71210,7 @@
               },
               {
                 "votes": {
-                  "total": 7936
+                  "total": 8075
                 },
                 "leader": false,
                 "nyt_id": "lindemann-b",
@@ -71218,7 +71218,7 @@
               },
               {
                 "votes": {
-                  "total": 6321
+                  "total": 6422
                 },
                 "leader": false,
                 "nyt_id": "scott-n",
@@ -71226,7 +71226,7 @@
               },
               {
                 "votes": {
-                  "total": 5125
+                  "total": 5208
                 },
                 "leader": false,
                 "nyt_id": "rubinson-b",
@@ -71236,7 +71236,7 @@
             "fips_state": "32",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 1009478,
+            "total_votes": 1020850,
             "state_postal": "NV",
             "source_run_id": 1955368,
             "vote_report_id": 1045546161,
@@ -71361,7 +71361,7 @@
         },
         "show_precinct_data": null,
         "top_reporting_unit": {
-          "eevp": 98.89,
+          "eevp": 100,
           "name": "Nevada",
           "level": "state",
           "nyt_id": "NV-state",
@@ -71371,7 +71371,7 @@
           "candidates": [
             {
               "votes": {
-                "total": 493443
+                "total": 498316
               },
               "leader": true,
               "nyt_id": "cortez_masto-c",
@@ -71379,7 +71379,7 @@
             },
             {
               "votes": {
-                "total": 484436
+                "total": 490388
               },
               "leader": false,
               "nyt_id": "laxalt-a",
@@ -71387,7 +71387,7 @@
             },
             {
               "votes": {
-                "total": 12217
+                "total": 12441
               },
               "leader": false,
               "nyt_id": "none_of_these_candidates",
@@ -71395,7 +71395,7 @@
             },
             {
               "votes": {
-                "total": 7936
+                "total": 8075
               },
               "leader": false,
               "nyt_id": "lindemann-b",
@@ -71403,7 +71403,7 @@
             },
             {
               "votes": {
-                "total": 6321
+                "total": 6422
               },
               "leader": false,
               "nyt_id": "scott-n",
@@ -71411,7 +71411,7 @@
             },
             {
               "votes": {
-                "total": 5125
+                "total": 5208
               },
               "leader": false,
               "nyt_id": "rubinson-b",
@@ -71421,7 +71421,7 @@
           "fips_state": "32",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 1009478,
+          "total_votes": 1020850,
           "state_postal": "NV",
           "source_run_id": 1955368,
           "vote_report_id": 1045546161,
@@ -72976,7 +72976,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-22T22:24:19.033Z",
+        "updated_at": "2022-11-22T22:39:33.931Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -73045,8 +73045,8 @@
             "fips_suffix": null,
             "total_votes": 3771713,
             "state_postal": "NC",
-            "source_run_id": 1955917,
-            "vote_report_id": 1045554743,
+            "source_run_id": 1956088,
+            "vote_report_id": 1045556661,
             "precincts_total": 2655,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -73056,7 +73056,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 2655,
-            "provider_updated_at": "2022-11-22T22:24:19.033+00:00",
+            "provider_updated_at": "2022-11-22T22:39:33.931+00:00",
             "total_expected_vote": 3809603,
             "precincts_reporting_actual": 2655,
             "precincts_reporting_proportional": 2628
@@ -73184,8 +73184,8 @@
           "fips_suffix": null,
           "total_votes": 3771713,
           "state_postal": "NC",
-          "source_run_id": 1955917,
-          "vote_report_id": 1045554743,
+          "source_run_id": 1956088,
+          "vote_report_id": 1045556661,
           "precincts_total": 2655,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -73195,7 +73195,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-22T22:24:19.033+00:00",
+          "provider_updated_at": "2022-11-22T22:39:33.931+00:00",
           "total_expected_vote": 3809603,
           "precincts_reporting_actual": 2655,
           "precincts_reporting_proportional": 2628
@@ -74486,7 +74486,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-22T22:24:19.033Z",
+        "updated_at": "2022-11-22T22:39:33.931Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -74555,8 +74555,8 @@
             "fips_suffix": null,
             "total_votes": 3771713,
             "state_postal": "NC",
-            "source_run_id": 1955917,
-            "vote_report_id": 1045554743,
+            "source_run_id": 1956088,
+            "vote_report_id": 1045556661,
             "precincts_total": 2655,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -74566,7 +74566,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 2655,
-            "provider_updated_at": "2022-11-22T22:24:19.033+00:00",
+            "provider_updated_at": "2022-11-22T22:39:33.931+00:00",
             "total_expected_vote": 3809603,
             "precincts_reporting_actual": 2655,
             "precincts_reporting_proportional": 2628
@@ -74694,8 +74694,8 @@
           "fips_suffix": null,
           "total_votes": 3771713,
           "state_postal": "NC",
-          "source_run_id": 1955917,
-          "vote_report_id": 1045554743,
+          "source_run_id": 1956088,
+          "vote_report_id": 1045556661,
           "precincts_total": 2655,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -74705,7 +74705,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-22T22:24:19.033+00:00",
+          "provider_updated_at": "2022-11-22T22:39:33.931+00:00",
           "total_expected_vote": 3809603,
           "precincts_reporting_actual": 2655,
           "precincts_reporting_proportional": 2628
@@ -75007,7 +75007,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-22T22:24:19.033Z",
+        "updated_at": "2022-11-22T22:39:33.931Z",
         "description": null,
         "max_winners": 1,
         "race_titles": {
@@ -75076,8 +75076,8 @@
             "fips_suffix": null,
             "total_votes": 3771713,
             "state_postal": "NC",
-            "source_run_id": 1955917,
-            "vote_report_id": 1045554743,
+            "source_run_id": 1956088,
+            "vote_report_id": 1045556661,
             "precincts_total": 2655,
             "election_track_id": 24,
             "nyt_vote_estimate": {
@@ -75087,7 +75087,7 @@
               "total_expected_vote": null
             },
             "precincts_reporting": 2655,
-            "provider_updated_at": "2022-11-22T22:24:19.033+00:00",
+            "provider_updated_at": "2022-11-22T22:39:33.931+00:00",
             "total_expected_vote": 3809603,
             "precincts_reporting_actual": 2655,
             "precincts_reporting_proportional": 2628
@@ -75215,8 +75215,8 @@
           "fips_suffix": null,
           "total_votes": 3771713,
           "state_postal": "NC",
-          "source_run_id": 1955917,
-          "vote_report_id": 1045554743,
+          "source_run_id": 1956088,
+          "vote_report_id": 1045556661,
           "precincts_total": 2655,
           "election_track_id": 24,
           "nyt_vote_estimate": {
@@ -75226,7 +75226,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-22T22:24:19.033+00:00",
+          "provider_updated_at": "2022-11-22T22:39:33.931+00:00",
           "total_expected_vote": 3809603,
           "precincts_reporting_actual": 2655,
           "precincts_reporting_proportional": 2628
@@ -77673,7 +77673,7 @@
   },
   "resultsMeta": {
     "docsUpdatedAt": "2022-11-09T09:03:24.208Z",
-    "resultsUpdatedAt": "2022-11-22T21:58:19.511Z"
+    "resultsUpdatedAt": "2022-11-22T22:36:26.475Z"
   },
   "raceCollections": {
     "scoreboard_races": [
@@ -79360,7 +79360,7 @@
           ]
         },
         "coverage": "state",
-        "certified": false,
+        "certified": true,
         "office_id": "S",
         "updated_at": "2022-11-22T21:33:45.681Z",
         "max_winners": 1,
@@ -79380,7 +79380,7 @@
         "has_incumbent": true,
         "reporting_units": [
           {
-            "eevp": 98.89,
+            "eevp": 100,
             "name": "Nevada",
             "level": "state",
             "nyt_id": "NV-state",
@@ -79389,42 +79389,42 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 493443
+                  "total": 498316
                 },
                 "leader": true,
                 "nyt_id": "cortez_masto-c"
               },
               {
                 "votes": {
-                  "total": 484436
+                  "total": 490388
                 },
                 "leader": false,
                 "nyt_id": "laxalt-a"
               },
               {
                 "votes": {
-                  "total": 12217
+                  "total": 12441
                 },
                 "leader": false,
                 "nyt_id": "none_of_these_candidates"
               },
               {
                 "votes": {
-                  "total": 7936
+                  "total": 8075
                 },
                 "leader": false,
                 "nyt_id": "lindemann-b"
               },
               {
                 "votes": {
-                  "total": 6321
+                  "total": 6422
                 },
                 "leader": false,
                 "nyt_id": "scott-n"
               },
               {
                 "votes": {
-                  "total": 5125
+                  "total": 5208
                 },
                 "leader": false,
                 "nyt_id": "rubinson-b"
@@ -79433,7 +79433,7 @@
             "fips_state": "32",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 1009478,
+            "total_votes": 1020850,
             "state_postal": "NV",
             "precincts_total": 1690,
             "nyt_vote_estimate": {
@@ -79546,7 +79546,7 @@
         },
         "show_precinct_data": null,
         "top_reporting_unit": {
-          "eevp": 98.89,
+          "eevp": 100,
           "name": "Nevada",
           "level": "state",
           "nyt_id": "NV-state",
@@ -79556,42 +79556,42 @@
           "candidates": [
             {
               "votes": {
-                "total": 493443
+                "total": 498316
               },
               "leader": true,
               "nyt_id": "cortez_masto-c"
             },
             {
               "votes": {
-                "total": 484436
+                "total": 490388
               },
               "leader": false,
               "nyt_id": "laxalt-a"
             },
             {
               "votes": {
-                "total": 12217
+                "total": 12441
               },
               "leader": false,
               "nyt_id": "none_of_these_candidates"
             },
             {
               "votes": {
-                "total": 7936
+                "total": 8075
               },
               "leader": false,
               "nyt_id": "lindemann-b"
             },
             {
               "votes": {
-                "total": 6321
+                "total": 6422
               },
               "leader": false,
               "nyt_id": "scott-n"
             },
             {
               "votes": {
-                "total": 5125
+                "total": 5208
               },
               "leader": false,
               "nyt_id": "rubinson-b"
@@ -79600,7 +79600,7 @@
           "fips_state": "32",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 1009478,
+          "total_votes": 1020850,
           "state_postal": "NV",
           "precincts_total": 1690,
           "nyt_vote_estimate": {
@@ -79828,7 +79828,7 @@
         "coverage": "state",
         "certified": false,
         "office_id": "S",
-        "updated_at": "2022-11-22T22:24:19.033Z",
+        "updated_at": "2022-11-22T22:39:33.931Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -80024,7 +80024,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 2655,
-          "provider_updated_at": "2022-11-22T22:24:19.033+00:00",
+          "provider_updated_at": "2022-11-22T22:39:33.931+00:00",
           "total_expected_vote": 3809603
         }
       },
