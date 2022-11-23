@@ -42663,7 +42663,7 @@
       "coverage": "state",
       "certified": false,
       "office_id": "G",
-      "updated_at": "2022-11-23T17:11:13.734Z",
+      "updated_at": "2022-11-23T17:35:22.528Z",
       "max_winners": 1,
       "race_titles": {
         "location": null,
@@ -44131,7 +44131,7 @@
         "precincts_total": 2163,
         "nyt_vote_estimate": null,
         "precincts_reporting": 2120,
-        "provider_updated_at": "2022-11-23T17:11:13.734+00:00",
+        "provider_updated_at": "2022-11-23T17:35:22.528+00:00",
         "total_expected_vote": 717296
       }
     },
@@ -77673,7 +77673,7 @@
   },
   "resultsMeta": {
     "docsUpdatedAt": "2022-11-09T09:03:24.208Z",
-    "resultsUpdatedAt": "2022-11-23T17:11:13.734Z"
+    "resultsUpdatedAt": "2022-11-23T17:35:22.528Z"
   },
   "raceCollections": {
     "scoreboard_races": [
@@ -78199,7 +78199,7 @@
         "coverage": "multi-county",
         "certified": false,
         "office_id": "H",
-        "updated_at": "2022-11-23T03:39:29.519Z",
+        "updated_at": "2022-11-23T17:33:34.379Z",
         "max_winners": 1,
         "race_titles": {
           "location": null,
@@ -78217,7 +78217,7 @@
         "has_incumbent": false,
         "reporting_units": [
           {
-            "eevp": 98.73,
+            "eevp": 98.76,
             "name": "California",
             "level": "state",
             "nyt_id": "CA-state",
@@ -78226,14 +78226,14 @@
             "candidates": [
               {
                 "votes": {
-                  "total": 66787
+                  "total": 66808
                 },
                 "leader": true,
                 "nyt_id": "duarte-j"
               },
               {
                 "votes": {
-                  "total": 66195
+                  "total": 66215
                 },
                 "leader": false,
                 "nyt_id": "gray-a"
@@ -78242,7 +78242,7 @@
             "fips_state": "06",
             "fips_county": null,
             "fips_suffix": null,
-            "total_votes": 132982,
+            "total_votes": 133023,
             "state_postal": "CA",
             "precincts_total": 496,
             "nyt_vote_estimate": {
@@ -78291,7 +78291,7 @@
         },
         "show_precinct_data": null,
         "top_reporting_unit": {
-          "eevp": 98.73,
+          "eevp": 98.76,
           "name": "California",
           "level": "state",
           "nyt_id": "CA-state",
@@ -78301,14 +78301,14 @@
           "candidates": [
             {
               "votes": {
-                "total": 66787
+                "total": 66808
               },
               "leader": true,
               "nyt_id": "duarte-j"
             },
             {
               "votes": {
-                "total": 66195
+                "total": 66215
               },
               "leader": false,
               "nyt_id": "gray-a"
@@ -78317,7 +78317,7 @@
           "fips_state": "06",
           "fips_county": null,
           "fips_suffix": null,
-          "total_votes": 132982,
+          "total_votes": 133023,
           "state_postal": "CA",
           "precincts_total": 496,
           "nyt_vote_estimate": {
@@ -78327,7 +78327,7 @@
             "total_expected_vote": null
           },
           "precincts_reporting": 490,
-          "provider_updated_at": "2022-11-23T03:39:29.519+00:00",
+          "provider_updated_at": "2022-11-23T17:33:34.379+00:00",
           "total_expected_vote": 134696
         }
       },
