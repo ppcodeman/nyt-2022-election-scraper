@@ -2,8 +2,6 @@ name: Scrape latest house data
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron:  '3,33 * * * *'
 
 jobs:
   scheduled:
