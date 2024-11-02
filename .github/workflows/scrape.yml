@@ -13,7 +13,7 @@ jobs:
         fetch-depth: 0
     - name: Fetch latest data
       run: |-
-        curl "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-senate.json" | jq . > results-senate.json
+        curl "https://static01.nyt.com/elections-assets/2024/data/2024-11-05/results-senate.json" | jq . > results-senate.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
